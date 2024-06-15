@@ -1,0 +1,9 @@
+.block-faq {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 4rem;
+
+  @media (width > 1050px) {
+    grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+  }
+}

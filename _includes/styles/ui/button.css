@@ -1,0 +1,21 @@
+.button {
+  display: inline-flex;
+  column-gap: .5em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: solid 1px;
+  padding: .6em;
+  min-height: 2.5em;
+  text-decoration: none;
+  color: inherit;
+  background: inherit;
+  cursor: pointer;
+
+  &:disabled,
+  &[aria-disabled="true"] {
+    cursor: default;
+    opacity: .33;
+    pointer-events: none;
+  }
+}

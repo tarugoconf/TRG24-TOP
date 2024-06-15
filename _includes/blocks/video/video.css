@@ -1,0 +1,11 @@
+.block-video {
+  margin: 0;
+  padding: 0;
+
+  video {
+    display: block;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,19 @@
+html {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.bg-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}

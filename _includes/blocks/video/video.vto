@@ -1,0 +1,9 @@
+<figure class="block-video">
+  <video src="{{ block.src }}"></video>
+
+  {{ if block.caption }}
+    <figcaption>
+    {{ block.caption |> md }}
+    </figcaption>
+  {{ /if }}
+</figure>

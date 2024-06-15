@@ -1,0 +1,26 @@
+<section class="block-location">
+  <figure class="block-location-map">
+    {{ block.embed }}
+
+    {{ if block.caption }}
+      <figcaption
+      {{ block.caption |> md }}
+      </figcaption>
+    {{ /if }}
+  </figure>
+
+  <div>
+    <h2>{{ block.title }}</h2>
+    <ul class="block-location-directions type-short">
+      {{ for direction of block.directions }}
+      <li>
+        {{ direction.icon |> icon }}
+        <div>
+          <h3 class="type-short-bold">{{ direction.title }}</h3>
+          {{ direction.description |> md }}
+        </div>
+      </li>
+      {{ /for }}
+    </ul>
+  </div>
+</section>

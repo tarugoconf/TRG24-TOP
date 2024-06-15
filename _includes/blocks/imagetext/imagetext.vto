@@ -1,0 +1,13 @@
+<section class="block-imagetext {{ block.color }}">
+  <figure>
+    <img src="{{ block.src }}">
+  </figure>
+
+  <div class="type-txt">
+    {{ if block.title }}
+      <h2>{{ block.title }}</h2>
+    {{ /if }}
+
+    {{ block.text |> md }}
+  </div>
+</section>

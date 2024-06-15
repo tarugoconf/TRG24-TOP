@@ -1,0 +1,21 @@
+<section class="block-textitems">
+  {{ if block.title }}
+    <h2>{{ block.title }}</h2>
+  {{ /if }}
+
+  {{ block.text |> md }}
+
+  <ul>
+    {{ for item of block.items }}
+    <li>
+      {{ item |> md }}
+    </li>
+    {{ /for }}
+  </ul>
+
+  {{ if block.footer }}  
+  <footer>
+    {{ block.footer |> md }}
+  </footer>
+  {{ /if }}
+</section>

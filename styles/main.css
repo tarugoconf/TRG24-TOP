@@ -1,0 +1,42 @@
+@layer reset, ui, blocks, theme;
+
+@import "styles/reset.css" layer(reset);
+
+/* Generic UI components */
+@import "styles/ui/accordion.css" layer(ui);
+@import "styles/ui/button.css" layer(ui);
+
+/* Blocks */
+@import "blocks/contact/contact.css" layer(blocks);
+@import "blocks/faq/faq.css" layer(blocks);
+@import "blocks/imagetext/imagetext.css" layer(blocks);
+@import "blocks/location/location.css" layer(blocks);
+@import "blocks/video/video.css" layer(blocks);
+
+/* Theme */
+@import "styles/theme/variables.css" layer(theme);
+@import "styles/theme/typography.css" layer(theme);
+@import "styles/theme/color.css" layer(theme);
+@import "styles/theme/layouts.css" layer(theme);
+
+/* Extra resets */
+@layer reset {
+  html {
+    scroll-behavior: smooth;
+    text-rendering: auto;
+    overflow-wrap: break-word;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  :focus {
+    z-index: 1;
+  }
+  
+  :focus-visible {
+    outline-width: 1px;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-color: currentColor;
+  }
+}

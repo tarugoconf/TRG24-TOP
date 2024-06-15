@@ -1,0 +1,35 @@
+html {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-1-size);
+  letter-spacing: var(--font-1-spacing);
+}
+
+/* Normal text */
+.type-txt {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-1-size);
+  letter-spacing: var(--font-1-spacing);
+  line-height: var(--line-height-text);
+}
+.type-txt-bold {
+  font-family: var(--font-family-ui);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-1-size);
+  letter-spacing: var(--font-1-spacing);
+  line-height: var(--line-height-text);
+}
+
+/* Short texts */
+.type-short {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-1-size);
+  letter-spacing: var(--font-1-spacing);
+  line-height: var(--line-height-medium);
+}
+.type-short-bold {
+  font-family: var(--font-family-ui);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-1-size);
+  letter-spacing: var(--font-1-spacing);
+  line-height: var(--line-height-medium);
+}

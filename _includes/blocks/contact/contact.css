@@ -1,0 +1,28 @@
+.block-contact {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 4rem;
+
+  @media (650px < width < 1050px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    & header {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (width >= 1050px) {
+    grid-template-columns: minmax(0, 300px) repeat(2, minmax(0, 1fr));
+  }
+}
+
+.block-contact-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  svg {
+    width: 2em;
+    height: 2em;
+  }
+}

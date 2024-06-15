@@ -1,0 +1,7 @@
+<div class="block-text">
+  {{ if block.title }}
+    <h2>{{ block.title }}</h2>
+  {{ /if }}
+
+  {{ block.text |> md }}
+</div>
