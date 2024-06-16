@@ -1,0 +1,14 @@
+---
+layout: ./base.vto
+styles: /styles/text.css
+---
+<article class="text">
+  <header class="text-header">
+    <h1 class="type-title">{{ title }}</h1>
+    {{ subtitle |> md }}
+  </header>
+
+  <div class="type-txt">
+    {{ content |> md }}
+  </div>
+</article>

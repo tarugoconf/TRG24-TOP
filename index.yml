@@ -1,6 +1,4 @@
-layout: layouts/base.vto
-extra_head: |
-  <link rel="stylesheet" href="/styles/home.css">
+layout: layouts/home.vto
 blocks:
   - type: header
     title: TRG24
@@ -20,12 +18,13 @@ blocks:
     caption: Ver el vídeoresumen de la pasada edición
     mode: background
   - type: imagetext
-    theme: primary
+    theme: dark
     src: /files/home-block1.jpg
     title: El formato
     text: "Lorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\nullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in\r\nreprehenderit in voluptate velit esse cillum\r\ndolore eu fugiat nulla pariatur. Excepteur sint\r\noccaecat cupidatat non proident, sunt in culpa\r\nqui o!cia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\n"
+    frame: fill
   - type: imagetext
-    theme: dark
+    theme: primary
     src: /files/home-block2.jpg
     title: ¿Dónde?
     text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"

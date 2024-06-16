@@ -28,8 +28,13 @@ const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
   "title: text",
-  "extra_header: code",
   blocks,
+]);
+
+cms.collection("Legal pages", "src:pages/*.md", [
+  "title: text",
+  "subtitle: text",
+  "content: markdown",
 ]);
 
 cms.upload("Uploads", "src:files");
