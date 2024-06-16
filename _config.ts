@@ -4,6 +4,8 @@ import icons from "https://deno.land/x/lume_icon_plugins@v0.1.0/phosphor.ts";
 
 const site = lume();
 
+site.copy("fonts");
+site.copy("files");
 site.use(lightningcss());
 site.use(icons({
   name: "icon",

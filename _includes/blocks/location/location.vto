@@ -1,4 +1,4 @@
-<section class="block-location">
+<section class="block-location theme is-light">
   <figure class="block-location-map">
     {{ block.embed }}
 
@@ -9,9 +9,9 @@
     {{ /if }}
   </figure>
 
-  <div>
-    <h2>{{ block.title }}</h2>
-    <ul class="block-location-directions type-short">
+  <div class="block-location-directions">
+    <h2 class="type-subtitle">{{ block.title }}</h2>
+    <ul class="type-short">
       {{ for direction of block.directions }}
       <li>
         {{ direction.icon |> icon }}

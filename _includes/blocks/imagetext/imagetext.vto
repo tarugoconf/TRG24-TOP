@@ -1,11 +1,11 @@
-<section class="block-imagetext {{ block.color }}">
+<section class="block-imagetext theme is-{{ block.theme }}">
   <figure>
     <img src="{{ block.src }}">
   </figure>
 
   <div class="type-txt">
     {{ if block.title }}
-      <h2>{{ block.title }}</h2>
+      <h2 class="type-title">{{ block.title }}</h2>
     {{ /if }}
 
     {{ block.text |> md }}

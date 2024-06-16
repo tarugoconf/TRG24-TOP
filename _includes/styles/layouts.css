@@ -1,0 +1,15 @@
+.ly-wrapper {
+  display: grid;
+  grid-template-columns: 0 minmax(0, 1234px) 0;
+  justify-content: space-between;
+  column-gap: 2rem;
+
+  > * {
+    grid-column: 2;
+  }
+
+  > .ly-wrapper-full,
+  > .ly-wrapper {
+    grid-column: 1 / -1;
+  }
+}

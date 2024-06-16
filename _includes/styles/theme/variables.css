@@ -1,3 +1,16 @@
+@font-face {
+	font-family: 'Roobert';
+	src: url("/fonts/RoobertVF.woff2") format('woff2-variations');
+	font-weight: 300 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roobert';
+	src: url("/fonts/RoobertVFItalics.woff2") format('woff2-variations');
+	font-weight: 300 900;
+	font-style: italic;
+}
+
 :root {
   /* Colors */
   --color-primary: #00ab7d;
@@ -6,14 +19,14 @@
   --color-light: #f7f2eb;
 
   /* Fonts */
-  --font-family-display: var(--font-family);
-  --font-family-ui: -apple-system, system-ui, sans-serif;
-  --font-scale: 1.25;
-  --font-weight-bold: 600;
+  --font-family-display: Roobert;
+  --font-family-ui: Roobert, system-ui, sans-serif;
+  --font-scale: 1.2;
+  --font-weight-bold: 750;
+  --font-weight-bolder: 900;
 
-  @media (width < 1200px) { --scale: 1.2; }
-  @media (width < 800px) { --scale: 1.15; }
-  @media (width < 450px) { --scale: 1.1; }
+  @media (width < 1200px) { --font-scale: 1.15; }
+  @media (width < 800px) { --font-scale: 1.1; }
 
   --font-0-size: .875rem;
   --font-0-spacing: 0;
@@ -21,31 +34,31 @@
   --font-1-size: 1rem;
   --font-1-spacing: -0.01em;
 
-  --font-2-size: calc(var(--font-1-size) * var(--scale));
+  --font-2-size: calc(var(--font-1-size) * var(--font-scale));
   --font-2-spacing: -0.015em;
 
-  --font-3-size: calc(var(--font-2-size) * var(--scale));
+  --font-3-size: calc(var(--font-2-size) * var(--font-scale));
   --font-3-spacing: -0.02em;
 
-  --font-4-size: calc(var(--font-3-size) * var(--scale));
+  --font-4-size: calc(var(--font-3-size) * var(--font-scale));
   --font-4-spacing: -0.025em;
 
-  --font-5-size: calc(var(--font-4-size) * var(--scale));
+  --font-5-size: calc(var(--font-4-size) * var(--font-scale));
   --font-5-spacing: -0.03em;
 
-  --font-6-size: calc(var(--font-5-size) * var(--scale));
+  --font-6-size: calc(var(--font-5-size) * var(--font-scale));
   --font-6-spacing: -0.035em;
 
-  --font-7-size: calc(var(--font-6-size) * var(--scale));
+  --font-7-size: calc(var(--font-6-size) * var(--font-scale));
   --font-7-spacing: -0.035em;
 
-  --font-8-size: calc(var(--font-7-size) * var(--scale));
+  --font-8-size: calc(var(--font-7-size) * var(--font-scale));
   --font-8-spacing: -0.035em;
 
-  --font-9-size: calc(var(--font-8-size) * var(--scale));
+  --font-9-size: calc(var(--font-8-size) * var(--font-scale));
   --font-9-spacing: -0.035em;
 
-  --font-10-size: calc(var(--font-9-size) * var(--scale));
+  --font-10-size: calc(var(--font-9-size) * var(--font-scale));
   --font-10-spacing: -0.035em;
 
   /* 3 types of line height */

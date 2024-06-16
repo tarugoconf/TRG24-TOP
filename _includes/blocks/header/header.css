@@ -1,0 +1,6 @@
+.block-header {
+  min-height: min(60vh, 800px);
+  align-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

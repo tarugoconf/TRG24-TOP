@@ -1,75 +1,53 @@
 layout: layouts/base.vto
+extra_head: |
+  <link rel="stylesheet" href="/styles/home.css">
 blocks:
   - type: header
     title: TRG24
-    intro: |
-      Madrid, 14-16 noviembre 2024
+    intro: "Madrid, 14-16 noviembre 2024\r\n"
   - type: video
-    src: https://ia800504.us.archive.org/9/items/Katy_Perry_California_Gurls_/Katy%20Perry_California%20Gurls%20.mp4
+    src: /files/video-example.webm
     caption: Ver el vídeoresumen de la pasada edición
+    mode: background
   - type: text
-    text: |
-      La TRG es **una conferencia sobre diseño, construcción y comercialización de servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.
-
-      Es ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Nadie sobra y todos son bienvenidos.
-
-      Se organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores.
-
-      3 DIAS | 8 CHARLAS | 6 TALLERES | 700 ASISTENTES | 1 COMUNIDAD
+    title: 3 días / 8 charlas / 6 tallers / 700 asistentes / 1 comunidad
+    text: "La TRG es **una conferencia sobre diseño, construcción y comercialización de servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores.\r\n"
   - type: imagetext
-    color: bg-primary
-    src: https://placehold.it/300x300
+    theme: primary
+    src: /files/home-block1.jpg
     title: El formato
-    text: |
-      Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut
-      enim ad minim veniam, quis nostrud exercitation
-      ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in
-      reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa
-      qui o!cia deserunt mollit anim id est laborum.
-      Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut
-      enim ad minim veniam, quis nostrud exercitation
+    text: "Lorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\nullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in\r\nreprehenderit in voluptate velit esse cillum\r\ndolore eu fugiat nulla pariatur. Excepteur sint\r\noccaecat cupidatat non proident, sunt in culpa\r\nqui o!cia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\n"
   - type: imagetext
-    color: bg-dark
-    src: https://placehold.it/300x300
+    theme: dark
+    src: /files/home-block2.jpg
     title: ¿Dónde?
-    text: |
-      Las tres jornadas del evento se celebrarán
-      íntegramente en La Nave, un espectacular espacio
-      a menos de 10 minutos de la Estación de Atocha en
-      Madrid, que acogerá todas las actividades.
+    text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
   - type: location
     title: ¿Cómo llegar?
-    embed: |
-      <iframe src="https://tarugo-mapa.appspot.com/" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    caption: Powered by ![Extramile](/img/collaborators/extramile.png){height="22" style="vertical-align:top"}
+    embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
+    caption: >-
+      Powered by ![Extramile](/img/collaborators/extramile.png){height="22"
+      style="vertical-align:top"}
     directions:
       - title: La nave
         icon: map-pin
-        description: |
-          Calle Cifuentes 5<br>
-          28021 Madrid
-
-          [lanavemadrid.com](https://www.lanavemadrid.com/)
-
+        description: "Calle Cifuentes 5<br>\r\n28021 Madrid\r\n\r\n[lanavemadrid.com](https://www.lanavemadrid.com/)\r\n"
       - title: En metro
         icon: train-simple
-        description: A 5 minutos andando de la parada [Villaverde Bajo - Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span class="badge" style="background:#fdd700;color:black">Línea 3</span>
+        description: >-
+          A 5 minutos andando de la parada [Villaverde Bajo -
+          Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span
+          class="badge" style="background:#fdd700;color:black">Línea 3</span>
       - title: En tren
         icon: train
-        description: A 7 minutos andando de la [estación Puente Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer) <span class="badge" style="background:#fdd700;color:black">Línea C5</span>
+        description: >-
+          A 7 minutos andando de la [estación Puente
+          Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer)
+          <span class="badge" style="background:#fdd700;color:black">Línea
+          C5</span>
       - title: En taxi
         icon: taxi
-        description: |
-          Por teléfono: [915478200](tel:915478200)<br>
-
-          También puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).
+        description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
       - title: En coche
         icon: car
         description: Tienes sitio de sobra para aparcar.
@@ -77,84 +55,76 @@ blocks:
     title: What the FAQ?
     questions:
       - question: ¿A quién está dirigido este evento? ¿Es para mi?
-        answer: |
-          Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         
-      - question:  Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o descuento?
-        answer: |
-          Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)
-      - question: ¿Qué es eso del Community Day del sábado? 🎉
-        answer: |
-          Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.
+        answer: "Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         \r\n"
+      - question: >-
+          Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o
+          descuento?
+        answer: "Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)\r\n"
+      - question: "¿Qué es eso del Community Day del sábado? \U0001F389"
+        answer: "Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.\r\n"
       - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
-        answer: |
-          Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
-      - question:  ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-        answer: |
-          Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, 
-          pero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, 
-          especialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        
-      - question: ¿Todavía puedo comprar una entrada? 🎟️
-        answer: |
-          Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          
-      - question:  Si mi empresa me paga la entrada ¿Hacéis factura?
-        answer: |
-          Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.
+        answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
+      - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
+        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        \r\n"
+      - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
+        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
+      - question: Si mi empresa me paga la entrada ¿Hacéis factura?
+        answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
       - question: ¿Tenéis Código de Conducta?
-        answer: |
-          Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
+        answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
       - question: Sigo teniendo dudas ¿qué hago?
-        answer: |
-          No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web 
-          donde encontrarás la información necesaria para contactar con nosotros por múltiples canales.
-          </br></br>
-          ¡Estaremos encantados de resolverte cualquier duda!
-  - type: contact
-    title: Contacto
+        answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
+  - type: pdf
+    title: Cómo patrocinar
     items:
       - title: Candela Milán Dopico
         info: Event manager
         links:
           - text: tarugoconf@bonillaware.com
-            url: mailto:tarugoconf@bonillaware.com
+            url: 'mailto:tarugoconf@bonillaware.com'
             icon: envelope
-          - text: "@candelamd"
+          - text: '@candelamd'
             icon: twitter-logo
-            url: https://twitter.com/candelamd
-
+            url: 'https://twitter.com/candelamd'
       - title: Bonillaware SLU
-        info: Castellana 194, Cink Coworking<br>28046 Madrid (España)
+        info: 'Castellana 194, Cink Coworking<br>28046 Madrid (España)'
         links:
           - text: Ver mapa
             icon: map-pin
-            url: https://g.page/cink-coworking?share
+            url: 'https://g.page/cink-coworking?share'
           - text: tarugoconf.slack.com
             icon: slack-logo
-            url: https://tarugoconf.slack.com
-          - text: "@tarugoconf"
+            url: 'https://tarugoconf.slack.com'
+          - text: '@tarugoconf'
             icon: twitter-logo
-            url: https://twitter.com/tarugoconf
-  - type: textitems
-    title: Cómo patrocinar
-    text: |
-      En la tarugo intentamos huir de la figura del “sponsor” habitual y queremos convertir a nuestros
-      patrocinadores en verdaderos socios que sean una parte más del evento: nos preocupamos por
-      entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos,
-      trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
+            url: 'https://twitter.com/tarugoconf'
+    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
+    src: /files/TRG24_sponsorship_deck_ES.pdf
+    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
+  - type: contact
+    title: Contacto
+    src: /files/TRG24_sponsorship_deck_ES.pdf
+    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
+    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
     items:
-      - "**1200** asistentes a lo largo de los 3 días"
-      - "**2** días trending topic nacional"
-      - "**25** millones de impresiones en redes sociales"
-    footer: |
-      Si quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a
-      tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!
-  - type: pdf
-    title: Cómo patrocinar
-    src: https://trgcon.com/deck/TRG24_sponsorship_deck_ES.pdf
-    caption: |
-      [Descarga el dosier de patrocinio](https://trgcon.com/deck/TRG24_sponsorship_deck_ES.pdf){.button}
-
-      [Versión en inglés](https://trgcon.com/deck/TRG24_sponsorship_deck_EN.pdf)
-    text: |
-      En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.
-
-      Si quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!
+      - title: Candela Milán Dopico
+        info: Event manager
+        links:
+          - url: 'mailto:tarugoconf@bonillaware.com'
+            icon: envelope
+            text: tarugoconf@bonillaware.com
+          - url: 'https://twitter.com/candelamd'
+            icon: twitter-logo
+            text: '@candelamd'
+      - title: Bonillaware SLU
+        info: 'Castellana 194, Cink Coworking<br>28046 Madrid (España)'
+        links:
+          - url: 'https://g.page/cink-coworking?share'
+            icon: map-pin
+            text: Ver mapa
+          - url: 'https://tarugoconf.slack.com'
+            icon: slack-logo
+            text: tarugoconf.slack.com
+          - url: 'https://twitter.com/tarugoconf'
+            icon: twitter-logo
+            text: '@tarugoconf'

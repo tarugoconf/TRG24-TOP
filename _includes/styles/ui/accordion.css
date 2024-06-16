@@ -33,5 +33,13 @@
       transform: rotate(-90deg);
       flex: 0 0 auto;
     }
+
+    &:hover {
+      background-color: var(--color-bg-hover);
+    }
+  }
+
+  > div {
+    margin-left: 2em;
   }
 }

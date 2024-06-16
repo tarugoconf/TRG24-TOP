@@ -1,11 +1,16 @@
 .block-imagetext {
   display: grid;
+  grid-column: 1 / -1;
+  min-height: min(50vh, 700px);
+  grid-template-areas: "image" "text";
 
-  @media (width > 650px) {
+  @media (width > 800px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: "image text";
   }
 
   figure {
+    grid-area: image;
     margin: 0;
     padding: 0;
   }
@@ -18,19 +23,18 @@
   }
 
   > div {
-    padding: 2em;
+    grid-area: text;
     align-self: center;
-    justify-self: center
+    justify-self: center;
+    padding: 4rem 2rem;
+    max-width: 40rem;
+    display: grid;
+    row-gap: 1rem;
   }
 }
 
 .block-imagetext:nth-child(even) {
-  > div {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  > figure {
-    grid-row: 1;
-    grid-column: 2;
+  @media (width > 800px) {
+    grid-template-areas: "text image";
   }
 }

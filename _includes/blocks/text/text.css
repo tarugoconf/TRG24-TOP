@@ -1,0 +1,16 @@
+.block-text {
+  border: solid 2px var(--color-lines);
+  margin: 4rem 0;
+  padding: clamp(2rem, 5vw, 4rem);
+  display: grid;
+  row-gap: 3rem;
+
+  > div {
+    column-width: 20em;
+    column-gap: 2em;
+
+    p {
+      margin: 0 0 1em 0;
+    }
+  }
+}

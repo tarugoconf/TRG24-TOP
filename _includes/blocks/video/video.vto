@@ -1,5 +1,13 @@
 <figure class="block-video">
-  <video src="{{ block.src }}"></video>
+  <video src="{{ block.src }}"
+  {{
+    block.mode === 'background'
+      ? 'autoplay muted playsinline loop'
+      : block.mode === 'video'
+      ? 'controls'
+      : ''
+  }}
+  ></video>
 
   {{ if block.caption }}
     <figcaption>
