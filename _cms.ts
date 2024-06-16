@@ -28,7 +28,7 @@ const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
   "title: text",
-  "extra_header: textarea",
+  "extra_header: code",
   blocks,
 ]);
 

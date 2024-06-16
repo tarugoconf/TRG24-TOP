@@ -4,13 +4,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: solid 1px;
-  padding: .6em;
+  border: solid 1px transparent;
+  padding: 1em 1.5em;
   min-height: 2.5em;
   text-decoration: none;
-  color: inherit;
-  background: inherit;
   cursor: pointer;
+  transition: background-color 100ms;
 
   &:disabled,
   &[aria-disabled="true"] {

@@ -18,11 +18,20 @@
 
 .block-contact-links {
   list-style: none;
-  margin: 0;
+  margin: 1em 0 0;
   padding: 0;
 
   svg {
     width: 2em;
     height: 2em;
+    vertical-align: middle;
+  }
+}
+
+address {
+  font-style: normal;
+
+  h3, p {
+    margin: 0;
   }
 }

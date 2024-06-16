@@ -1,8 +1,12 @@
+import { frame, theme } from "../cms.ts";
+
 export default {
   type: "object",
   name: "contact",
   fields: [
     "title: text",
+    theme,
+    frame,
     {
       type: "object-list",
       name: "items",

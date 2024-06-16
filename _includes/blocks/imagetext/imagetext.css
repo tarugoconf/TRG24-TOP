@@ -28,8 +28,6 @@
     justify-self: center;
     padding: 4rem 2rem;
     max-width: 40rem;
-    display: grid;
-    row-gap: 1rem;
   }
 }
 

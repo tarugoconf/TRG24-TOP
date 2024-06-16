@@ -1,0 +1,21 @@
+.block-pdf {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 4rem;
+
+  @media (width > 1050px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: 0;
+  }
+}

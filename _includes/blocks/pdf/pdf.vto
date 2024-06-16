@@ -1,7 +1,7 @@
-<section class="block-pdf">
-  <div>
+<section class="block-pdf theme is-light">
+  <div class="type-txt">
     {{ if block.title }}
-      <h2>{{ block.title }}</h2>
+      <h2 class="type-title">{{ block.title }}</h2>
     {{ /if }}
 
     {{ block.text |> md }}
@@ -11,7 +11,7 @@
     <iframe src="{{ block.src }}"></iframe>
 
     {{ if block.caption }}
-    <figcaption>
+    <figcaption class="type-caption">
       {{ block.caption |> md }}
     </figcaption>
     {{ /if }}

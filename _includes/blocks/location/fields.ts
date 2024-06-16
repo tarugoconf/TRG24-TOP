@@ -1,8 +1,12 @@
+import { frame, theme } from "../cms.ts";
+
 export default {
   type: "object",
   name: "location",
   fields: [
     "title: text",
+    theme,
+    frame,
     "embed: textarea",
     "caption: markdown",
     {
