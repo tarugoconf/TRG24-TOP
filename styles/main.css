@@ -20,8 +20,7 @@
 /* Theme */
 @import "styles/theme/variables.css" layer(theme);
 @import "styles/theme/typography.css" layer(theme);
-@import "styles/theme/color.css" layer(theme);
-@import "styles/theme/frames.css" layer(theme);
+@import "styles/theme/variants.css" layer(theme);
 
 /* Extra resets */
 @layer reset {
@@ -31,6 +30,8 @@
     overflow-wrap: break-word;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--color-light);
+    color: var(--color-dark);
   }
   
   :focus {

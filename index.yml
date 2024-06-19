@@ -10,26 +10,26 @@ blocks:
     title: probando
     text: "**aquifdsandoamso** fdsaoi jdosijf das<h4>Que pasa por aqui</h4>\r\n*molantes*"
   - type: text
-    frame: border
-    theme: light
+    theme: is-light width-box box-border
     title: 3 días / 8 charlas / 6 tallers / 700 asistentes / 1 comunidad
     text: "La TRG es **una conferencia sobre diseño, construcción y comercialización de servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores.\r\n"
     src: /files/video-example.webm
     caption: Ver el vídeoresumen de la pasada edición
     mode: background
   - type: imagetext
-    theme: dark
+    theme: is-dark width-full box-fill
     src: /files/home-block1.jpg
     title: El formato
     text: "Lorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\nullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in\r\nreprehenderit in voluptate velit esse cillum\r\ndolore eu fugiat nulla pariatur. Excepteur sint\r\noccaecat cupidatat non proident, sunt in culpa\r\nqui o!cia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\n"
     frame: fill
   - type: imagetext
-    theme: primary
+    theme: is-primary width-full box-fill
     src: /files/home-block2.jpg
     title: ¿Dónde?
     text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
   - type: location
     title: ¿Cómo llegar?
+    theme: is-light width-box
     embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
     caption: >-
       Powered by ![Extramile](/img/collaborators/extramile.png){height="22"
@@ -57,12 +57,8 @@ blocks:
       - title: En coche
         icon: car
         description: Tienes sitio de sobra para aparcar.
-    theme: dark
-    src: /files/home-block2.jpg
-    text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
   - type: faq
-    frame: top-bottom-border
-    theme: light
+    theme: is-light width-box box-separator
     title: What the FAQ?
     questions:
       - question: ¿A quién está dirigido este evento? ¿Es para mi?
@@ -114,6 +110,7 @@ blocks:
         icon: car
   - type: pdf
     title: Cómo patrocinar
+    theme: is-light width-box box-separator
     items:
       - title: Candela Milán Dopico
         info: Event manager
@@ -162,6 +159,7 @@ blocks:
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
   - type: contact
     title: Contacto
+    theme: is-primary width-full box-fill
     src: /files/TRG24_sponsorship_deck_ES.pdf
     caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
     text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
@@ -187,3 +185,4 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
+

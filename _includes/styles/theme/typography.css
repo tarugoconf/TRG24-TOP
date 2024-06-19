@@ -12,7 +12,7 @@ html {
   letter-spacing: var(--font-6-spacing);
   line-height: var(--line-height-title);
   text-transform: uppercase;
-  margin: 0 0 1em;
+  margin: 0;
 }
 .type-subtitle {
   font-family: var(--font-family-ui);

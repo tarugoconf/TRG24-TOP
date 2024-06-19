@@ -1,11 +1,35 @@
 export const theme = {
+  label: "Style",
   name: "theme",
-  type: "radio",
-  options: ["light", "primary", "dark"],
-};
-
-export const frame = {
-  name: "frame",
-  type: "radio",
-  options: ["border", "top-bottom-border", "fill"],
+  type: "select",
+  options: [
+    {
+      label: "Default",
+      value: "is-light width-box",
+    },
+    {
+      label: "Green",
+      value: "is-primary width-box box-fill",
+    },
+    {
+      label: "Green full width",
+      value: "is-primary width-full box-fill",
+    },
+    {
+      label: "Blue",
+      value: "is-dark width-box box-fill",
+    },
+    {
+      label: "Blue full width",
+      value: "is-dark width-full box-fill",
+    },
+    {
+      label: "Frame",
+      value: "is-light width-box box-border",
+    },
+    {
+      label: "Separator",
+      value: "is-light width-box box-separator",
+    },
+  ],
 };

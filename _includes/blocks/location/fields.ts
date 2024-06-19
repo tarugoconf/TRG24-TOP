@@ -1,4 +1,4 @@
-import { frame, theme } from "../cms.ts";
+import { theme } from "../cms.ts";
 
 export default {
   type: "object",
@@ -6,7 +6,6 @@ export default {
   fields: [
     "title: text",
     theme,
-    frame,
     "embed: textarea",
     "caption: markdown",
     {

@@ -1,15 +1,13 @@
-.ly-wrapper {
+.ly-blocks {
+  --row-gap: 4rem;
+  --column-gap: 2rem;
+
   display: grid;
-  grid-template-columns: 0 minmax(0, 1234px) 0;
-  justify-content: space-between;
-  column-gap: 2rem;
+  grid-template-columns: 1fr [start] minmax(0, 620px) [center] minmax(0, 620px) [end] 1fr;
+  column-gap: var(--column-gap);
+  row-gap: var(--row-gap);
 
   > * {
-    grid-column: 2;
-  }
-
-  > .ly-wrapper-full,
-  > .ly-wrapper {
     grid-column: 1 / -1;
   }
 }
