@@ -1,6 +1,9 @@
-<header class="block-header ly-wrapper theme is-primary">
-  <div>
+<div class="block-header theme is-primary box-fill width-full">
+  <header>
     <h1>{{ block.title }}</h1>
     {{ block.intro |> md }}
+  </header>
+  <div class="block-header-text">
+    {{ block.text |> md }}
   </div>
-</header>
+</div>

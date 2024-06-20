@@ -71,6 +71,10 @@
 .box-fill {
   --row-padding: clamp(2rem, 5vw, 4rem);
   padding: var(--row-padding);
+
+  &.is-fill {
+    padding: 0;
+  }
 }
 .box-separator {
   --row-padding: 5rem;

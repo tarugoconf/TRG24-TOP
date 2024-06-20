@@ -1,8 +1,34 @@
 layout: layouts/home.vto
+menu:
+  - text: Dónde
+    url: '#'
+  - text: Agenda
+    url: '#'
+  - text: Cómo patrocinar
+    highlight: true
+    url: '#'
+  - text: Contacto
+    url: '#'
+cta:
+  text: Consigue tu entrada
+  url: '#'
 blocks:
   - type: header
     title: TRG24
     intro: "Madrid, 14-16 noviembre 2024\r\n"
+    text: |
+      - [**Cuartielles**](#){data-hover="Cuartielles"}
+      - [**Pulpo**](#){data-hover="Pulpo"}
+      - [**Comunidad**](#){data-hover="Comunidad"}
+      - [**Sánchez-Crespo**](#){data-hover="Sánchez-Crespo"}
+      - [**Podcasting**](#){data-hover="Podcasting"}
+      - [**Stands**](#){data-hover="Stands"}
+      - [**Transparencia**](#){data-hover="Transparencia"}
+      - [**Bonilla**](#){data-hover="Bonilla"}
+      - [**Networking**](#){data-hover="Networking"}
+      - [**Talleres**](#){data-hover="Talleres"}
+      - [**Jimenez**](#){data-hover="Jimenez"}
+      - [**Open Space**](#){data-hover="Open Space"}
   - type: video
     src: /files/video-example.webm
     caption: Ver el vídeoresumen de la pasada edición
@@ -11,7 +37,7 @@ blocks:
     text: "**aquifdsandoamso** fdsaoi jdosijf das<h4>Que pasa por aqui</h4>\r\n*molantes*"
   - type: text
     theme: is-light width-box box-border
-    title: 3 días / 8 charlas / 6 tallers / 700 asistentes / 1 comunidad
+    title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
     text: "La TRG es **una conferencia sobre diseño, construcción y comercialización de servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores.\r\n"
     src: /files/video-example.webm
     caption: Ver el vídeoresumen de la pasada edición
@@ -31,9 +57,7 @@ blocks:
     title: ¿Cómo llegar?
     theme: is-light width-box
     embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
-    caption: >-
-      Powered by ![Extramile](/img/collaborators/extramile.png){height="22"
-      style="vertical-align:top"}
+    caption: Powered by **Extramile**
     directions:
       - title: La nave
         icon: map-pin
@@ -43,14 +67,15 @@ blocks:
         description: >-
           A 5 minutos andando de la parada [Villaverde Bajo -
           Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span
-          class="badge" style="background:#fdd700;color:black">Línea 3</span>
+          class="badge" style="--bg:var(--color-secondary);--color:black">Línea
+          3</span>
       - title: En tren
         icon: train
         description: >-
           A 7 minutos andando de la [estación Puente
           Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer)
-          <span class="badge" style="background:#fdd700;color:black">Línea
-          C5</span>
+          <span class="badge"
+          style="--bg:var(--color-secondary);--color:black">Línea C5</span>
       - title: En taxi
         icon: taxi
         description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
@@ -159,7 +184,7 @@ blocks:
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
   - type: contact
     title: Contacto
-    theme: is-primary width-full box-fill
+    theme: is-light width-box
     src: /files/TRG24_sponsorship_deck_ES.pdf
     caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
     text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
@@ -185,4 +210,4 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
-
+title: TRG24

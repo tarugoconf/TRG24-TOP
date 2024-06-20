@@ -8,6 +8,7 @@ import locationBlock from "./_includes/blocks/location/fields.ts";
 import pdfBlock from "./_includes/blocks/pdf/fields.ts";
 import textBlock from "./_includes/blocks/text/fields.ts";
 import videoBlock from "./_includes/blocks/video/fields.ts";
+import fields from "./_includes/blocks/contact/fields.ts";
 
 const blocks = {
   type: "choose-list",
@@ -28,6 +29,23 @@ const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
   "title: text",
+  {
+    type: "object-list",
+    name: "menu",
+    fields: [
+      "text: text",
+      "url: text",
+      "highlight: checkbox",
+    ],
+  },
+  {
+    type: "object",
+    name: "cta",
+    fields: [
+      "text: text",
+      "url: text",
+    ],
+  },
   blocks,
 ]);
 
