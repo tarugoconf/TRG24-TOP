@@ -76,21 +76,21 @@
     padding: 0;
   }
 }
-.box-separator {
-  --row-padding: 5rem;
-  border-top: solid 2px;
-  border-bottom: solid 2px;
-  border-color: var(--color-lines);
-  padding: var(--row-padding) 0;
-  margin: var(--row-padding) 0;
-}
 
 /* Combinations */
 .width-full.box-fill + .width-full.box-fill {
   margin-top: calc(var(--row-gap) * -1);
 }
-.box-separator + .box-separator {
-  margin-top: calc(var(--row-gap) * -1);
-  border-top: none;
+
+.box-fill.is-light {
+  padding-left: 0;
+  padding-right: 0;
+}
+.block-separator + .box-fill.is-light {
   padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.box-fill.is-light + .block-separator {
+  margin-top: 0;
 }

@@ -5,6 +5,7 @@ export default {
   name: "text",
   fields: [
     "title: text",
+    "id: text",
     theme,
     "text: markdown",
   ],

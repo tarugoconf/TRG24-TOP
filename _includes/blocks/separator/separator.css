@@ -1,0 +1,16 @@
+.block-separator {
+  width: 100%;
+  display: block;
+  color: var(--color-primary);
+  border: none;
+  border-top: solid 2px;
+  margin: 4rem 0;
+
+  &.is-default {
+    grid-column: start / end;
+  }
+
+  &.is-full {
+    grid-column: 1 / -1;
+  }
+}

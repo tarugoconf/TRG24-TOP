@@ -5,6 +5,7 @@ export default {
   name: "pdf",
   fields: [
     "title: text",
+    "id: text",
     theme,
     "text: markdown",
     "src: file",

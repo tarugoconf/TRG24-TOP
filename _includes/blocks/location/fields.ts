@@ -5,6 +5,7 @@ export default {
   name: "location",
   fields: [
     "title: text",
+    "id: text",
     theme,
     "embed: textarea",
     "caption: markdown",

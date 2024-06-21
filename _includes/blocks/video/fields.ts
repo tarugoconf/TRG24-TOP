@@ -3,6 +3,7 @@ export default {
   name: "video",
   fields: [
     "src: file",
+    "id: text",
     "caption: markdown",
     {
       type: "radio",

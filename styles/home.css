@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1234px);
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: max(10vh, 8rem);
   padding-bottom: 10vh;
   text-align: right;
   font-family: var(--font-family-display);

@@ -5,6 +5,7 @@ export default {
   name: "imagetext",
   fields: [
     "title: text",
+    "id: text",
     theme,
     "src: file",
     "text: markdown",

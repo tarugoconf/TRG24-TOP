@@ -8,7 +8,7 @@ import locationBlock from "./_includes/blocks/location/fields.ts";
 import pdfBlock from "./_includes/blocks/pdf/fields.ts";
 import textBlock from "./_includes/blocks/text/fields.ts";
 import videoBlock from "./_includes/blocks/video/fields.ts";
-import fields from "./_includes/blocks/contact/fields.ts";
+import separatorBlock from "./_includes/blocks/separator/fields.ts";
 
 const blocks = {
   type: "choose-list",
@@ -19,6 +19,7 @@ const blocks = {
     headerBlock,
     imageTextBlock,
     locationBlock,
+    separatorBlock,
     pdfBlock,
     textBlock,
     videoBlock,

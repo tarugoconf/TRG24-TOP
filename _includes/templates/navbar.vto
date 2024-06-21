@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <ul class="navbar-menu">
+    {{ for item of menu }}
+    <li>
+      <a href="{{ item.url}}" {{ item.highlight ? 'class="is-highlight"' : '' }}>
+        {{ item.text }}
+      </a>
+    </li>
+    {{ /for }}
+  </ul>
+
+  <a href="{{ cta.url }}" class="navbar-cta">
+    {{ cta.text }}
+    {{ "arrow-right" |> icon }}
+  </a>
+</nav>

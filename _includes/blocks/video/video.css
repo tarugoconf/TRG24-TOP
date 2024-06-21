@@ -1,4 +1,6 @@
 .block-video {
+  display: grid;
+  grid-template-columns: subgrid;
   margin: 0;
   padding: 0;
 
@@ -7,5 +9,12 @@
     width: 100%;
     max-height: 100vh;
     object-fit: cover;
+    grid-column: 1 / -1;
+  }
+  figcaption {
+    grid-column: start / end;
+  }
+  p {
+    margin-bottom: 0;
   }
 }

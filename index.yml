@@ -1,14 +1,17 @@
 layout: layouts/home.vto
 menu:
   - text: Dónde
-    url: '#'
+    url: '#donde'
+    highlight: false
   - text: Agenda
     url: '#'
+    highlight: false
   - text: Cómo patrocinar
     highlight: true
-    url: '#'
+    url: '#patrocinio'
   - text: Contacto
-    url: '#'
+    url: '#contacto'
+    highlight: false
 cta:
   text: Consigue tu entrada
   url: '#'
@@ -82,8 +85,11 @@ blocks:
       - title: En coche
         icon: car
         description: Tienes sitio de sobra para aparcar.
+    id: donde
+  - type: separator
+    width: is-default
   - type: faq
-    theme: is-light width-box box-separator
+    theme: is-light width-box box-fill
     title: What the FAQ?
     questions:
       - question: ¿A quién está dirigido este evento? ¿Es para mi?
@@ -106,36 +112,11 @@ blocks:
         answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
       - question: Sigo teniendo dudas ¿qué hago?
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
-    embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
-    caption: >-
-      Powered by ![Extramile](/img/collaborators/extramile.png){height="22"
-      style="vertical-align:top"}
-    directions:
-      - title: La nave
-        description: "Calle Cifuentes 5<br>\r\n28021 Madrid\r\n\r\n[lanavemadrid.com](https://www.lanavemadrid.com/)\r\n"
-        icon: map-pin
-      - title: En metro
-        description: >-
-          A 5 minutos andando de la parada [Villaverde Bajo -
-          Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span
-          class="badge" style="background:#fdd700;color:black">Línea 3</span>
-        icon: train-simple
-      - title: En tren
-        description: >-
-          A 7 minutos andando de la [estación Puente
-          Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer)
-          <span class="badge" style="background:#fdd700;color:black">Línea
-          C5</span>
-        icon: train
-      - title: En taxi
-        description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
-        icon: taxi
-      - title: En coche
-        description: Tienes sitio de sobra para aparcar.
-        icon: car
+  - type: separator
+    width: is-default
   - type: pdf
     title: Cómo patrocinar
-    theme: is-light width-box box-separator
+    theme: is-light width-box box-fill
     items:
       - title: Candela Milán Dopico
         info: Event manager
@@ -182,9 +163,12 @@ blocks:
         answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
       - question: Sigo teniendo dudas ¿qué hago?
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
+    id: patrocinio
+  - type: separator
+    width: is-full
   - type: contact
     title: Contacto
-    theme: is-light width-box
+    theme: is-light width-box box-fill
     src: /files/TRG24_sponsorship_deck_ES.pdf
     caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
     text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
@@ -210,4 +194,5 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
+    id: contacto
 title: TRG24

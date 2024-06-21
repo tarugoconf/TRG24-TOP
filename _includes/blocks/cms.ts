@@ -5,7 +5,7 @@ export const theme = {
   options: [
     {
       label: "Default",
-      value: "is-light width-box",
+      value: "is-light width-box box-fill",
     },
     {
       label: "Green",
@@ -26,10 +26,6 @@ export const theme = {
     {
       label: "Frame",
       value: "is-light width-box box-border",
-    },
-    {
-      label: "Separator",
-      value: "is-light width-box box-separator",
     },
   ],
 };

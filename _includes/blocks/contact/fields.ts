@@ -5,6 +5,7 @@ export default {
   name: "contact",
   fields: [
     "title: text",
+    "id: text",
     theme,
     {
       type: "object-list",

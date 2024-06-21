@@ -3,20 +3,6 @@ layout: ./base.vto
 styles: /styles/home.css
 ---
 
-<nav class="navbar">
-  <ul class="navbar-menu">
-    {{ for item of menu }}
-    <li>
-      <a href="{{ item.url}}" {{ item.highlight ? 'class="is-highlight"' : '' }}>
-        {{ item.text }}
-      </a>
-    </li>
-    {{ /for }}
-  </ul>
-
-  <a href="{{ cta.url }}" class="navbar-cta">
-    {{ cta.text }}
-  </a>
-</nav>
-
+{{ include "templates/navbar.vto" }}
 {{ include "blocks.vto" { blocks } }}
+{{ include "templates/footer.vto" }}

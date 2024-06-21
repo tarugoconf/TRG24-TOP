@@ -1,6 +1,19 @@
 footer:
-  text: |
-    © 2024 BONILLAWARE SLU | AVISO LEGAL | POLÍTICA DE PRIVACIDAD
-
-    #trg24
-
+  copyright: |
+    © 2024<br>
+    Gestionado con ♥ e inconsciencia <br>
+    por Bonillaware SLU.<br>
+    Web creada con [Lume](https://lume.land) & TOP Theme<br>
+    [humans.txt](/humans.txt)
+  menu:
+  - text: <strong>Blog</strong>
+    href: /blog/
+  - text: <strong>Community day</strong>
+    href: /community-day/
+    separator: true
+  - text: Aviso legal
+    href: /aviso-legal/
+  - text: Política de privacidad
+    href: /politica-de-privacidad/
+  - text: Código de conducta
+    href: /codigo-de-conducta/
