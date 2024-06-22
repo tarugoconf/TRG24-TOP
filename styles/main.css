@@ -22,6 +22,7 @@
 @import "blocks/video/video.css" layer(blocks);
 
 /* Theme */
+@import "styles/theme/main.css" layer(theme);
 @import "styles/theme/variables.css" layer(theme);
 @import "styles/theme/typography.css" layer(theme);
 @import "styles/theme/variants.css" layer(theme);

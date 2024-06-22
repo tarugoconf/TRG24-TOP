@@ -1,3 +1,7 @@
+cta:
+  text: Consigue tu entrada
+  url: '#'
+
 footer:
   copyright: |
     © 2024<br>

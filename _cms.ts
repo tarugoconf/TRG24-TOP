@@ -39,14 +39,6 @@ cms.document("Home", "src:index.yml", [
       "highlight: checkbox",
     ],
   },
-  {
-    type: "object",
-    name: "cta",
-    fields: [
-      "text: text",
-      "url: text",
-    ],
-  },
   blocks,
 ]);
 
@@ -54,6 +46,43 @@ cms.collection("Legal pages", "src:pages/*.md", [
   "title: text",
   "subtitle: text",
   "content: markdown",
+]);
+
+cms.document({
+  name: "Settings",
+  description: "General settings",
+  store: "src:_data.yml",
+  fields: [
+    {
+      type: "object",
+      name: "cta",
+      description: "Call to action (visible on all pages)",
+      fields: [
+        "text: text",
+        "url: text",
+      ],
+    },
+    {
+      type: "object",
+      name: "footer",
+      description: "Footer settings (copyright, menu)",
+      fields: [
+        "copyright: markdown",
+        {
+          type: "object-list",
+          name: "menu",
+          fields: [
+            "text: text",
+            "href: text",
+          ],
+        },
+      ],
+    },
+  ],
+});
+
+cms.document("Humans.txt", "src:humans.vto", [
+  "content: code",
 ]);
 
 cms.upload("Uploads", "src:files");

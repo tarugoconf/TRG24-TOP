@@ -2,13 +2,17 @@
 layout: ./base.vto
 styles: /styles/text.css
 ---
-<article class="text">
+{{ include "templates/navbar.vto" }}
+
+<article class="text type-txt theme is-light">
   <header class="text-header">
-    <h1 class="type-title">{{ title }}</h1>
+    <h1 class="type-header">{{ title }}</h1>
     {{ subtitle |> md }}
   </header>
 
-  <div class="type-txt">
+  <div class="text-body">
     {{ content |> md }}
   </div>
 </article>
+
+{{ include "templates/footer.vto" }}

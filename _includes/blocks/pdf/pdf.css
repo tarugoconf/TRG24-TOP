@@ -7,6 +7,11 @@
   > * {
     grid-column: start / end;
   }
+
+  > div > div {
+    column-width: 20em;
+    column-gap: 2rem;
+  }
   
   @media (width > 1050px) {
     > div {
@@ -24,12 +29,14 @@
 
   iframe {
     width: 100%;
-    max-height: 300px;
+    max-width: 500px;
     aspect-ratio: 3 / 2;
     border: solid 1px var(--color-secondary);
     border-radius: .5rem;
     outline: 0;
     box-shadow: 0 4px 8px -2px #0003;
+    margin: auto;
+    display: block;
   }
   figcaption {
     text-align: center;
