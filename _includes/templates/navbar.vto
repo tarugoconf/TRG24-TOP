@@ -1,4 +1,8 @@
-<nav class="navbar">
+<nav class="navbar" id="menu">
+  <button class="navbar-menu-toggle" id="menu-button">
+    {{ "list" |> icon }}
+    Menú
+  </button>
   <ul class="navbar-menu">
     {{ for item of menu }}
     <li>

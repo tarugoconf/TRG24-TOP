@@ -1,42 +1,33 @@
 .block-imagetext {
+  --marging-neg: -2.5rem;
   display: grid;
   grid-template-columns: subgrid;
   min-height: min(50vh, 700px);
-  row-gap: 3rem;
   grid-template-areas: "image image image image" ". text text .";
+
+  figure {
+    grid-area: image;
+    padding: 0;
+    margin: 0;
+  }
   
   &.width-box {
     grid-template-areas: "image image" "text text";
   }
 
+  > div {
+    padding: 2.5rem 0 2rem 0;
+  }
+
   @media (width > 800px) {
     grid-template-areas: "image image text .";
 
+    > div {
+      padding: 2rem 0 2rem 2rem;
+    }
+
     &.width-box {
       grid-template-areas: "image text";
-    }
-    &.box-fill figure {
-      margin-left: calc(var(--row-padding) * -1);
-    }
-
-    > div {
-      padding: 0 0 0 3rem;
-    }
-  }
-
-  figure {
-    grid-area: image;
-    margin: 0;
-    padding: 0;
-    margin-top: calc(var(--row-padding) * -1);
-
-    @media (width <= 800px) {
-      margin-left: calc(var(--row-padding) * -1);
-      margin-right: calc(var(--row-padding) * -1);
-    }
-
-    @media (width > 800px) {
-      margin-bottom: calc(var(--row-padding) * -1);
     }
   }
 
@@ -60,15 +51,9 @@
     &.width-box {
       grid-template-areas: "text image";
     }
-    &.box-fill figure {
-      margin-right: calc(var(--row-padding) * -1);
-    }
 
     > div {
-      padding: 0 3rem 0 0;
-    }
-    figure {
-      margin-left: calc(var(--column-gap) * -1);
+      padding: 2rem 2rem 2rem 0;
     }
   }
 }

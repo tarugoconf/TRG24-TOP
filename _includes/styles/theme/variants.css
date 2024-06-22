@@ -64,15 +64,14 @@
 /* Box variants */
 .box-border {
   border: solid 2px var(--color-lines);
-  margin: 4rem 0;
-  padding: clamp(2rem, 5vw, 4rem);
+  padding: 2.5rem;
   box-shadow: 0 8px 0 -4px var(--color-lines);
 }
 .box-fill {
-  --row-padding: clamp(2rem, 5vw, 4rem);
+  --row-padding: 2.5rem;
   padding: var(--row-padding);
 
-  &.is-fill {
+  &.no-padding {
     padding: 0;
   }
 }
@@ -93,4 +92,11 @@
 }
 .box-fill.is-light + .block-separator {
   margin-top: 0;
+}
+
+.block-imagetext.box-fill {
+  padding: 0;
+}
+.theme.is-light:last-child {
+  margin-bottom: var(--row-gap);
 }

@@ -4,7 +4,7 @@
   color: var(--color-primary);
   border: none;
   border-top: solid 2px;
-  margin: 4rem 0;
+  margin: min(4rem, 5vh) 0;
 
   &.is-default {
     grid-column: start / end;

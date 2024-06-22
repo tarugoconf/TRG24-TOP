@@ -1,10 +1,8 @@
 body {
   --row-gap: 4rem;
-  --column-gap: 2rem;
 
   display: grid;
-  grid-template-columns: 1fr [start] minmax(0, 620px) [center] minmax(0, 620px) [end] 1fr;
-  column-gap: var(--column-gap);
+  grid-template-columns: minmax(2rem, 1fr) [start] minmax(0, 617px) [center] minmax(0, 617px) [end] minmax(2rem, 1fr);
 
   > * {
     grid-column: 1 / -1;

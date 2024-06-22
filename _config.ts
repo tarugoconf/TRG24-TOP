@@ -6,6 +6,7 @@ const site = lume();
 
 site.copy("fonts");
 site.copy("files");
+site.copy("scripts");
 site.use(lightningcss());
 site.use(icons({
   name: "icon",
