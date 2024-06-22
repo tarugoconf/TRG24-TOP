@@ -15,7 +15,8 @@ menu:
 
 blocks:
   - type: header
-    title: TRG24
+    title: |
+      ![TRG 24](/files/logo-header.svg)
     intro: "Madrid, 14-16 noviembre 2024\r\n"
     text: |
       - [**Cuartielles**](#){data-hover="Cuartielles"}

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1234px);
   justify-content: center;
-  padding-top: max(10vh, 8rem);
+  padding-top: max(10vh, 10rem);
   padding-bottom: 10vh;
   text-align: right;
   font-family: var(--font-family-display);
@@ -10,12 +10,11 @@
   letter-spacing: var(--font-5-spacing);
 
   h1 {
-    font-size: var(--font-10-size);
-    font-weight: var(--font-weight-bolder);
-    letter-spacing: var(--font-10-spacing);
-    line-height: var(--line-height-title);
-    text-transform: uppercase;
     margin: 0;
+
+    img {
+      width: clamp(300px, 40vw, 600px);
+    }
   }
   > * {
     grid-column: 1;

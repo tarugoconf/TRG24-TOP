@@ -1,6 +1,6 @@
 <div class="block-header theme is-primary box-fill width-full">
   <header>
-    <h1>{{ block.title }}</h1>
+    <h1>{{ block.title |> md(true) }}</h1>
     {{ block.intro |> md }}
   </header>
   <div class="block-header-text">
