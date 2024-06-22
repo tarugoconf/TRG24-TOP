@@ -2,7 +2,6 @@
 layout: layouts/text.vto
 title: Código de conducta
 menu:
-  items:
   - text: Portada
     url: "/"
 ---

@@ -3,7 +3,6 @@ layout: layouts/text.vto
 title: Aviso legal
 subtitle: Madrid, 24 de mayo de 2018
 menu:
-  items:
   - text: Portada
     url: "/"
 ---
