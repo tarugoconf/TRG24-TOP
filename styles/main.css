@@ -11,6 +11,7 @@
 @import "styles/ui/footer.css" layer(ui);
 
 /* Blocks */
+@import "blocks/calendar/calendar.css" layer(blocks);
 @import "blocks/contact/contact.css" layer(blocks);
 @import "blocks/faq/faq.css" layer(blocks);
 @import "blocks/header/header.css" layer(blocks);

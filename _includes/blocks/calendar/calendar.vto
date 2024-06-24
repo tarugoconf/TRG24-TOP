@@ -1,0 +1,32 @@
+<section id="{{ block.id }}" class="block-calendar theme {{ block.theme }}">
+  <div>
+    <header>
+      <h2 class="type-title">{{ block.title }}</h2>
+    </header>
+
+    {{ for day of block.days }}
+    <h3>{{ day.title }}</h3>
+
+    {{ for event of day.events }}
+      <details class="event">
+        <summary>
+          <div class="event-header">
+            <time class="event-time">{{ event.time }}</time>
+            <strong class="event-title">{{ event.title }}</strong>
+
+            {{ if event.subtitle }}
+              <p class="event-subtitle">
+                {{ event.subtitle }}
+              </p>
+            {{ /if }}
+          </div>
+        </summary>
+
+        <div class="event-description">
+          {{ event.description |> md }}
+        </div>
+      </details>
+    {{ /for }}
+    {{ /for }}
+  </div>
+</section>

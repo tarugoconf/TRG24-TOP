@@ -85,6 +85,22 @@ blocks:
         icon: car
         description: Tienes sitio de sobra para aparcar.
     id: donde
+  - type: calendar
+    theme: is-light width-box fox-fill
+    title: Agenda
+    days:
+      - title: Jueves, 14 de noviembre
+        events:
+          - time: 9:00 - 12:00h
+            title: Item de agenda
+            description: |
+              Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.
+          - time: 11:00 - 12:00h
+            title: Item de agenda
+            subtitle: Subtítulo de item de agenda
+            description: |
+              Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.
+
   - type: separator
     width: is-default
   - type: faq
