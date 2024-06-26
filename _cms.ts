@@ -9,12 +9,14 @@ import pdfBlock from "./_includes/blocks/pdf/fields.ts";
 import textBlock from "./_includes/blocks/text/fields.ts";
 import videoBlock from "./_includes/blocks/video/fields.ts";
 import separatorBlock from "./_includes/blocks/separator/fields.ts";
+import calendarBlock from "./_includes/blocks/calendar/fields.ts";
 
 const blocks = {
   type: "choose-list",
   name: "blocks",
   fields: [
     contactBlock,
+    calendarBlock,
     faqBlock,
     headerBlock,
     imageTextBlock,
