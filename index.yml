@@ -120,6 +120,29 @@ blocks:
     id: agenda
   - type: separator
     width: is-default
+  - type: speakers
+    title: Speakers
+    description: |
+      El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
+      son los awesómicos invitados con los que contaremos este año:
+    speakers:
+      - name: David Bonilla
+        id: david-bonilla
+        image: https://trg23.netlify.app/img/speakers/david-bonilla.png
+        company: TRG
+        role: Co-organizador
+        links:
+          - text: Twitter
+            icon: x-logo
+            url: https://x.com/david_bonilla
+          - text: Linkedin
+            icon: linkedin-logo
+            url: https://www.linkedin.com/in/dbonillaf/
+        bio: |
+          David es el autor de [La Bonilista](https://www.bonilista.com/){target="_blank"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.
+
+          Aunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.
+
   - type: faq
     theme: is-light width-box box-fill
     title: What the FAQ?

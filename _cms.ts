@@ -10,6 +10,7 @@ import textBlock from "./_includes/blocks/text/fields.ts";
 import videoBlock from "./_includes/blocks/video/fields.ts";
 import separatorBlock from "./_includes/blocks/separator/fields.ts";
 import calendarBlock from "./_includes/blocks/calendar/fields.ts";
+import speakersBlock from "./_includes/blocks/speakers/fields.ts";
 
 const blocks = {
   type: "choose-list",
@@ -22,6 +23,7 @@ const blocks = {
     imageTextBlock,
     locationBlock,
     separatorBlock,
+    speakersBlock,
     pdfBlock,
     textBlock,
     videoBlock,
