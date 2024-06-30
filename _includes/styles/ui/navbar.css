@@ -16,7 +16,7 @@ html {
   font-size: var(--font-2-size);
   letter-spacing: var(--font-2-spacing);
   line-height: var(--line-height-text);
-  z-index: 2;
+  z-index: 3;
 
   svg {
     width: 1em;

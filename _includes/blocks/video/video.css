@@ -10,11 +10,25 @@
     max-height: 100vh;
     object-fit: cover;
     grid-column: 1 / -1;
+    grid-row: 1;
   }
   figcaption {
+    grid-row: 2;
     grid-column: start / end;
   }
   p {
     margin-bottom: 0;
   }
+}
+.block-video-over {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+  z-index: 2;
+  color: white;
+  font-size: 9vw;
+  letter-spacing: -0.05em;
+  user-select: none;
 }
