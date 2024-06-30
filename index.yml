@@ -30,7 +30,7 @@ blocks:
       - [**Jimenez**](#){data-hover="Jimenez"}
       - [**Open Space**](#){data-hover="Open Space"}
   - type: video
-    src: /files/video-trg24.mp4
+    src: /files/video-example.webm
     caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
     text_over: COMUNIDAD
     mode: background
@@ -150,7 +150,7 @@ blocks:
       - name: David Cuartielles
         id: david-cuartielles
         company: Universidad de Malmö
-        image: ''
+        image: /files/david-cuartielles.jpg
         links:
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
