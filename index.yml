@@ -31,14 +31,14 @@ blocks:
       - [**Open Space**](#){data-hover="Open Space"}
   - type: video
     src: /files/video-example.webm
-    caption: Ver el vídeoresumen de la pasada edición
+    caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
     mode: background
     title: probando
     text: "**aquifdsandoamso** fdsaoi jdosijf das<h4>Que pasa por aqui</h4>\r\n*molantes*"
   - type: text
     theme: is-light width-box box-border
     title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
-    text: "La TRG es **una conferencia sobre diseño, construcción y comercialización de servicios digitales** que nace alrededor de la heterogénea Comunidad de suscriptores de La Bonilista, la newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores.\r\n"
+    text: "La TRG es **una conferencia sobre diseño, desarrollo y comercialización de servicios digitales** que nace alrededor de la hiperactiva Comunidad de suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores."
     src: /files/video-example.webm
     caption: Ver el vídeoresumen de la pasada edición
     mode: background
@@ -46,7 +46,7 @@ blocks:
     theme: is-dark width-full box-fill
     src: /files/home-block1.jpg
     title: El formato
-    text: "Lorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\nullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in\r\nreprehenderit in voluptate velit esse cillum\r\ndolore eu fugiat nulla pariatur. Excepteur sint\r\noccaecat cupidatat non proident, sunt in culpa\r\nqui o!cia deserunt mollit anim id est laborum.\r\nLorem ipsum dolor sit amet, consectetur\r\nadipisicing elit, sed do eiusmod tempor\r\nincididunt ut labore et dolore magna aliqua. Ut\r\nenim ad minim veniam, quis nostrud exercitation\r\n"
+    text: "Un solo track y una única experiencia para todos los asistentes.\r\n\r\nNo esperes una conferencia técnica al uso sino una experiencia mucho más intensa, con charlas prácticas que tocan todas las áreas de actividad relacionadas con la industria tecnológica (no solo las técnicas), una altísima interacción con el público, un turno de preguntas que se asemeja a un *late night show* y un despliegue audiovisual cercano al de un programa de telivisión.\r\n\r\nY, fuera del auditorio, un montón de actividades y dinámicas diseñadas para que conozcas gente de forma sencilla, natural, agradable y segura. \r\n"
     frame: fill
   - type: imagetext
     theme: is-primary width-full box-fill
