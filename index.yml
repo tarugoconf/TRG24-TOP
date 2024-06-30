@@ -16,19 +16,7 @@ blocks:
   - type: header
     title: '![TRG 24](/files/logo-header.svg)'
     intro: "Madrid, 14-16 noviembre 2024\r\n"
-    text: |
-      - [**Cuartielles**](#){data-hover="Cuartielles"}
-      - [**Pulpo**](#){data-hover="Pulpo"}
-      - [**Comunidad**](#){data-hover="Comunidad"}
-      - [**Sánchez-Crespo**](#){data-hover="Sánchez-Crespo"}
-      - [**Podcasting**](#){data-hover="Podcasting"}
-      - [**Stands**](#){data-hover="Stands"}
-      - [**Transparencia**](#){data-hover="Transparencia"}
-      - [**Bonilla**](#dialog-david-bonilla){data-hover="Bonilla"}
-      - [**Networking**](#){data-hover="Networking"}
-      - [**Talleres**](#){data-hover="Talleres"}
-      - [**Jimenez**](#){data-hover="Jimenez"}
-      - [**Open Space**](#){data-hover="Open Space"}
+    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#){data-hover=\"Podcasting\"}\r\n- [**Stands**](#){data-hover=\"Stands\"}\r\n- [**Transparencia**](#){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#){data-hover=\"Networking\"}\r\n- [**Talleres**](#){data-hover=\"Talleres\"}\r\n- [**Jimenez**](#){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#){data-hover=\"Open Space\"}\r\n"
   - type: video
     src: /files/video-trg24.mp4
     caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
@@ -149,12 +137,15 @@ blocks:
         bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.\r\n\r\nAunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.\r\n"
       - name: David Cuartielles
         id: david-cuartielles
-        company: Universidad de Malmö
+        company: Universidad de Malmo
         image: /files/david-cuartielles.jpg
         links:
+          - icon: x-logo
+            url: 'https://x.com/dcuartielles'
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
         role: Profesor de diseño de Interacción
+        bio: "David trabaja como profesor en la Universidad de Malmo (Suecia) y es **co-fundador de la plataforma de hardware, software y contenido libre ARDUINO**.\r\n\r\nEs Ingeniero en Telecomunicaciones y Doctor en Diseño. Como investigador, se ha centrado en analizar cómo la tecnología digital y la sociedad se integran a través de nuevos tipos de herramientas y sistemas conectados."
   - type: separator
     theme: is-light width-box box-fill
     title: What the FAQ?
