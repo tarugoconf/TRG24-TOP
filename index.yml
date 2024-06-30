@@ -19,7 +19,9 @@ blocks:
     text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#proba-item-axenda){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#){data-hover=\"Podcasting\"}\r\n- [**Stands**](#){data-hover=\"Stands\"}\r\n- [**Transparencia**](#){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#){data-hover=\"Networking\"}\r\n- [**Talleres**](#){data-hover=\"Talleres\"}\r\n- [**Jimenez**](#){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#){data-hover=\"Open Space\"}\r\n"
   - type: video
     src: /files/video-trg24.mp4
-    caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
+    caption: >-
+      [Ver el vídeoresumen de la pasada
+      edición](https://vimeo.com/928563768){target="_blank"}
     text_over: COMUNIDAD
     mode: background
     title: probando
