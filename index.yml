@@ -122,28 +122,22 @@ blocks:
     width: is-default
   - type: speakers
     title: Speakers
-    description: |
-      El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos
-      son los awesómicos invitados con los que contaremos este año:
+    description: "El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos\r\nson los awesómicos invitados con los que contaremos este año:\r\n"
     speakers:
       - name: David Bonilla
         id: david-bonilla
-        image: https://trg23.netlify.app/img/speakers/david-bonilla.png
+        image: 'https://trg23.netlify.app/img/speakers/david-bonilla.png'
         company: TRG
         role: Co-organizador
         links:
           - text: Twitter
             icon: x-logo
-            url: https://x.com/david_bonilla
+            url: 'https://x.com/david_bonilla'
           - text: Linkedin
             icon: linkedin-logo
-            url: https://www.linkedin.com/in/dbonillaf/
-        bio: |
-          David es el autor de [La Bonilista](https://www.bonilista.com/){target="_blank"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.
-
-          Aunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.
-
-  - type: faq
+            url: 'https://www.linkedin.com/in/dbonillaf/'
+        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.\r\n\r\nAunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.\r\n"
+  - type: separator
     theme: is-light width-box box-fill
     title: What the FAQ?
     questions:
@@ -167,9 +161,16 @@ blocks:
         answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
       - question: Sigo teniendo dudas ¿qué hago?
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
-  - type: separator
     width: is-default
   - type: pdf
+    width: is-default
+    title: Cómo patrocinar
+    id: patrocinio
+    theme: is-light width-box box-fill
+    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
+    src: /files/TRG24_sponsorship_deck_ES.pdf
+    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
+  - type: separator
     title: Cómo patrocinar
     theme: is-light width-box box-fill
     items:
@@ -219,8 +220,32 @@ blocks:
       - question: Sigo teniendo dudas ¿qué hago?
         answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
     id: patrocinio
-  - type: separator
     width: is-full
+  - type: faq
+    width: is-full
+    title: What the FAQ?
+    theme: is-light width-box box-fill
+    questions:
+      - question: ¿A quién está dirigido este evento? ¿Es para mi?
+        answer: "Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         \r\n"
+      - question: >-
+          Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o
+          descuento?
+        answer: "Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)\r\n"
+      - question: "¿Qué es eso del Community Day del sábado? \U0001F389"
+        answer: "Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.\r\n"
+      - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
+        answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
+      - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
+        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        \r\n"
+      - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
+        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
+      - question: Si mi empresa me paga la entrada ¿Hacéis factura?
+        answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
+      - question: ¿Tenéis Código de Conducta?
+        answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
+      - question: Sigo teniendo dudas ¿qué hago?
+        answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
   - type: contact
     title: Contacto
     theme: is-light width-box box-fill
