@@ -4,5 +4,6 @@ export default {
   fields: [
     "title: text",
     "intro: markdown",
+    "text: markdown",
   ],
 };
