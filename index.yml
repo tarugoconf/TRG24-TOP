@@ -16,7 +16,7 @@ blocks:
   - type: header
     title: '![TRG 24](/files/logo-header.svg)'
     intro: "Madrid, 14-16 noviembre 2024\r\n"
-    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#){data-hover=\"Podcasting\"}\r\n- [**Stands**](#){data-hover=\"Stands\"}\r\n- [**Transparencia**](#){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#){data-hover=\"Networking\"}\r\n- [**Talleres**](#){data-hover=\"Talleres\"}\r\n- [**Jimenez**](#){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#){data-hover=\"Open Space\"}\r\n"
+    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#proba-item-axenda){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#){data-hover=\"Podcasting\"}\r\n- [**Stands**](#){data-hover=\"Stands\"}\r\n- [**Transparencia**](#){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#){data-hover=\"Networking\"}\r\n- [**Talleres**](#){data-hover=\"Talleres\"}\r\n- [**Jimenez**](#){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#){data-hover=\"Open Space\"}\r\n"
   - type: video
     src: /files/video-trg24.mp4
     caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
@@ -89,6 +89,7 @@ blocks:
           - time: '11:00 - 12:00h'
             title: Item de agenda
             subtitle: Subtítulo de item de agenda
+            id: proba-item-axenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
             speakers:
               - david-bonilla

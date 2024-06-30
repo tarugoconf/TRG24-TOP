@@ -9,7 +9,7 @@
       <h3 class="type-subtitle">{{ day.title }}</h3>
 
       {{ for event of day.events }}
-      <details class="event">
+      <details class="event" id="{{ event.id }}">
         <summary>
           <div class="event-header">
             <time class="event-time type-caption">{{ event.time }}</time>

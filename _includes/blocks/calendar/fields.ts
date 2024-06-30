@@ -15,6 +15,7 @@ export default {
           fields: [
             "time: text",
             "title: text",
+            "id: text",
             "subtitle: text",
             "description: markdown",
             {

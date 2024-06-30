@@ -16,10 +16,8 @@ document.getElementById("menu").addEventListener("click", (ev) => {
 
 document.querySelectorAll("button[data-open]").forEach((el) => {
   el.addEventListener("click", () => {
-    const id = el.dataset.open;
-    const target = document.getElementById(id);
-    target.showModal();
-    history.replaceState(null, null, `#${id}`);
+    history.replaceState(null, null, `#${el.dataset.open}`);
+    init();
   });
 });
 
@@ -29,17 +27,33 @@ document.querySelectorAll("[data-close]").forEach((el) => {
     const target = id ? document.getElementById(id) : el.closest("dialog");
     target.close();
 
-    if (location.hash === `#${target.id}`) {
-      history.replaceState(null, null, document.location.pathname);
+    restore(target.id);
+  });
+});
+
+// Fix dialog close with ESC
+document.querySelectorAll("dialog").forEach((el) => {
+  el.addEventListener("close", () => restore(el.id));
+});
+document.querySelectorAll("details").forEach((el) => {
+  el.addEventListener("toggle", () => {
+    if (!el.open) {
+      restore(el.id);
     }
   });
 });
 
-// Init dialog
-document.querySelector("dialog:target")?.showModal();
 
-addEventListener("popstate", () => {
-  const element = document.querySelector(":target");
+// Init navigation
+init();
+addEventListener("popstate", () => init());
+
+function init(id = location.hash.slice(1)) {
+  if (!id) {
+    return;
+  }
+
+  const element = document.getElementById(id);
   if (!element) {
     return;
   }
@@ -47,4 +61,13 @@ addEventListener("popstate", () => {
   if (element.tagName === "DIALOG" && element.open === false) {
     element.showModal();
   }
-});
+  if (element.tagName === "DETAILS" && element.open === false) {
+    element.open = true;
+  }
+}
+
+function restore(id) {
+  if (location.hash === `#${id}`) {
+    history.replaceState(null, null, document.location.pathname);
+  }
+}
