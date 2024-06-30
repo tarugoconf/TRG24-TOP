@@ -14,7 +14,7 @@ document.getElementById("menu").addEventListener("click", (ev) => {
   }, 100);
 });
 
-document.querySelectorAll("[data-open]").forEach((el) => {
+document.querySelectorAll("button[data-open]").forEach((el) => {
   el.addEventListener("click", () => {
     const id = el.dataset.open;
     const target = document.getElementById(id);
@@ -37,3 +37,14 @@ document.querySelectorAll("[data-close]").forEach((el) => {
 
 // Init dialog
 document.querySelector("dialog:target")?.showModal();
+
+addEventListener("popstate", () => {
+  const element = document.querySelector(":target");
+  if (!element) {
+    return;
+  }
+
+  if (element.tagName === "DIALOG" && element.open === false) {
+    element.showModal();
+  }
+});
