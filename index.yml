@@ -30,8 +30,9 @@ blocks:
       - [**Jimenez**](#){data-hover="Jimenez"}
       - [**Open Space**](#){data-hover="Open Space"}
   - type: video
-    src: /files/video-example.webm
+    src: /files/video-trg24.mp4
     caption: '[Ver el vídeoresumen de la pasada edición](https://vimeo.com/928563768)'
+    text_over: COMUNIDAD
     mode: background
     title: probando
     text: "**aquifdsandoamso** fdsaoi jdosijf das<h4>Que pasa por aqui</h4>\r\n*molantes*"

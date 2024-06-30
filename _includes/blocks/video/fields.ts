@@ -5,6 +5,7 @@ export default {
     "src: file",
     "id: text",
     "caption: markdown",
+    "text_over: text",
     {
       type: "radio",
       name: "mode",
