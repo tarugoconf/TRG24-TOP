@@ -26,6 +26,28 @@
         <div class="event-description type-txt">
           {{ event.description |> md }}
         </div>
+
+        {{ if event.speakers }}
+          {{ set speakers = blocks
+              .filter((block) => block.type === "speakers")
+              .shift()?.speakers
+              .filter((speaker) => event.speakers.includes(speaker.id))
+          }}
+
+          <ul class="event-speakers">
+          {{ for speaker of speakers }}
+          <li>
+            <button data-open="dialog-{{ speaker.id }}">
+              <img src="{{ speaker.image }}" alt="Retrato">
+              <div>
+                <strong class="type-txt-bold">{{ speaker.name }}</strong>
+                <p class="type-caption">{{ speaker.company }}<br> <em>{{ speaker.role }}</em></p>
+              </div>
+            </button>
+          </li>
+          {{ /for }}
+          </ul>
+        {{ /if }}
       </details>
       {{ /for }}
     </div>

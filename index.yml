@@ -99,6 +99,8 @@ blocks:
             title: Item de agenda
             subtitle: Subtítulo de item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers:
+              - david-bonilla
       - title: 'Viernes, 15 de noviembre'
         events:
           - time: '9:00 - 12:00h'

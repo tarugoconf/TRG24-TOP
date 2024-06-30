@@ -17,6 +17,11 @@ export default {
             "title: text",
             "subtitle: text",
             "description: markdown",
+            {
+              type: "list",
+              name: "speakers",
+              description: "Select the speakers ID for this event",
+            }
           ],
         },
       ],
