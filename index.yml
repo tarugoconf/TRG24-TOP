@@ -91,10 +91,12 @@ blocks:
           - time: '9:00 - 12:00h'
             title: Item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers: []
           - time: '10:00h'
             title: Keynote
             subtitle: Esto es una prueba de subtítulo
             description: Esto es una prueba de descripción.
+            speakers: []
           - time: '11:00 - 12:00h'
             title: Item de agenda
             subtitle: Subtítulo de item de agenda
@@ -106,19 +108,24 @@ blocks:
           - time: '9:00 - 12:00h'
             title: Item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers: []
           - time: '11:00 - 12:00h'
             title: Item de agenda
             subtitle: Subtítulo de item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers:
+              - david-bonilla
       - title: 'Sábado, 16 de noviembre'
         events:
           - time: '9:00 - 12:00h'
             title: Item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers: []
           - time: '11:00 - 12:00h'
             title: Item de agenda
             subtitle: Subtítulo de item de agenda
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            speakers: []
     id: agenda
   - type: separator
     width: is-default
@@ -139,6 +146,14 @@ blocks:
             icon: linkedin-logo
             url: 'https://www.linkedin.com/in/dbonillaf/'
         bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.\r\n\r\nAunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.\r\n"
+      - name: David Cuartielles
+        id: david-cuartielles
+        company: Universidad de Malmö
+        image: ''
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
+        role: Profesor de diseño de Interacción
   - type: separator
     theme: is-light width-box box-fill
     title: What the FAQ?
