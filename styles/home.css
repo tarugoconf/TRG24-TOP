@@ -8,20 +8,40 @@
   font-family: var(--font-family-display);
   font-size: var(--font-5-size);
   letter-spacing: var(--font-5-spacing);
+  background-image: image-set(url("/files/img-home.png") 2x);
+  background-repeat: no-repeat;
+  background-position: right calc(50% + 300px) bottom;
+  background-size: 800px auto;
+  
+  @media (width < 1400px) {
+    background-size: auto auto;
+  }
+  @media (width < 1200px) {
+    background-position: right calc(50% + 200px) bottom;
+  }
+  @media (width < 600px) {
+    background-position: center bottom;
+    background-size: 100% auto;
+    padding-bottom: 80vw;
+  }
 
   h1 {
     margin: 0;
 
     img {
-      width: clamp(300px, 40vw, 600px);
+      width: clamp(300px, 50vw, 550px);
     }
+  }
+  p {
+    margin: 0 0 1em 0;
   }
   > * {
     grid-column: 1;
   }
 }
 .block-header-text {
-  max-width: 900px;
+  width: clamp(400px, 66%, 750px);
+  max-width: 100%;
   margin: 0 0 0 auto;
 
   ul {
@@ -51,6 +71,7 @@
   li {
     display: flex;
     align-items: center;
+    background-color: var(--color-primary);
   }
 
   a {

@@ -22,6 +22,7 @@
 @import "blocks/text/text.css" layer(blocks);
 @import "blocks/video/video.css" layer(blocks);
 @import "blocks/speakers/speakers.css" layer(blocks);
+@import "blocks/tickets/tickets.css" layer(blocks);
 
 /* Theme */
 @import "styles/theme/main.css" layer(theme);
