@@ -8,7 +8,7 @@
   font-family: var(--font-family-display);
   font-size: var(--font-5-size);
   letter-spacing: var(--font-5-spacing);
-  background-image: image-set(url("/files/img-home.png") 2x);
+  background-image: image-set(url("../files/img-home.png") 2x);
   background-repeat: no-repeat;
   background-position: right calc(50% + 300px) bottom;
   background-size: 800px auto;
