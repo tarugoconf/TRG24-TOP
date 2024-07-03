@@ -163,34 +163,33 @@ blocks:
         image: /files/tba1.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/tarugoconf'
-        bio: >-
-          Speaker pendiente de anuncio. Desvelaremos su identidad proximamente,
-          pero ¿serías capaz de adivinar quién es solo por su foto pixelada?
-          Publica tu apuesta en X con el hashtag #trg24 y, si aciertas, tendrás
-          un regalo esperándote cuando llegues al evento.
+            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
       - name: TBA
         id: tba2
         image: /files/tba2.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/tarugoconf'
+            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
         role: TBA
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
       - name: TBA
         id: tba3
         role: TBA
         image: /files/tba3.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/tarugoconf'
-      - name: TBA
+            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
+      - name: Call for Papers
         id: tba4
         image: /files/tba4.jpg
         links:
           - icon: browser
             url: >-
               https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit
-        company: Pendiente de Call for Papers
+        role: TBA
+        bio: "Sí, como prometimos el año pasado, en esta edición **hemos decidido reservar un hueco para todas las propuestas que nos lleguen de la Comunidad**.\r\n\r\n[Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán los encargados de estudiar las propuestas y elegir la que encaje mejor con el resto de contenidos del evento. La elegida o elegido serán considerados un ponente más de la TRG. Tenéis toda la información necesaria en [esta página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target=\"_blank\"}."
       - name: David Bonilla
         id: david-bonilla
         image: /files/david3_trg24.jpg
