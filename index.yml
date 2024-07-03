@@ -16,7 +16,7 @@ blocks:
   - type: header
     title: '![TRG 24](/files/logo-trg-3d.png)'
     intro: "Madrid, 14-16 noviembre 2024\r\n"
-    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#proba-item-axenda){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#){data-hover=\"Podcasting\"}\r\n- [**Stands**](#){data-hover=\"Stands\"}\r\n- [**Transparencia**](#){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#){data-hover=\"Networking\"}\r\n- [**Talleres**](#){data-hover=\"Talleres\"}\r\n- [**Jimenez**](#){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#){data-hover=\"Open Space\"}\r\n"
+    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#comida-viernes){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#comunidad){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#podcasting-jueves){data-hover=\"Podcasting\"}\r\n- [**Stands**](#partners){data-hover=\"Stands\"}\r\n- [**Transparencia**](#rendicion-cuentas){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#networking-jueves){data-hover=\"Networking\"}\r\n- [**Talleres**](#talleres-jueves){data-hover=\"Talleres\"}\r\n- [**Jiménez**](#dialog-clara){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#community-day){data-hover=\"Open Space\"}\r\n- [**Fiesta**](#fiesta){data-hover=\"Fiesta\"}"
   - type: video
     src: /files/video-trg24.mp4
     caption: >-
@@ -26,6 +26,7 @@ blocks:
     mode: background
     title: probando
     text: "**aquifdsandoamso** fdsaoi jdosijf das<h4>Que pasa por aqui</h4>\r\n*molantes*"
+    id: comunidad
   - type: text
     theme: is-light width-box box-border
     title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
@@ -165,9 +166,21 @@ blocks:
             subtitle: ofrecido por SNGULAR
             description: "Diferentes opciones gastronómicas ecológicas, sostenibles y mucho gallegas... incluyendo a Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas para que nadie tenga que esperar ninguna cola.\r\n\r\nY, por supuesto, contaremos con opciones veganas y sin gluten."
             speakers: []
-          - time: '16:30 - 20:30'
+          - time: '16:30 - 20:00'
             title: TBA
             speakers: []
+            description: Nuestros minions aún están cerrando la agenda...
+          - time: '20:00 - 20:30h'
+            title: Rendición de cuentas
+            description: >-
+              Como ya es tradición, **haremos públicas todas las cifras del
+              evento** -fuentes de ingresos, partidas de gastos y cuenta de
+              resultados-, agradeceremos el esfuerzo a todo el equipo de
+              profesionales y voluntarios que lo hacen posible y vislumbraremos
+              qué podemos esperar para el año que viene.
+            speakers:
+              - david-bonilla
+            id: rendicion-cuentas
           - time: '20:30 - 22:30h'
             title: "\U0001F973 Legendaria Fiesta Taruga"
             description: >-
@@ -175,6 +188,7 @@ blocks:
               y bebida, churros, música y las mejores conversaciones del planeta
               porque... LA VIDA PUEDE SER MARAVILLOSA.
             speakers: []
+            id: fiesta
       - title: 'Sábado, 16 de noviembre'
         events:
           - time: '11:00 - 17:00h'
@@ -369,9 +383,9 @@ blocks:
       - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
         answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
       - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        \r\n"
+        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg24](https://twitter.com/search?q=%23trg24&src=typed_query&f=live){target=_blank}.        \r\n"
       - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
-        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
+        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg24.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
       - question: Si mi empresa me paga la entrada ¿Hacéis factura?
         answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
       - question: ¿Tenéis Código de Conducta?
@@ -410,14 +424,7 @@ blocks:
   - type: tickets
     title: Entradas
     id: tickets
-    description: >-
-      La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave
-      (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a
-      las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La
-      Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las
-      entradas *early bird* desde ese mismo momento y, un día después, —si
-      quedán disponibles— también el público general.</br>¡Corre si no te
-      quieres quedar sin la tuya!
+    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.\r\n\r\nLas entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.\r\n\r\n¡Corre si no te quieres quedar sin la tuya!"
     features:
       - id: conferences
         text: Acceso presencial a las conferencias (3 días)
