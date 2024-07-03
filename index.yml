@@ -107,6 +107,13 @@ blocks:
             description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
             speakers:
               - david-bonilla
+          - time: '10:15 - 11:00h'
+            title: Hardware abierto en tiempos de modelos cerrados
+            id: charla-cuartielles
+            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuela a cerrado. Es hora de airear."
+            speakers:
+              - david-cuartielles
+            subtitle: por David Cuartielles
       - title: 'Sábado, 16 de noviembre'
         events:
           - time: '9:00 - 12:00h'
@@ -147,7 +154,10 @@ blocks:
             url: 'https://x.com/cjimenezcruz'
           - icon: browser
             url: 'https://maldita.es/'
+          - icon: flower-lotus
+            url: 'https://es.wikipedia.org/wiki/Clara_Jim%C3%A9nez_Cruz'
         role: Periodista
+        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, se unió a Julio Montes Moreno para crear la Fundación de Maldita.es, de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador.   "
       - name: Daniel Sanchez-Crespo
         id: dani-novarama
         company: Novarama
