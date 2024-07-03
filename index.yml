@@ -7,8 +7,8 @@ menu:
     url: '#agenda'
     highlight: false
   - text: Cómo patrocinar
-    highlight: true
     url: '#patrocinio'
+    highlight: true
   - text: Contacto
     url: '#contacto'
     highlight: false
@@ -52,28 +52,28 @@ blocks:
     caption: Powered by **Extramile**
     directions:
       - title: La nave
-        icon: map-pin
         description: "Calle Cifuentes 5<br>\r\n28021 Madrid\r\n\r\n[lanavemadrid.com](https://www.lanavemadrid.com/)\r\n"
+        icon: map-pin
       - title: En metro
-        icon: train-simple
         description: >-
           A 5 minutos andando de la parada [Villaverde Bajo -
           Cruce](https://www.metromadrid.es/es/linea/linea-3#estacion-355) <span
           class="badge" style="--bg:var(--color-secondary);--color:black">Línea
           3</span>
+        icon: train-simple
       - title: En tren
-        icon: train
         description: >-
           A 7 minutos andando de la [estación Puente
           Alcocer](https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Puente_Alcocer)
           <span class="badge"
           style="--bg:var(--color-secondary);--color:black">Línea C5</span>
+        icon: train
       - title: En taxi
-        icon: taxi
         description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
+        icon: taxi
       - title: En coche
-        icon: car
         description: Tienes sitio de sobra para aparcar.
+        icon: car
     id: donde
   - type: calendar
     title: Agenda
@@ -82,18 +82,18 @@ blocks:
         events:
           - time: '15:00h'
             title: Apertura de puerta y acreditación de asistentes
+            id: apertura-jueves
             description: "¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
             speakers: []
-            id: apertura-jueves
           - time: '15:30 - 18:00h'
             title: Talleres
+            id: talleres-jueves
             description: "Talleres eminentemente prácticos impartidos por profesores de primer nivel que, en apenas 3 horas, **te permitirán adquirir un nuevo superpoder que poder aplicar inmediatamente en tu trabajo**.\r\n\r\nMuy pronto anunciaremos todos los profesores y talleres de la edición de 2024. "
             speakers: []
-            id: talleres-jueves
           - time: '18:00 - 20:00h'
             title: Networking Tarugo
-            subtitle: "Conoce a gente nueva \U0001F60A"
             id: networking-jueves
+            subtitle: "Conoce a gente nueva \U0001F60A"
             description: "Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.\r\n\r\nSi no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento."
             speakers: []
           - time: '20:00 - 22:00h'
@@ -105,61 +105,61 @@ blocks:
         events:
           - time: '9:00h'
             title: Apertura de puerta y acreditación de asistentes
+            id: apertura-viernes
             description: "¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
             speakers: []
-            id: apertura-viernes
           - time: '10:00 - 10:15h'
             title: Regreso al Futuro
+            id: keynote
             subtitle: Keynote
             description: "En la apertura de la TRG puede pasar cualquier cosa, desde que alguien salga vestido de comandante de la Fuerza Aerea Gallega hasta que aparezca Steve Jobs. Te podrá gustar más o menos, pero no te dejará indiferente.\r\n\r\nEn esta keynote, David nos dará toda la información para disfrutar del evento y nos planteará un reto imposible... o no."
             speakers:
               - david-bonilla
-            id: keynote
           - time: '10:15 - 11:00h'
             title: Hardware abierto en tiempos de modelos cerrados
             id: charla-cuartielles
+            subtitle: por David Cuartielles
             description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuela a cerrado. Es hora de airear."
             speakers:
               - david-cuartielles
-            subtitle: por David Cuartielles
           - time: '11:00 - 11:45h'
             title: 'La tecnología que hace posible el fact checking '
-            speakers:
-              - clara
             id: charla-clara
             subtitle: por Clara Jiménez Cruz
             description: "Cada día generamos más información que en los 2000 años anteriores JUNTOS.\r\n\r\nEn este contexto, la tecnología se hace imprescindible para separar el polvo de la paja y Clara nos contará como la utiliza en su día a día para determinar lo que es verdad y lo que no."
+            speakers:
+              - clara
           - time: '11:45 - 12:00h'
             title: ¿Donde está Boni?
             subtitle: Demo del juego ¿de mesa? de la TRG24
-            speakers: []
             description: "Como en cada edición, cada asistente se llevará a casa un juego de mesa original que disfrutar con amigos y familia.\r\n\r\nEn este ocasión, tendremos que encontrar a alguien muy particular en un contexto muy especial..."
+            speakers: []
           - time: '12:00 - 12:45h'
             title: ☕ Coffe Break
+            subtitle: ofrecido por Factorial
             description: "Café, snacks y pastitas para llenar las tripitas.\r\n\r\nEl intermedio estará amenizado por el DJ residente de la TRG -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target=\"_blank\"}- que cargará el ambiente de ENERGÍA."
             speakers: []
-            subtitle: ofrecido por Factorial
           - time: '12:45 - 13:00h'
-            speakers: []
             title: ¡El precio Justo!
             subtitle: ofrecido por Diverger
             description: >-
               Un concursote de Lanzarote en el que los asistentes de la TRG
               podrán demostrar sus conocimientos sobre el bisnes de la
               Informática y ¡ganar suculentos premios!
+            speakers: []
           - time: '13:00 - 13:45'
             title: No montes un estudio de videojuegos
             id: charla-daniel
             subtitle: por Daniel Sanchez-Crespo
+            description: "¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré que vender para que sea rentable?\r\n\r\nEn esta charla, Dani nos contará **todas las cifras que derías saber —pero que nadie te contará— antes de montar un estudio de videojuegos**. Si Dani no puede convencerte para que no lo hagas, al menos te ayudará para que tengas más probabilidades de hacerlo con éxito"
             speakers:
               - dani-novarama
-            description: "¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré que vender para que sea rentable?\r\n\r\nEn esta charla, Dani nos contará **todas las cifras que derías saber —pero que nadie te contará— antes de montar un estudio de videojuegos**. Si Dani no puede convencerte para que no lo hagas, al menos te ayudará para que tengas más probabilidades de hacerlo con éxito"
           - time: '13:45 - 14:30h'
             title: TBD
             subtitle: TBA
+            description: Nuestros minions aun están esculpiendo la agenda.
             speakers:
               - tba3
-            description: Nuestros minions aun están esculpiendo la agenda.
           - time: '14:30 - 16:30h'
             title: "\U0001F419 Comida y Pulpeirada"
             id: comida-viernes
@@ -168,10 +168,11 @@ blocks:
             speakers: []
           - time: '16:30 - 20:00'
             title: TBA
-            speakers: []
             description: Nuestros minions aún están cerrando la agenda...
+            speakers: []
           - time: '20:00 - 20:30h'
             title: Rendición de cuentas
+            id: rendicion-cuentas
             description: >-
               Como ya es tradición, **haremos públicas todas las cifras del
               evento** -fuentes de ingresos, partidas de gastos y cuenta de
@@ -180,23 +181,22 @@ blocks:
               qué podemos esperar para el año que viene.
             speakers:
               - david-bonilla
-            id: rendicion-cuentas
           - time: '20:30 - 22:30h'
             title: "\U0001F973 Legendaria Fiesta Taruga"
+            id: fiesta
             description: >-
               Transformaremos La Nave en una auténtica "Sesión Vermú" con comida
               y bebida, churros, música y las mejores conversaciones del planeta
               porque... LA VIDA PUEDE SER MARAVILLOSA.
             speakers: []
-            id: fiesta
       - title: 'Sábado, 16 de noviembre'
         events:
           - time: '11:00 - 17:00h'
             title: Community Day
-            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nAún estamos cerrando la planificación de este día tan especial, pero puedes esperar algo similar —pero mejor— a [lo que vivimos el año pasado](https://2023.trgcon.com/community-day/) \U0001F973\r\n"
-            speakers: []
             id: community-day
             subtitle: Acerca la profesión que amas a tu familia y amigos
+            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nAún estamos cerrando la planificación de este día tan especial, pero puedes esperar algo similar —pero mejor— a [lo que vivimos el año pasado](https://2023.trgcon.com/community-day/) \U0001F973\r\n"
+            speakers: []
     id: agenda
   - type: separator
     width: is-default
@@ -206,20 +206,20 @@ blocks:
     speakers:
       - name: David Cuartielles
         id: david-cuartielles
-        image: /files/david-cuartielles.jpg
         company: Universidad de Malmo
         role: Profesor
-        links:
-          - text: Twitter
-            icon: x-logo
-            url: 'https://x.com/dcuartielles'
-          - text: Linkedin
-            icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
         bio: "David trabaja como profesor en la Universidad de Malmo (Suecia) y es **co-fundador de la plataforma de hardware, software y contenido libre ARDUINO**.\r\n\r\nEs Ingeniero en Telecomunicaciones y Doctor en Diseño. Como investigador, se ha centrado en analizar cómo la tecnología digital y la sociedad se integran a través de nuevos tipos de herramientas y sistemas conectados."
+        image: /files/david-cuartielles.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/dcuartielles'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
       - name: Clara Jiménez Cruz
         id: clara
         company: Maldita
+        role: Periodista
+        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, Clara se unió a Julio Montes Moreno para crear la [Fundación Maldita.es](https://maldita.es/nosotros-maldita/), de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador. Casi nada."
         image: /files/clara_trg24.jpg
         links:
           - icon: x-logo
@@ -228,8 +228,6 @@ blocks:
             url: 'https://maldita.es/'
           - icon: flower-lotus
             url: 'https://es.wikipedia.org/wiki/Clara_Jim%C3%A9nez_Cruz'
-        role: Periodista
-        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, Clara se unió a Julio Montes Moreno para crear la [Fundación Maldita.es](https://maldita.es/nosotros-maldita/), de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador. Casi nada."
       - name: Daniel Sanchez-Crespo
         id: dani-novarama
         company: Novarama
@@ -242,169 +240,169 @@ blocks:
       - name: TBA
         id: tba1
         role: TBA
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
         image: /files/tba1.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
       - name: TBA
         id: tba2
+        role: TBA
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
         image: /files/tba2.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
-        role: TBA
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
       - name: TBA
         id: tba3
         role: TBA
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
         image: /files/tba3.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
       - name: Call for Papers
         id: tba4
+        role: TBA
+        bio: "Sí, como prometimos el año pasado, en esta edición **hemos decidido reservar un hueco para todas las propuestas que nos lleguen de la Comunidad**.\r\n\r\n[Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán los encargados de estudiar las propuestas y elegir la que encaje mejor con el resto de contenidos del evento. La elegida o elegido serán considerados un ponente más de la TRG. Tenéis toda la información necesaria en [esta página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target=\"_blank\"}."
         image: /files/tba4.jpg
         links:
           - icon: browser
             url: >-
               https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit
-        role: TBA
-        bio: "Sí, como prometimos el año pasado, en esta edición **hemos decidido reservar un hueco para todas las propuestas que nos lleguen de la Comunidad**.\r\n\r\n[Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán los encargados de estudiar las propuestas y elegir la que encaje mejor con el resto de contenidos del evento. La elegida o elegido serán considerados un ponente más de la TRG. Tenéis toda la información necesaria en [esta página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target=\"_blank\"}."
       - name: David Bonilla
         id: david-bonilla
+        company: TRG
+        role: Presentador
+        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con casi de 18.000 suscriptores y es el germen y motor de la TRG.\r\n\r\nDespués de más de 20 años trabajando en distintos roles en el sector tecnológico, está en pleno año sabático, pensando qué quiere hacer en los próximos 20. ¿Nos lo contará en la #TRG24?\r\n"
         image: /files/david3_trg24.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/david_bonilla'
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/dbonillaf/'
-        company: TRG
-        role: Presentador
-        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con casi de 18.000 suscriptores y es el germen y motor de la TRG.\r\n\r\nDespués de más de 20 años trabajando en distintos roles en el sector tecnológico, está en pleno año sabático, pensando qué quiere hacer en los próximos 20. ¿Nos lo contará en la #TRG24?\r\n"
   - type: logos
     title: Partners
     description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/logos/deiser.svg)](https://www.deiser.com/)\r\n"
     items:
-      - img: /files/logos/panel.png
+      - alt: Panel
+        img: /files/logos/panel.png
         url: 'https://www.panel.es/'
-        alt: Panel
         description: El cambio empieza en TI.
-      - img: /files/logos/sngular-logo-big.png
+      - alt: SNGULAR
+        img: /files/logos/sngular-logo-big.png
         url: 'https://www.sngular.com/'
-        alt: SNGULAR
         description: Ecosistema global de talento y tecnología.
-      - img: /files/logos/velneo.svg
+      - alt: Velneo
+        img: /files/logos/velneo.svg
         url: 'https://www.velneo.com/'
-        alt: Velneo
         description: Desarrolla la aplicación que tu empresa necesita.
-      - img: /files/logos/Autentia_Izertis_Azul-01.png
+      - alt: Autentia
+        img: /files/logos/Autentia_Izertis_Azul-01.png
         url: 'https://www.autentia.com/'
-        alt: Autentia
         description: Pasión por el desarrollo de software.
-      - img: /files/logos/PRDG_logo_Horizontal_Blue.png
+      - alt: Paradigma
+        img: /files/logos/PRDG_logo_Horizontal_Blue.png
         url: 'https://www.paradigmadigital.com/'
-        alt: Paradigma
         description: Tecnología con propósito para mejorar el mundo.
-      - img: /files/logos/Stackscale-GrupoAire-negro.png
+      - alt: Stackscale
+        img: /files/logos/Stackscale-GrupoAire-negro.png
         url: 'https://www.stackscale.com/es/'
-        alt: Stackscale
         description: Soluciones de nube privada que te dan un rendimiento predecible.
-      - img: /files/logos/diverger_transparente.png
+      - alt: Diverger
+        img: /files/logos/diverger_transparente.png
         url: 'https://diverger.ai/'
-        alt: Diverger
         description: Desarrollamos software con IA Generativa y el mejor talento humano.
-      - img: /files/logos/tinybird.png
+      - alt: Tinybird
+        img: /files/logos/tinybird.png
         url: 'https://www.tinybird.co/'
-        alt: Tinybird
         description: >-
           Construye proyectos de software basados en datos de forma sencilla y
           escalable.
-      - img: /files/logos/logo_alten.png
+      - alt: Alten
+        img: /files/logos/logo_alten.png
         url: 'https://alten.es/'
-        alt: Alten
         description: >-
           Apoyamos a las empresas en sus transformaciones tecnológicas,
           construyendo juntos el mundo del mañana.
-      - img: /files/logos/cabify-logo-moradul-rgb.png
+      - alt: Cabify
+        img: /files/logos/cabify-logo-moradul-rgb.png
         url: 'https://cabify.com/'
-        alt: Cabify
         description: >-
           Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las
           ciudades reduciendo el uso del vehículo privado.
-      - img: /files/logos/logo_540_negro.png
+      - alt: '540'
+        img: /files/logos/logo_540_negro.png
         url: 'https://www.540deg.com/'
-        alt: '540'
         description: Desarrollo de software de calidad con pragmatismo.
-      - img: /files/logos/doit_logo.png
+      - alt: DoIT
+        img: /files/logos/doit_logo.png
         url: 'https://www.doit.com/'
-        alt: DoIT
         description: 'The true promise of the cloud with ease, not cost.'
-      - img: /files/logos/devengo-logo.png
+      - alt: Devengo
+        img: /files/logos/devengo-logo.png
         url: 'https://devengo.com/'
-        alt: Devengo
         description: >-
           Incorpora pagos en tiempo real en tus productos para crear
           experiencias extraordinarias.
-      - img: /files/logos/logo_airzone.png
+      - alt: Airzone
+        img: /files/logos/logo_airzone.png
         url: 'http://airzonecontrol.com/'
-        alt: Airzone
         description: >-
           Desarrollamos hardware y software para reducir el consumo energético
           de tu casa.
-      - img: /files/logos/lanave_logo_footer.png
+      - alt: Ayuntamiento de Madrid
+        img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
-        alt: Ayuntamiento de Madrid
         description: Ayuntamiento de Madrid.
-      - img: /files/logos/eventbrite_logo.png
+      - alt: Eventbrite
+        img: /files/logos/eventbrite_logo.png
         url: 'https://www.eventbrite.es/'
-        alt: Eventbrite
         description: Proveedor Oficial de Ticketing de la TRG.
     size: medium
   - type: separator
     width: is-default
   - type: logos
     items:
-      - img: /files/logos/manfred.png
+      - alt: Manfred
+        img: /files/logos/manfred.png
         url: 'https://www.getmanfred.com/'
-        alt: Manfred
-      - img: /files/logos/google.png
+      - alt: Google for Startups
+        img: /files/logos/google.png
         url: 'https://www.campus.co/intl/es_es/madrid/'
-        alt: Google for Startups
-      - img: /files/logos/logo2_str.png
+      - alt: STR Sistemas
+        img: /files/logos/logo2_str.png
         url: 'https://www.strsistemas.com/'
-        alt: STR Sistemas
-      - img: /files/logos/logo_billingham.png
+      - alt: Grupo Billingham
+        img: /files/logos/logo_billingham.png
         url: 'https://www.grupobillingham.com/'
-        alt: Grupo Billingham
-      - img: /files/logos/siteground.png
+      - alt: Siteground
+        img: /files/logos/siteground.png
         url: 'https://www.siteground.es/'
-        alt: Siteground
-      - img: /files/logos/extramile.png
+      - alt: Extramile
+        img: /files/logos/extramile.png
         url: 'https://extramilecloud.com/'
-        alt: Extramile
-      - img: /files/logos/report-logo-metricool-1.png
+      - alt: Metricool
+        img: /files/logos/report-logo-metricool-1.png
         url: 'https://metricool.com/es/'
-        alt: Metricool
-      - img: /files/logos/logo_vyootrip.png
+      - alt: Vyootrip
+        img: /files/logos/logo_vyootrip.png
         url: 'https://www.vyootrip.com/trgcon/'
-        alt: Vyootrip
-      - img: /files/logos/logo_ingka.png
+      - alt: INGKA
+        img: /files/logos/logo_ingka.png
         url: 'https://join.ingka.com/'
-        alt: INGKA
-      - img: /files/logos/moneylands.jpg
+      - alt: Moneylands
+        img: /files/logos/moneylands.jpg
         url: 'http://www.moneylands.world/'
-        alt: Moneylands
-      - img: /files/logos/mypublicinbox_logo.png
+      - alt: My Public Inbox
+        img: /files/logos/mypublicinbox_logo.png
         url: 'https://mypublicinbox.com/'
-        alt: My Public Inbox
-      - img: /files/logos/Logo_0xWord.png
+      - alt: 0xWord
+        img: /files/logos/Logo_0xWord.png
         url: 'https://0xword.com/'
-        alt: 0xWord
-      - img: /files/logos/Singularity-Hackers.png
+      - alt: Singularity Hackers
+        img: /files/logos/Singularity-Hackers.png
         url: 'https://singularity-hackers.com/'
-        alt: Singularity Hackers
     size: small
   - type: separator
     width: is-default
