@@ -125,30 +125,83 @@ blocks:
     title: Speakers
     description: "El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos\r\nson los awesómicos invitados con los que contaremos este año:\r\n"
     speakers:
-      - name: David Bonilla
-        id: david-bonilla
-        image: 'https://trg23.netlify.app/img/speakers/david-bonilla.png'
-        company: TRG
-        role: Co-organizador
+      - name: David Cuartielles
+        id: david-cuartielles
+        image: /files/david-cuartielles.jpg
+        company: Universidad de Malmo
+        role: Profesor
         links:
           - text: Twitter
             icon: x-logo
-            url: 'https://x.com/david_bonilla'
+            url: 'https://x.com/dcuartielles'
           - text: Linkedin
             icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/dbonillaf/'
-        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con más de 17000 suscriptores y es el germen y motor de la TRG.\r\n\r\nAunque se siente «tan programador como emprendedor», actualmente trabaja como Director de Manfred, boutique de recruiting técnico que fundó y vendió al Grupo SNGULAR donde también obstenta el cargo de Chief People Officer.\r\n"
-      - name: David Cuartielles
-        id: david-cuartielles
-        company: Universidad de Malmo
-        image: /files/david-cuartielles.jpg
+            url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
+        bio: "David trabaja como profesor en la Universidad de Malmo (Suecia) y es **co-fundador de la plataforma de hardware, software y contenido libre ARDUINO**.\r\n\r\nEs Ingeniero en Telecomunicaciones y Doctor en Diseño. Como investigador, se ha centrado en analizar cómo la tecnología digital y la sociedad se integran a través de nuevos tipos de herramientas y sistemas conectados."
+      - name: Clara Jiménez Cruz
+        id: clara
+        company: Maldita
+        image: /files/clara_trg24.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/dcuartielles'
+            url: 'https://x.com/cjimenezcruz'
+          - icon: browser
+            url: 'https://maldita.es/'
+        role: Periodista
+      - name: Daniel Sanchez-Crespo
+        id: dani-novarama
+        company: Novarama
+        role: Desarollador de Videojuegos
+        bio: TBD
+        image: /files/daniel_trg24.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/DaniNovarama'
+      - name: TBA
+        id: tba1
+        role: TBA
+        image: /files/tba1.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/tarugoconf'
+        bio: >-
+          Speaker pendiente de anuncio. Desvelaremos su identidad proximamente,
+          pero ¿serías capaz de adivinar quién es solo por su foto pixelada?
+          Publica tu apuesta en X con el hashtag #trg24 y, si aciertas, tendrás
+          un regalo esperándote cuando llegues al evento.
+      - name: TBA
+        id: tba2
+        image: /files/tba2.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/tarugoconf'
+        role: TBA
+      - name: TBA
+        id: tba3
+        role: TBA
+        image: /files/tba3.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/tarugoconf'
+      - name: TBA
+        id: tba4
+        image: /files/tba4.jpg
+        links:
+          - icon: browser
+            url: >-
+              https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit
+        company: Pendiente de Call for Papers
+      - name: David Bonilla
+        id: david-bonilla
+        image: /files/david3_trg24.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/david_bonilla'
           - icon: linkedin-logo
-            url: 'https://www.linkedin.com/in/david-cuartielles-23bab14/'
-        role: Profesor de diseño de Interacción
-        bio: "David trabaja como profesor en la Universidad de Malmo (Suecia) y es **co-fundador de la plataforma de hardware, software y contenido libre ARDUINO**.\r\n\r\nEs Ingeniero en Telecomunicaciones y Doctor en Diseño. Como investigador, se ha centrado en analizar cómo la tecnología digital y la sociedad se integran a través de nuevos tipos de herramientas y sistemas conectados."
+            url: 'https://www.linkedin.com/in/dbonillaf/'
+        company: TRG
+        role: Presentador
+        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con casi de 18.000 suscriptores y es el germen y motor de la TRG.\r\n\r\nDespués de más de 20 años trabajando en distintos roles en el sector tecnológico, está en pleno año sabático, pensando qué quiere hacer en los próximos 20. ¿Nos lo contará en la #TRG24?\r\n"
   - type: separator
     theme: is-light width-box box-fill
     title: What the FAQ?
@@ -290,127 +343,128 @@ blocks:
   - type: tickets
     title: Entradas
     id: tickets
-    description: La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!
+    description: >-
+      La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave
+      (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a
+      las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La
+      Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las
+      entradas *early bird* desde ese mismo momento y, un día después, —si
+      quedán disponibles— también el público general.</br>¡Corre si no te
+      quieres quedar sin la tuya!
     features:
-    - id: conferences
-      text: Acceso presencial a las conferencias (3 días)
-    - id: streaming
-      text: Acceso al streaming online (2 días)
-    - id: workshop
-      text: Entrada a un taller práctico (jueves)
-    - id: dinner
-      text: Entrada a la cena de mecenas, patrocinadores y ponentes (jueves)
-    - id: food
-      text: Comida y bebida ilimitada durante la jornada principal (viernes)
-    - id: party
-      text: Entrada a la fiesta (viernes)
-    - id: community_day
-      text: Acceso al Community Day (sábado)
-    - id: tshirt
-      text: Camiseta del evento
-    - id: welcome_pack
-      text: Welcome Pack
-    - id: goodie
-      text: Goodie exclusivo para mecenas
-    - id: networking
-      text: Acceso a la plataforma de networking
-    - id: senate
-      text: Acceso al «Senado»
-    - id: photo
-      text: Foto en la web del evento (si lo desean)
-    - id: extra
-      text: Ventajas exclusivas
-
+      - id: conferences
+        text: Acceso presencial a las conferencias (3 días)
+      - id: streaming
+        text: Acceso al streaming online (2 días)
+      - id: workshop
+        text: Entrada a un taller práctico (jueves)
+      - id: dinner
+        text: 'Entrada a la cena de mecenas, patrocinadores y ponentes (jueves)'
+      - id: food
+        text: Comida y bebida ilimitada durante la jornada principal (viernes)
+      - id: party
+        text: Entrada a la fiesta (viernes)
+      - id: community_day
+        text: Acceso al Community Day (sábado)
+      - id: tshirt
+        text: Camiseta del evento
+      - id: welcome_pack
+        text: Welcome Pack
+      - id: goodie
+        text: Goodie exclusivo para mecenas
+      - id: networking
+        text: Acceso a la plataforma de networking
+      - id: senate
+        text: Acceso al «Senado»
+      - id: photo
+        text: Foto en la web del evento (si lo desean)
+      - id: extra
+        text: Ventajas exclusivas
     tickets:
-    - name: Early Bird
-      pricing: 165€ + IVA
-      img: "/files/tickets/early-bird.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - conferences
-        - food
-        - party
-        - community_day
-        - tshirt
-        - welcome_pack
-        - networking
-
-    - name: Normal
-      pricing: 250€ + IVA
-      img: "/files/tickets/normal.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - conferences
-        - food
-        - party
-        - community_day
-        - tshirt
-        - welcome_pack
-        - networking
-
-    - name: Killer Combo
-      pricing: 350€ + IVA
-      img: "/files/tickets/killer-combo.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - conferences
-        - workshop
-        - food
-        - party
-        - community_day
-        - tshirt
-        - welcome_pack
-        - networking
-
-    - name: Online
-      pricing: 75€ + IVA
-      img: "/files/tickets/online.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - streaming
-        - community_day
-        - tshirt
-        - networking
-
-    - name: Taller
-      pricing: 150€ + IVA
-      img: "/files/tickets/taller.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - workshop
-
-    - name: Mecenas
-      pricing: 500€ + IVA
-      img: "/files/tickets/mecenas.svg"
-      buy:
-        text: Comprar
-        url: https://trg23.eventbrite.es/
-      features:
-        - sold_out
-        - conferences
-        - streaming
-        - dinner
-        - food
-        - party
-        - community_day
-        - tshirt
-        - welcome_pack
-        - goodie
-        - networking
-        - senate
-        - photo
+      - name: Early Bird
+        pricing: 165€ + IVA
+        img: /files/tickets/early-bird.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Normal
+        pricing: 250€ + IVA
+        img: /files/tickets/normal.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Killer Combo
+        pricing: 350€ + IVA
+        img: /files/tickets/killer-combo.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - workshop
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Online
+        pricing: 75€ + IVA
+        img: /files/tickets/online.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - streaming
+          - community_day
+          - tshirt
+          - networking
+      - name: Taller
+        pricing: 150€ + IVA
+        img: /files/tickets/taller.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - workshop
+      - name: Mecenas
+        pricing: 500€ + IVA
+        img: /files/tickets/mecenas.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - streaming
+          - dinner
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - goodie
+          - networking
+          - senate
+          - photo
