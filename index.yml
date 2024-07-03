@@ -146,11 +146,12 @@ blocks:
               podrán demostrar sus conocimientos sobre el bisnes de la
               Informática y ¡ganar suculentos premios!
           - time: '13:00 - 13:45'
-            title: TBD
+            title: No montes un estudio de videojuegos
             id: charla-daniel
             subtitle: por Daniel Sanchez-Crespo
             speakers:
               - dani-novarama
+            description: "¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré que vender para que sea rentable?\r\n\r\nEn esta charla, Dani nos contará **todas las cifras que derías saber —pero que nadie te contará— antes de montar un estudio de videojuegos**. Si Dani no puede convencerte para que no lo hagas, al menos te ayudará para que tengas más probabilidades de hacerlo con éxito"
           - time: '13:45 - 14:30h'
             title: TBD
             subtitle: TBA
