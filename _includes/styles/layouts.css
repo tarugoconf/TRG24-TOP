@@ -13,4 +13,5 @@ body {
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
   row-gap: var(--row-gap);
+  margin-top: calc(150px + 5vh);
 }

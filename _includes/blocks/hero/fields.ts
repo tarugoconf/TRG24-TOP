@@ -1,6 +1,6 @@
 export default {
   type: "object",
-  name: "header",
+  name: "hero",
   fields: [
     "title: text",
     "intro: markdown",

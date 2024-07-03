@@ -14,9 +14,10 @@
 @import "blocks/calendar/calendar.css" layer(blocks);
 @import "blocks/contact/contact.css" layer(blocks);
 @import "blocks/faq/faq.css" layer(blocks);
-@import "blocks/header/header.css" layer(blocks);
+@import "blocks/hero/hero.css" layer(blocks);
 @import "blocks/imagetext/imagetext.css" layer(blocks);
 @import "blocks/location/location.css" layer(blocks);
+@import "blocks/logos/logos.css" layer(blocks);
 @import "blocks/separator/separator.css" layer(blocks);
 @import "blocks/pdf/pdf.css" layer(blocks);
 @import "blocks/text/text.css" layer(blocks);

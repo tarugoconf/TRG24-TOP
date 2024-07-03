@@ -1,4 +1,7 @@
-.block-header {
+.ly-blocks {
+  margin-top: 0;
+}
+.block-hero {
   display: grid;
   grid-template-columns: minmax(0, 1234px);
   justify-content: center;
@@ -10,14 +13,10 @@
   letter-spacing: var(--font-5-spacing);
   background-image: image-set(url("../files/img-home.png") 2x);
   background-repeat: no-repeat;
-  background-position: right calc(50% + 300px) bottom;
-  background-size: 800px auto;
+  background-position: right calc(66% + 300px) bottom;
   
-  @media (width < 1400px) {
-    background-size: auto auto;
-  }
   @media (width < 1200px) {
-    background-position: right calc(50% + 200px) bottom;
+    background-size: 600px auto;
   }
   @media (width < 600px) {
     background-position: center bottom;
@@ -39,7 +38,7 @@
     grid-column: 1;
   }
 }
-.block-header-text {
+.block-hero-text {
   width: clamp(400px, 66%, 750px);
   max-width: 100%;
   margin: 0 0 0 auto;

@@ -13,7 +13,7 @@ menu:
     url: '#contacto'
     highlight: false
 blocks:
-  - type: header
+  - type: hero
     title: '![TRG 24](/files/logo-trg-3d.png)'
     intro: "Madrid, 14-16 noviembre 2024\r\n"
     text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#comida-viernes){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#comunidad){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#podcasting-jueves){data-hover=\"Podcasting\"}\r\n- [**Stands**](#partners){data-hover=\"Stands\"}\r\n- [**Transparencia**](#rendicion-cuentas){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#networking-jueves){data-hover=\"Networking\"}\r\n- [**Talleres**](#talleres-jueves){data-hover=\"Talleres\"}\r\n- [**Jiménez**](#dialog-clara){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#community-day){data-hover=\"Open Space\"}\r\n- [**Fiesta**](#fiesta){data-hover=\"Fiesta\"}"
@@ -283,30 +283,130 @@ blocks:
         company: TRG
         role: Presentador
         bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con casi de 18.000 suscriptores y es el germen y motor de la TRG.\r\n\r\nDespués de más de 20 años trabajando en distintos roles en el sector tecnológico, está en pleno año sabático, pensando qué quiere hacer en los próximos 20. ¿Nos lo contará en la #TRG24?\r\n"
+  - type: logos
+    title: Partners
+    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/logos/deiser.svg)](https://www.deiser.com/)\r\n"
+    items:
+      - img: /files/logos/panel.png
+        url: 'https://www.panel.es/'
+        alt: Panel
+        description: El cambio empieza en TI.
+      - img: /files/logos/sngular-logo-big.png
+        url: 'https://www.sngular.com/'
+        alt: SNGULAR
+        description: Ecosistema global de talento y tecnología.
+      - img: /files/logos/velneo.svg
+        url: 'https://www.velneo.com/'
+        alt: Velneo
+        description: Desarrolla la aplicación que tu empresa necesita.
+      - img: /files/logos/Autentia_Izertis_Azul-01.png
+        url: 'https://www.autentia.com/'
+        alt: Autentia
+        description: Pasión por el desarrollo de software.
+      - img: /files/logos/PRDG_logo_Horizontal_Blue.png
+        url: 'https://www.paradigmadigital.com/'
+        alt: Paradigma
+        description: Tecnología con propósito para mejorar el mundo.
+      - img: /files/logos/Stackscale-GrupoAire-negro.png
+        url: 'https://www.stackscale.com/es/'
+        alt: Stackscale
+        description: Soluciones de nube privada que te dan un rendimiento predecible.
+      - img: /files/logos/diverger_transparente.png
+        url: 'https://diverger.ai/'
+        alt: Diverger
+        description: Desarrollamos software con IA Generativa y el mejor talento humano.
+      - img: /files/logos/tinybird.png
+        url: 'https://www.tinybird.co/'
+        alt: Tinybird
+        description: >-
+          Construye proyectos de software basados en datos de forma sencilla y
+          escalable.
+      - img: /files/logos/logo_alten.png
+        url: 'https://alten.es/'
+        alt: Alten
+        description: >-
+          Apoyamos a las empresas en sus transformaciones tecnológicas,
+          construyendo juntos el mundo del mañana.
+      - img: /files/logos/cabify-logo-moradul-rgb.png
+        url: 'https://cabify.com/'
+        alt: Cabify
+        description: >-
+          Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las
+          ciudades reduciendo el uso del vehículo privado.
+      - img: /files/logos/logo_540_negro.png
+        url: 'https://www.540deg.com/'
+        alt: '540'
+        description: Desarrollo de software de calidad con pragmatismo.
+      - img: /files/logos/doit_logo.png
+        url: 'https://www.doit.com/'
+        alt: DoIT
+        description: 'The true promise of the cloud with ease, not cost.'
+      - img: /files/logos/devengo-logo.png
+        url: 'https://devengo.com/'
+        alt: Devengo
+        description: >-
+          Incorpora pagos en tiempo real en tus productos para crear
+          experiencias extraordinarias.
+      - img: /files/logos/logo_airzone.png
+        url: 'http://airzonecontrol.com/'
+        alt: Airzone
+        description: >-
+          Desarrollamos hardware y software para reducir el consumo energético
+          de tu casa.
+      - img: /files/logos/lanave_logo_footer.png
+        url: 'https://www.lanavemadrid.com/'
+        alt: Ayuntamiento de Madrid
+        description: Ayuntamiento de Madrid.
+      - img: /files/logos/eventbrite_logo.png
+        url: 'https://www.eventbrite.es/'
+        alt: Eventbrite
+        description: Proveedor Oficial de Ticketing de la TRG.
+    size: medium
   - type: separator
-    theme: is-light width-box box-fill
-    title: What the FAQ?
-    questions:
-      - question: ¿A quién está dirigido este evento? ¿Es para mi?
-        answer: "Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         \r\n"
-      - question: >-
-          Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o
-          descuento?
-        answer: "Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)\r\n"
-      - question: "¿Qué es eso del Community Day del sábado? \U0001F389"
-        answer: "Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.\r\n"
-      - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
-        answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
-      - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        \r\n"
-      - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
-        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
-      - question: Si mi empresa me paga la entrada ¿Hacéis factura?
-        answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
-      - question: ¿Tenéis Código de Conducta?
-        answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
-      - question: Sigo teniendo dudas ¿qué hago?
-        answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
+    width: is-default
+  - type: logos
+    items:
+      - img: /files/logos/manfred.png
+        url: 'https://www.getmanfred.com/'
+        alt: Manfred
+      - img: /files/logos/google.png
+        url: 'https://www.campus.co/intl/es_es/madrid/'
+        alt: Google for Startups
+      - img: /files/logos/logo2_str.png
+        url: 'https://www.strsistemas.com/'
+        alt: STR Sistemas
+      - img: /files/logos/logo_billingham.png
+        url: 'https://www.grupobillingham.com/'
+        alt: Grupo Billingham
+      - img: /files/logos/siteground.png
+        url: 'https://www.siteground.es/'
+        alt: Siteground
+      - img: /files/logos/extramile.png
+        url: 'https://extramilecloud.com/'
+        alt: Extramile
+      - img: /files/logos/report-logo-metricool-1.png
+        url: 'https://metricool.com/es/'
+        alt: Metricool
+      - img: /files/logos/logo_vyootrip.png
+        url: 'https://www.vyootrip.com/trgcon/'
+        alt: Vyootrip
+      - img: /files/logos/logo_ingka.png
+        url: 'https://join.ingka.com/'
+        alt: INGKA
+      - img: /files/logos/moneylands.jpg
+        url: 'http://www.moneylands.world/'
+        alt: Moneylands
+      - img: /files/logos/mypublicinbox_logo.png
+        url: 'https://mypublicinbox.com/'
+        alt: My Public Inbox
+      - img: /files/logos/Logo_0xWord.png
+        url: 'https://0xword.com/'
+        alt: 0xWord
+      - img: /files/logos/Singularity-Hackers.png
+        url: 'https://singularity-hackers.com/'
+        alt: Singularity Hackers
+    size: small
+  - type: separator
     width: is-default
   - type: pdf
     width: is-default
@@ -317,55 +417,6 @@ blocks:
     src: /files/TRG24_sponsorship_deck_ES.pdf
     caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
   - type: separator
-    title: Cómo patrocinar
-    theme: is-light width-box box-fill
-    items:
-      - title: Candela Milán Dopico
-        info: Event manager
-        links:
-          - text: tarugoconf@bonillaware.com
-            url: 'mailto:tarugoconf@bonillaware.com'
-            icon: envelope
-          - text: '@candelamd'
-            icon: twitter-logo
-            url: 'https://twitter.com/candelamd'
-      - title: Bonillaware SLU
-        info: 'Castellana 194, Cink Coworking<br>28046 Madrid (España)'
-        links:
-          - text: Ver mapa
-            icon: map-pin
-            url: 'https://g.page/cink-coworking?share'
-          - text: tarugoconf.slack.com
-            icon: slack-logo
-            url: 'https://tarugoconf.slack.com'
-          - text: '@tarugoconf'
-            icon: twitter-logo
-            url: 'https://twitter.com/tarugoconf'
-    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- \"**1200** asistentes a lo largo de los 3 días\"\r\n- \"**2** días trending topic nacional\"\r\n- \"**25** millones de impresiones en redes sociales\"\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
-    src: /files/TRG24_sponsorship_deck_ES.pdf
-    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
-    questions:
-      - question: ¿A quién está dirigido este evento? ¿Es para mi?
-        answer: "Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         \r\n"
-      - question: >-
-          Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o
-          descuento?
-        answer: "Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)\r\n"
-      - question: "¿Qué es eso del Community Day del sábado? \U0001F389"
-        answer: "Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.\r\n"
-      - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
-        answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
-      - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg23](https://twitter.com/search?q=%23trg23&src=typed_query&f=live){target=_blank}.        \r\n"
-      - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
-        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg23.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
-      - question: Si mi empresa me paga la entrada ¿Hacéis factura?
-        answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
-      - question: ¿Tenéis Código de Conducta?
-        answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
-      - question: Sigo teniendo dudas ¿qué hago?
-        answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
-    id: patrocinio
     width: is-full
   - type: faq
     width: is-full
@@ -421,124 +472,3 @@ blocks:
             icon: twitter-logo
             text: '@tarugoconf'
     id: contacto
-  - type: tickets
-    title: Entradas
-    id: tickets
-    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.\r\n\r\nLas entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.\r\n\r\n¡Corre si no te quieres quedar sin la tuya!"
-    features:
-      - id: conferences
-        text: Acceso presencial a las conferencias (3 días)
-      - id: streaming
-        text: Acceso al streaming online (2 días)
-      - id: workshop
-        text: Entrada a un taller práctico (jueves)
-      - id: dinner
-        text: 'Entrada a la cena de mecenas, patrocinadores y ponentes (jueves)'
-      - id: food
-        text: Comida y bebida ilimitada durante la jornada principal (viernes)
-      - id: party
-        text: Entrada a la fiesta (viernes)
-      - id: community_day
-        text: Acceso al Community Day (sábado)
-      - id: tshirt
-        text: Camiseta del evento
-      - id: welcome_pack
-        text: Welcome Pack
-      - id: goodie
-        text: Goodie exclusivo para mecenas
-      - id: networking
-        text: Acceso a la plataforma de networking
-      - id: senate
-        text: Acceso al «Senado»
-      - id: photo
-        text: Foto en la web del evento (si lo desean)
-      - id: extra
-        text: Ventajas exclusivas
-    tickets:
-      - name: Early Bird
-        pricing: 165€ + IVA
-        img: /files/tickets/early-bird.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - conferences
-          - food
-          - party
-          - community_day
-          - tshirt
-          - welcome_pack
-          - networking
-      - name: Normal
-        pricing: 250€ + IVA
-        img: /files/tickets/normal.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - conferences
-          - food
-          - party
-          - community_day
-          - tshirt
-          - welcome_pack
-          - networking
-      - name: Killer Combo
-        pricing: 350€ + IVA
-        img: /files/tickets/killer-combo.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - conferences
-          - workshop
-          - food
-          - party
-          - community_day
-          - tshirt
-          - welcome_pack
-          - networking
-      - name: Online
-        pricing: 75€ + IVA
-        img: /files/tickets/online.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - streaming
-          - community_day
-          - tshirt
-          - networking
-      - name: Taller
-        pricing: 150€ + IVA
-        img: /files/tickets/taller.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - workshop
-      - name: Mecenas
-        pricing: 500€ + IVA
-        img: /files/tickets/mecenas.svg
-        buy:
-          text: Comprar
-          url: 'https://trg23.eventbrite.es/'
-        features:
-          - sold_out
-          - conferences
-          - streaming
-          - dinner
-          - food
-          - party
-          - community_day
-          - tshirt
-          - welcome_pack
-          - goodie
-          - networking
-          - senate
-          - photo

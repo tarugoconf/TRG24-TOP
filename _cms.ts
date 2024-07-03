@@ -2,9 +2,10 @@ import lumeCMS from "lume/cms/mod.ts";
 
 import contactBlock from "./_includes/blocks/contact/fields.ts";
 import faqBlock from "./_includes/blocks/faq/fields.ts";
-import headerBlock from "./_includes/blocks/header/fields.ts";
+import heroBlock from "./_includes/blocks/hero/fields.ts";
 import imageTextBlock from "./_includes/blocks/imagetext/fields.ts";
 import locationBlock from "./_includes/blocks/location/fields.ts";
+import logosBlock from "./_includes/blocks/logos/fields.ts";
 import pdfBlock from "./_includes/blocks/pdf/fields.ts";
 import textBlock from "./_includes/blocks/text/fields.ts";
 import videoBlock from "./_includes/blocks/video/fields.ts";
@@ -20,9 +21,10 @@ const blocks = {
     contactBlock,
     calendarBlock,
     faqBlock,
-    headerBlock,
+    heroBlock,
     imageTextBlock,
     locationBlock,
+    logosBlock,
     separatorBlock,
     speakersBlock,
     ticketsBlock,
@@ -35,6 +37,20 @@ const blocks = {
 const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
+  "title: text",
+  {
+    type: "object-list",
+    name: "menu",
+    fields: [
+      "text: text",
+      "url: text",
+      "highlight: checkbox",
+    ],
+  },
+  blocks,
+]);
+
+cms.collection("Pages", "src:block_pages/*.yml", [
   "title: text",
   {
     type: "object-list",

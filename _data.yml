@@ -1,6 +1,6 @@
 cta:
   text: Consigue tu entrada
-  url: '#'
+  url: '/entradas/'
 
 footer:
   copyright: |

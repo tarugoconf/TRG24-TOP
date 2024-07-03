@@ -1,0 +1,134 @@
+url: /entradas/
+menu:
+  - text: Portada
+    url: /
+    highlight: false
+blocks:
+  - type: tickets
+    title: Entradas
+    id: tickets
+    description: >-
+      La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave
+      (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a
+      las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La
+      Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las
+      entradas *early bird* desde ese mismo momento y, un día después, —si
+      quedán disponibles— también el público general.</br>¡Corre si no te
+      quieres quedar sin la tuya!
+    features:
+      - id: conferences
+        text: Acceso presencial a las conferencias (3 días)
+      - id: streaming
+        text: Acceso al streaming online (2 días)
+      - id: workshop
+        text: Entrada a un taller práctico (jueves)
+      - id: dinner
+        text: 'Entrada a la cena de mecenas, patrocinadores y ponentes (jueves)'
+      - id: food
+        text: Comida y bebida ilimitada durante la jornada principal (viernes)
+      - id: party
+        text: Entrada a la fiesta (viernes)
+      - id: community_day
+        text: Acceso al Community Day (sábado)
+      - id: tshirt
+        text: Camiseta del evento
+      - id: welcome_pack
+        text: Welcome Pack
+      - id: goodie
+        text: Goodie exclusivo para mecenas
+      - id: networking
+        text: Acceso a la plataforma de networking
+      - id: senate
+        text: Acceso al «Senado»
+      - id: photo
+        text: Foto en la web del evento (si lo desean)
+      - id: extra
+        text: Ventajas exclusivas
+    tickets:
+      - name: Early Bird
+        pricing: 165€ + IVA
+        img: /files/tickets/early-bird.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Normal
+        pricing: 250€ + IVA
+        img: /files/tickets/normal.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Killer Combo
+        pricing: 350€ + IVA
+        img: /files/tickets/killer-combo.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - workshop
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - networking
+      - name: Online
+        pricing: 75€ + IVA
+        img: /files/tickets/online.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - streaming
+          - community_day
+          - tshirt
+          - networking
+      - name: Taller
+        pricing: 150€ + IVA
+        img: /files/tickets/taller.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - workshop
+      - name: Mecenas
+        pricing: 500€ + IVA
+        img: /files/tickets/mecenas.svg
+        buy:
+          text: Comprar
+          url: 'https://trg23.eventbrite.es/'
+        features:
+          - sold_out
+          - conferences
+          - streaming
+          - dinner
+          - food
+          - party
+          - community_day
+          - tshirt
+          - welcome_pack
+          - goodie
+          - networking
+          - senate
+          - photo
