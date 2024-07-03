@@ -79,34 +79,41 @@ blocks:
     days:
       - title: 'Jueves, 14 de noviembre'
         events:
-          - time: '9:00 - 12:00h'
-            title: Item de agenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+          - time: '15:00h'
+            title: Apertura de puerta y acreditación de asistentes
+            description: "¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
             speakers: []
-          - time: '10:00h'
-            title: Keynote
-            subtitle: Esto es una prueba de subtítulo
-            description: Esto es una prueba de descripción.
+            id: apertura-jueves
+          - time: '15:30 - 18:00h'
+            title: Talleres
+            description: "Talleres eminentemente prácticos impartidos por profesores de primer nivel que, en apenas 3 horas, **te permitirán adquirir un nuevo superpoder que poder aplicar inmediatamente en tu trabajo**.\r\n\r\nMuy pronto anunciaremos todos los profesores y talleres de la edición de 2024. "
             speakers: []
-          - time: '11:00 - 12:00h'
-            title: Item de agenda
-            subtitle: Subtítulo de item de agenda
-            id: proba-item-axenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
-            speakers:
-              - david-bonilla
+            id: talleres-jueves
+          - time: '18:00 - 20:00h'
+            title: Networking Tarugo
+            subtitle: "Conoce a gente nueva \U0001F60A"
+            id: networking-jueves
+            description: "Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.\r\n\r\nSi no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento."
+            speakers: []
+          - time: '20:00 - 22:00h'
+            title: Podcasting en directo
+            id: podcasting-jueves
+            description: "Los has escuchado MUCHAS veces, pero nunca como hoy.\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast gestionado como un auténtico *late night show*.\r\n\r\nSTAY TUNED ANTUNEZ !!!"
+            speakers: []
       - title: 'Viernes, 15 de noviembre'
         events:
-          - time: '9:00 - 12:00h'
-            title: Item de agenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+          - time: '9:00h'
+            title: Apertura de puerta y acreditación de asistentes
+            description: "¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
             speakers: []
-          - time: '11:00 - 12:00h'
-            title: Item de agenda
-            subtitle: Subtítulo de item de agenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+            id: apertura-viernes
+          - time: '10:00 - 10:15h'
+            title: Regreso al Futuro
+            subtitle: Keynote
+            description: "En la apertura de la TRG puede pasar cualquier cosa, desde que alguien salga vestido de comandante de la Fuerza Aerea Gallega hasta que aparezca Steve Jobs. Te podrá gustar más o menos, pero no te dejará indiferente.\r\n\r\nEn esta keynote, David nos dará toda la información para disfrutar del evento y nos planteará un reto imposible... o no."
             speakers:
               - david-bonilla
+            id: keynote
           - time: '10:15 - 11:00h'
             title: Hardware abierto en tiempos de modelos cerrados
             id: charla-cuartielles
@@ -114,17 +121,66 @@ blocks:
             speakers:
               - david-cuartielles
             subtitle: por David Cuartielles
+          - time: '11:00 - 11:45h'
+            title: TBD
+            speakers:
+              - clara
+            id: charla-clara
+            subtitle: por Clara Jiménez Cruz
+          - time: '11:45 - 12:00h'
+            title: ¿Donde está Boni?
+            subtitle: Demo del juego ¿de mesa? de la TRG24
+            speakers: []
+            description: "Como en cada edición, cada asistente se llevará a casa un juego de mesa original que disfrutar con amigos y familia.\r\n\r\nEn este ocasión, tendremos que encontrar a alguien muy particular en un contexto muy especial..."
+          - time: '12:00 - 12:45h'
+            title: ☕ Coffe Break
+            description: "Café, snacks y pastitas para llenar las tripitas.\r\n\r\nEl intermedio estará amenizado por el DJ residente de la TRG -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target=\"_blank\"}- que cargará el ambiente de ENERGÍA."
+            speakers: []
+            subtitle: ofrecido por Factorial
+          - time: '12:45 - 13:00h'
+            speakers: []
+            title: ¡El precio Justo!
+            subtitle: ofrecido por Diverger
+            description: >-
+              Un concursote de Lanzarote en el que los asistentes de la TRG
+              podrán demostrar sus conocimientos sobre el bisnes de la
+              Informática y ¡ganar suculentos premios!
+          - time: '13:00 - 13:45'
+            title: TBD
+            id: charla-daniel
+            subtitle: por Daniel Sanchez-Crespo
+            speakers:
+              - dani-novarama
+          - time: '13:45 - 14:30h'
+            title: TBD
+            subtitle: TBA
+            speakers:
+              - tba3
+            description: Nuestros minions aun están esculpiendo la agenda.
+          - time: '14:30 - 16:30h'
+            title: "\U0001F419 Comida y Pulpeirada"
+            id: comida-viernes
+            subtitle: ofrecido por SNGULAR
+            description: "Diferentes opciones gastronómicas ecológicas, sostenibles y mucho gallegas... incluyendo a Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas para que nadie tenga que esperar ninguna cola.\r\n\r\nY, por supuesto, contaremos con opciones veganas y sin gluten."
+            speakers: []
+          - time: '16:30 - 20:30'
+            title: TBA
+            speakers: []
+          - time: '20:30 - 22:30h'
+            title: "\U0001F973 Legendaria Fiesta Taruga"
+            description: >-
+              Transformaremos La Nave en una auténtica "Sesión Vermú" con comida
+              y bebida, churros, música y las mejores conversaciones del planeta
+              porque... LA VIDA PUEDE SER MARAVILLOSA.
+            speakers: []
       - title: 'Sábado, 16 de noviembre'
         events:
-          - time: '9:00 - 12:00h'
-            title: Item de agenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
+          - time: '11:00 - 17:00h'
+            title: Community Day
+            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nAún estamos cerrando la planificación de este día tan especial, pero puedes esperar algo similar —pero mejor— a [lo que vivimos el año pasado](https://2023.trgcon.com/community-day/) \U0001F973\r\n"
             speakers: []
-          - time: '11:00 - 12:00h'
-            title: Item de agenda
-            subtitle: Subtítulo de item de agenda
-            description: "Esperamos que no, la Tarugoconf Sofá Edition será única e irrepetible, como las circunstancias en las que se organiza y celebra, pero si este experimento sale bien, es probable que la Tarugo se convierta en un evento híbrido que pueda ser disfrutado presencialmente y desde casa.\r\n"
-            speakers: []
+            id: community-day
+            subtitle: Acerca la profesión que amas a tu familia y amigos
     id: agenda
   - type: separator
     width: is-default
@@ -157,7 +213,7 @@ blocks:
           - icon: flower-lotus
             url: 'https://es.wikipedia.org/wiki/Clara_Jim%C3%A9nez_Cruz'
         role: Periodista
-        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, Clara se unió a Julio Montes Moreno para crear la [Fundación Maldita.es](https://maldita.es/nosotros-maldita/), de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador.   "
+        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, Clara se unió a Julio Montes Moreno para crear la [Fundación Maldita.es](https://maldita.es/nosotros-maldita/), de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador. Casi nada."
       - name: Daniel Sanchez-Crespo
         id: dani-novarama
         company: Novarama
