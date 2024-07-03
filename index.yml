@@ -122,11 +122,12 @@ blocks:
               - david-cuartielles
             subtitle: por David Cuartielles
           - time: '11:00 - 11:45h'
-            title: TBD
+            title: 'La tecnología que hace posible el fact checking '
             speakers:
               - clara
             id: charla-clara
             subtitle: por Clara Jiménez Cruz
+            description: "Cada día generamos más información que en los 2000 años anteriores JUNTOS.\r\n\r\nEn este contexto, la tecnología se hace imprescindible para separar el polvo de la paja y Clara nos contará como la utiliza en su día a día para determinar lo que es verdad y lo que no."
           - time: '11:45 - 12:00h'
             title: ¿Donde está Boni?
             subtitle: Demo del juego ¿de mesa? de la TRG24
