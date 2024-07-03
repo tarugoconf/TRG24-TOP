@@ -218,7 +218,7 @@ blocks:
         id: dani-novarama
         company: Novarama
         role: Desarollador de Videojuegos
-        bio: TBD
+        bio: "Dani es divulgador, diseñador, profesor universitario y empresario. Fue director general de Novarama, el estudio español de videojuegos que desarrolló la popular saga Invizimals, convertida en una serie de Netflix de la que es productor ejecutivo.\r\n\r\nComo docente, es fundador y director del máster en Creación de Videojuegos en la Universitat Pompeu Fabra. En su tiempo libre es astrofotógrafo y buceador. Adora viajar y el Festival de Eurovisión."
         image: /files/daniel_trg24.jpg
         links:
           - icon: x-logo
