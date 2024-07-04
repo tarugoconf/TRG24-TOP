@@ -14,11 +14,15 @@ import calendarBlock from "./_includes/blocks/calendar/fields.ts";
 import speakersBlock from "./_includes/blocks/speakers/fields.ts";
 import ticketsBlock from "./_includes/blocks/tickets/fields.ts";
 import peopleBlock from "./_includes/blocks/people/fields.ts";
+import activitiesBlock from "./_includes/blocks/activities/fields.ts";
+import headerBlock from "./_includes/blocks/header/fields.ts";
 
 const blocks = {
   type: "choose-list",
   name: "blocks",
   fields: [
+    headerBlock,
+    activitiesBlock,
     contactBlock,
     calendarBlock,
     faqBlock,

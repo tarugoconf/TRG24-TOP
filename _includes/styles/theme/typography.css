@@ -48,6 +48,19 @@ html {
 }
 
 /* Short texts */
+.type-short-m {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-2-size);
+  letter-spacing: var(--font-2-spacing);
+  line-height: var(--line-height-medium);
+}
+.type-short-m-bold {
+  font-family: var(--font-family-ui);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-2-size);
+  letter-spacing: var(--font-2-spacing);
+  line-height: var(--line-height-medium);
+}
 .type-short {
   font-family: var(--font-family-ui);
   font-size: var(--font-1-size);

@@ -12,8 +12,10 @@
 
 /* Blocks */
 @import "blocks/calendar/calendar.css" layer(blocks);
+@import "blocks/activities/activities.css" layer(blocks);
 @import "blocks/contact/contact.css" layer(blocks);
 @import "blocks/faq/faq.css" layer(blocks);
+@import "blocks/header/header.css" layer(blocks);
 @import "blocks/hero/hero.css" layer(blocks);
 @import "blocks/imagetext/imagetext.css" layer(blocks);
 @import "blocks/location/location.css" layer(blocks);
@@ -56,5 +58,10 @@
   }
   h1, h2, h3 {
     text-wrap: balance;
+  }
+  body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
   }
 }

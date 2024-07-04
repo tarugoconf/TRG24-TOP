@@ -6,7 +6,6 @@ menu:
 blocks:
   - type: tickets
     title: Entradas
-    id: tickets
     description: >-
       La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave
       (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a
@@ -15,6 +14,7 @@ blocks:
       entradas *early bird* desde ese mismo momento y, un día después, —si
       quedán disponibles— también el público general.</br>¡Corre si no te
       quieres quedar sin la tuya!
+    id: tickets
     features:
       - id: conferences
         text: Acceso presencial a las conferencias (3 días)
@@ -132,3 +132,4 @@ blocks:
           - networking
           - senate
           - photo
+title: Entradas
