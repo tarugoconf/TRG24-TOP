@@ -47,7 +47,7 @@ blocks:
     tickets:
       - name: Early Bird
         pricing: 165€ + IVA
-        img: /files/tickets/early-bird.svg
+        img: /files/tickets/early-bird.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
@@ -62,7 +62,7 @@ blocks:
           - networking
       - name: Normal
         pricing: 250€ + IVA
-        img: /files/tickets/normal.svg
+        img: /files/tickets/normal.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
@@ -77,7 +77,7 @@ blocks:
           - networking
       - name: Killer Combo
         pricing: 350€ + IVA
-        img: /files/tickets/killer-combo.svg
+        img: /files/tickets/killer-combo.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
@@ -93,7 +93,7 @@ blocks:
           - networking
       - name: Online
         pricing: 75€ + IVA
-        img: /files/tickets/online.svg
+        img: /files/tickets/online.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
@@ -105,7 +105,7 @@ blocks:
           - networking
       - name: Taller
         pricing: 150€ + IVA
-        img: /files/tickets/taller.svg
+        img: /files/tickets/taller.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
@@ -114,7 +114,7 @@ blocks:
           - workshop
       - name: Mecenas
         pricing: 500€ + IVA
-        img: /files/tickets/mecenas.svg
+        img: /files/tickets/mecenas.png
         buy:
           text: Comprar
           url: 'https://trg23.eventbrite.es/'
