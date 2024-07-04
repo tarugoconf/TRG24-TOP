@@ -400,6 +400,93 @@ blocks:
         url: 'https://singularity-hackers.com/'
   - type: separator
     width: is-default
+  - type: people
+    title: Mecenas
+    description: |
+      Estas personas han contribuido con su mecenazgo a que la
+      #TRG23 sea posible, asegurando la sostenibilidad del evento.
+    items:
+    - name: Daniel Ramos
+      url: https://twitter.com/danielramosl
+      img: /files/people/danielramos.jpg
+    - name: David Pardo
+      url: https://twitter.com/dei_biz
+      img: /files/people/davidpardo.jpg
+    - name: Daniel Torres-Burriel
+      url: https://twitter.com/torresburriel
+      img: /files/people/torres-burriel.png
+    - name: Guillermo Montoya
+      url: https://twitter.com/Gmfdsr
+      img: /files/people/GuillermoTRG_2.jpg
+    - name: Dimas Suarez
+      url: https://massuarez.es/
+      img: /files/people/dimas.jpg
+    - name: Fátima Ballesteros
+      url: https://www.linkedin.com/in/fatima-ballesteros-11b1183b/
+      img: /files/people/fatima.jpg
+    - name: Alejandro San Nicolás
+      url: https://www.linkedin.com/in/alejandrosnicolas/
+      img: /files/people/alejandro.jpg
+    - name: Juán Gil Miqueo
+      url: https://twitter.com/juan_miqueo
+      img: /files/people/juan-miqueo.jpeg
+    - name: Roberto Canales
+      url: https://www.linkedin.com/in/rcanales/
+      img: /files/people/roberto_canales.jpg
+    - name: Diego Mariño
+      url: https://twitter.com/diegomarino
+      img: /files/people/diego-marino.jpeg
+    - name: Jorge Galindo
+      url: https://twitter.com/Jorge__Galindo
+      img: /files/people/jorge-galindo.jpeg
+    - name: Jesús López
+      url: https://www.linkedin.com/in/jsulopzs
+      img: /files/people/jesus-lopez.jpeg
+    - name: Toño de la Torre
+      url: https://twitter.com/adelatorrefoss
+      img: /files/people/tono-de-la-torre.jpeg
+    - name: Juan Carlos Vez Vázquez
+      url: https://www.linkedin.com/in/juancarlosvezvazquez/
+      img: /files/people/juan-carlos.jpeg
+    - name: Jordi Mon Companys
+      url: https://twitter.com/JordiMonPMM
+      img: /files/people/jordi.jpeg
+    - name: Boris Gragera
+      url: https://www.linkedin.com/in/borisgragera/
+      img: /files/people/boris.jpeg
+    - name: Francisco José Gómez Rojo
+      url: https://www.linkedin.com/in/fjgomez/
+      img: /files/people/francisco-jose.jpeg
+    - name: Pablo Lara
+      url: https://twitter.com/_pablolc
+      img: /files/people/pablo_lara.jpeg
+    - name: Jose Luis Cases
+      url: http://twitter.com/jlcasesES
+      img: /files/people/jose-luis-cases.jpeg
+    - name: Daniel López
+      url: http://twitter.com/vomkriege
+      img: /files/people/daniel-lopez.jpeg
+    - name: Ricardo Bartolomé
+      url: https://www.linkedin.com/in/ricardobartolome/
+      img: /files/people/ricardo-bartolome.jpeg
+    - name: Álvaro Amor
+      url: https://www.linkedin.com/in/alvaroamor/
+      img: /files/people/alvaro-amor.jpeg
+    - name: Elisardo González
+      url: https://twitter.com/odrasile
+      img: /files/people/elisardo.jpg
+    - name: Guillermo de Haro
+      url: https://www.linkedin.com/in/guillermodeharo/
+      img: /files/people/guillermo-de-haro.jpeg
+    - name: Alejandro Gómez
+      url: https://twitter.com/agomezmoron
+      img: /files/people/alejandro_gomez.jpeg
+    - name: Juanjo Mata
+      url: https://twitter.com/jjmata
+      img: /files/people/juanjo.jpg
+    - name: Diego R. Losada
+      url: https://twitter.com/diegorlosada
+      img: /files/people/diego-losada.jpeg
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio

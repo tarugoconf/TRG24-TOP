@@ -20,6 +20,7 @@
 @import "blocks/logos/logos.css" layer(blocks);
 @import "blocks/separator/separator.css" layer(blocks);
 @import "blocks/pdf/pdf.css" layer(blocks);
+@import "blocks/people/people.css" layer(blocks);
 @import "blocks/text/text.css" layer(blocks);
 @import "blocks/video/video.css" layer(blocks);
 @import "blocks/speakers/speakers.css" layer(blocks);

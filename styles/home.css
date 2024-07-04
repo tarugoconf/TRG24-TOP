@@ -14,10 +14,8 @@
   background-image: image-set(url("../files/img-home.png") 2x);
   background-repeat: no-repeat;
   background-position: right calc(66% + 300px) bottom;
+  background-size: clamp(600px, 50vw, 800px) auto;
   
-  @media (width < 1200px) {
-    background-size: 600px auto;
-  }
   @media (width < 600px) {
     background-position: center bottom;
     background-size: 100% auto;

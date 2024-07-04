@@ -13,6 +13,7 @@ import separatorBlock from "./_includes/blocks/separator/fields.ts";
 import calendarBlock from "./_includes/blocks/calendar/fields.ts";
 import speakersBlock from "./_includes/blocks/speakers/fields.ts";
 import ticketsBlock from "./_includes/blocks/tickets/fields.ts";
+import peopleBlock from "./_includes/blocks/people/fields.ts";
 
 const blocks = {
   type: "choose-list",
@@ -25,6 +26,7 @@ const blocks = {
     imageTextBlock,
     locationBlock,
     logosBlock,
+    peopleBlock,
     separatorBlock,
     speakersBlock,
     ticketsBlock,
