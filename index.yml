@@ -42,6 +42,7 @@ blocks:
   - type: location
     title: ¿Cómo llegar?
     id: donde
+    theme: is-light width-box box-fill
     embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
     caption: Powered by **Extramile**
     directions:
