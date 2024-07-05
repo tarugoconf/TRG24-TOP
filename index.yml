@@ -118,7 +118,7 @@ blocks:
             speakers:
               - david-cuartielles
           - time: '11:00 - 11:45h'
-            title: 'La tecnología que hace posible el fact checking '
+            title: La tecnología para luchar contra la desinformación
             id: charla-clara
             subtitle: por Clara Jiménez Cruz
             description: "Cada día generamos más información que en los 2000 años anteriores JUNTOS.\r\n\r\nEn este contexto, la tecnología se hace imprescindible para separar el polvo de la paja y Clara nos contará como la utiliza en su día a día para determinar lo que es verdad y lo que no."
@@ -213,8 +213,8 @@ blocks:
         id: clara
         company: Maldita
         role: Periodista
-        bio: "Tras 9 años de experiencia profesional en laSexta, primero en los servicios informativos y después en diferentes programas de la cadena, Clara se unió a Julio Montes Moreno para crear la [Fundación Maldita.es](https://maldita.es/nosotros-maldita/), de la que es CEO. \r\n\r\nEs la única española del Grupo de expertos de alto nivel sobre desinformación designado por Comisión Europea  y, además, miembro europeo del Consejo asesor del International Fact Checking Network. Recibió el Premio de Periodismo José Manuel Porquet en 2015 y, en 2019, el Ashoka Fellow como reconocimiento por su emprendimiento innovador. Casi nada."
-        image: /files/clara_trg24.jpg
+        bio: "Clara es cofundadora y CEO de [Maldita.es](https://maldita.es/nosotros-maldita/), fundación sin ánimo de lucro que  construye confianza y lucha contra la desinformación, promoviendo la transparencia a través del fact-checking y el periodismo de datos. Maldita.es desarrolla herramientas tecnológicas que permiten a los ciudadanos tomar decisiones informadas.  \r\n\r\nTras una década como periodista televisiva, Clara, colaboradora habitual de medios nacionales en España, fue nombrada miembro del Grupo de Alto Nivel contra la Desinformación por la Comisión Europea y actualmente preside el órgano de gobierno de la European Fact-checking Standards Network (EFCSN). También es miembro del Consejo Asesor del International Fact-Checking Network (IFCN). Fue seleccionada como Ashoka Fellow en 2019 y Periodista Joven del Año en 2020 por la APM."
+        image: /files/clara2.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/cjimenezcruz'
@@ -402,91 +402,89 @@ blocks:
     width: is-default
   - type: people
     title: Mecenas
-    description: |
-      Estas personas han contribuido con su mecenazgo a que la
-      #TRG23 sea posible, asegurando la sostenibilidad del evento.
+    description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG23 sea posible, asegurando la sostenibilidad del evento.\r\n"
     items:
-    - name: Daniel Ramos
-      url: https://twitter.com/danielramosl
-      img: /files/people/danielramos.jpg
-    - name: David Pardo
-      url: https://twitter.com/dei_biz
-      img: /files/people/davidpardo.jpg
-    - name: Daniel Torres-Burriel
-      url: https://twitter.com/torresburriel
-      img: /files/people/torres-burriel.png
-    - name: Guillermo Montoya
-      url: https://twitter.com/Gmfdsr
-      img: /files/people/GuillermoTRG_2.jpg
-    - name: Dimas Suarez
-      url: https://massuarez.es/
-      img: /files/people/dimas.jpg
-    - name: Fátima Ballesteros
-      url: https://www.linkedin.com/in/fatima-ballesteros-11b1183b/
-      img: /files/people/fatima.jpg
-    - name: Alejandro San Nicolás
-      url: https://www.linkedin.com/in/alejandrosnicolas/
-      img: /files/people/alejandro.jpg
-    - name: Juán Gil Miqueo
-      url: https://twitter.com/juan_miqueo
-      img: /files/people/juan-miqueo.jpeg
-    - name: Roberto Canales
-      url: https://www.linkedin.com/in/rcanales/
-      img: /files/people/roberto_canales.jpg
-    - name: Diego Mariño
-      url: https://twitter.com/diegomarino
-      img: /files/people/diego-marino.jpeg
-    - name: Jorge Galindo
-      url: https://twitter.com/Jorge__Galindo
-      img: /files/people/jorge-galindo.jpeg
-    - name: Jesús López
-      url: https://www.linkedin.com/in/jsulopzs
-      img: /files/people/jesus-lopez.jpeg
-    - name: Toño de la Torre
-      url: https://twitter.com/adelatorrefoss
-      img: /files/people/tono-de-la-torre.jpeg
-    - name: Juan Carlos Vez Vázquez
-      url: https://www.linkedin.com/in/juancarlosvezvazquez/
-      img: /files/people/juan-carlos.jpeg
-    - name: Jordi Mon Companys
-      url: https://twitter.com/JordiMonPMM
-      img: /files/people/jordi.jpeg
-    - name: Boris Gragera
-      url: https://www.linkedin.com/in/borisgragera/
-      img: /files/people/boris.jpeg
-    - name: Francisco José Gómez Rojo
-      url: https://www.linkedin.com/in/fjgomez/
-      img: /files/people/francisco-jose.jpeg
-    - name: Pablo Lara
-      url: https://twitter.com/_pablolc
-      img: /files/people/pablo_lara.jpeg
-    - name: Jose Luis Cases
-      url: http://twitter.com/jlcasesES
-      img: /files/people/jose-luis-cases.jpeg
-    - name: Daniel López
-      url: http://twitter.com/vomkriege
-      img: /files/people/daniel-lopez.jpeg
-    - name: Ricardo Bartolomé
-      url: https://www.linkedin.com/in/ricardobartolome/
-      img: /files/people/ricardo-bartolome.jpeg
-    - name: Álvaro Amor
-      url: https://www.linkedin.com/in/alvaroamor/
-      img: /files/people/alvaro-amor.jpeg
-    - name: Elisardo González
-      url: https://twitter.com/odrasile
-      img: /files/people/elisardo.jpg
-    - name: Guillermo de Haro
-      url: https://www.linkedin.com/in/guillermodeharo/
-      img: /files/people/guillermo-de-haro.jpeg
-    - name: Alejandro Gómez
-      url: https://twitter.com/agomezmoron
-      img: /files/people/alejandro_gomez.jpeg
-    - name: Juanjo Mata
-      url: https://twitter.com/jjmata
-      img: /files/people/juanjo.jpg
-    - name: Diego R. Losada
-      url: https://twitter.com/diegorlosada
-      img: /files/people/diego-losada.jpeg
+      - name: Daniel Ramos
+        img: /files/people/danielramos.jpg
+        url: 'https://twitter.com/danielramosl'
+      - name: David Pardo
+        img: /files/people/davidpardo.jpg
+        url: 'https://twitter.com/dei_biz'
+      - name: Daniel Torres-Burriel
+        img: /files/people/torres-burriel.png
+        url: 'https://twitter.com/torresburriel'
+      - name: Guillermo Montoya
+        img: /files/people/GuillermoTRG_2.jpg
+        url: 'https://twitter.com/Gmfdsr'
+      - name: Dimas Suarez
+        img: /files/people/dimas.jpg
+        url: 'https://massuarez.es/'
+      - name: Fátima Ballesteros
+        img: /files/people/fatima.jpg
+        url: 'https://www.linkedin.com/in/fatima-ballesteros-11b1183b/'
+      - name: Alejandro San Nicolás
+        img: /files/people/alejandro.jpg
+        url: 'https://www.linkedin.com/in/alejandrosnicolas/'
+      - name: Juán Gil Miqueo
+        img: /files/people/juan-miqueo.jpeg
+        url: 'https://twitter.com/juan_miqueo'
+      - name: Roberto Canales
+        img: /files/people/roberto_canales.jpg
+        url: 'https://www.linkedin.com/in/rcanales/'
+      - name: Diego Mariño
+        img: /files/people/diego-marino.jpeg
+        url: 'https://twitter.com/diegomarino'
+      - name: Jorge Galindo
+        img: /files/people/jorge-galindo.jpeg
+        url: 'https://twitter.com/Jorge__Galindo'
+      - name: Jesús López
+        img: /files/people/jesus-lopez.jpeg
+        url: 'https://www.linkedin.com/in/jsulopzs'
+      - name: Toño de la Torre
+        img: /files/people/tono-de-la-torre.jpeg
+        url: 'https://twitter.com/adelatorrefoss'
+      - name: Juan Carlos Vez Vázquez
+        img: /files/people/juan-carlos.jpeg
+        url: 'https://www.linkedin.com/in/juancarlosvezvazquez/'
+      - name: Jordi Mon Companys
+        img: /files/people/jordi.jpeg
+        url: 'https://twitter.com/JordiMonPMM'
+      - name: Boris Gragera
+        img: /files/people/boris.jpeg
+        url: 'https://www.linkedin.com/in/borisgragera/'
+      - name: Francisco José Gómez Rojo
+        img: /files/people/francisco-jose.jpeg
+        url: 'https://www.linkedin.com/in/fjgomez/'
+      - name: Pablo Lara
+        img: /files/people/pablo_lara.jpeg
+        url: 'https://twitter.com/_pablolc'
+      - name: Jose Luis Cases
+        img: /files/people/jose-luis-cases.jpeg
+        url: 'http://twitter.com/jlcasesES'
+      - name: Daniel López
+        img: /files/people/daniel-lopez.jpeg
+        url: 'http://twitter.com/vomkriege'
+      - name: Ricardo Bartolomé
+        img: /files/people/ricardo-bartolome.jpeg
+        url: 'https://www.linkedin.com/in/ricardobartolome/'
+      - name: Álvaro Amor
+        img: /files/people/alvaro-amor.jpeg
+        url: 'https://www.linkedin.com/in/alvaroamor/'
+      - name: Elisardo González
+        img: /files/people/elisardo.jpg
+        url: 'https://twitter.com/odrasile'
+      - name: Guillermo de Haro
+        img: /files/people/guillermo-de-haro.jpeg
+        url: 'https://www.linkedin.com/in/guillermodeharo/'
+      - name: Alejandro Gómez
+        img: /files/people/alejandro_gomez.jpeg
+        url: 'https://twitter.com/agomezmoron'
+      - name: Juanjo Mata
+        img: /files/people/juanjo.jpg
+        url: 'https://twitter.com/jjmata'
+      - name: Diego R. Losada
+        img: /files/people/diego-losada.jpeg
+        url: 'https://twitter.com/diegorlosada'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
