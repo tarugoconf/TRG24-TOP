@@ -318,9 +318,11 @@ blocks:
           Construye proyectos de software basados en datos de forma sencilla y
           escalable.
       - alt: Next Digital
-        img: /files/nextdigitalhub_cover.png
+        img: /files/positivoverticalnextdigital.png
         url: 'https://www.nextdigital.es/'
-        description: Especialistas en desarrollo de software.
+        description: >-
+          Especialistas en Desarrollo de Software de calidad e Ingeniería de
+          Datos.
       - alt: Slimbook
         img: /files/slimbook_logo.png
         url: 'https://slimbook.com/'
