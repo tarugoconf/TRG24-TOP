@@ -297,7 +297,7 @@ blocks:
         url: 'https://www.izertis.com/es/'
         description: Pasión por la tecnología.
       - alt: Diverger
-        img: /files/logos/diverger_transparente.png
+        img: /files/dvg_logos-09.png
         url: 'https://diverger.ai/'
         description: Desarrollamos software con IA Generativa y el mejor talento humano.
       - alt: Extramile
@@ -306,7 +306,8 @@ blocks:
         description: Mapas Inteligentes.
       - alt: Factorial
         img: /files/lbqy_factorial_logo_color.png
-        url: 'https://factorialhr.es/'
+        url: >-
+          https://factorialhr.es/?MC=e~sG.f~g.g~fl.h~BsKGzsHHsF-szpCBwzwGHo.i~75U.j.~k.~l.~m~
         description: >-
           El software de recursos humanos con el que crece el negocio y las
           personas.
@@ -321,13 +322,13 @@ blocks:
         url: 'https://www.nextdigital.es/'
         description: Especialistas en desarrollo de software.
       - alt: Slimbook
-        img: /files/slimbook.png
+        img: /files/slimbook_logo.png
         url: 'https://slimbook.com/'
         description: Los mejores ordenadores Linux y Windows.
       - alt: DoIT
         img: /files/logos/doit_logo.png
         url: 'https://www.doit.com/'
-        description: 'The true promise of the cloud with ease, not cost.'
+        description: 'Simplify cloud costs, amplify engineering excellence.'
       - alt: Ayuntamiento de Madrid
         img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
