@@ -360,7 +360,7 @@ blocks:
     width: is-default
   - type: people
     title: Mecenas
-    description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG23 sea posible, asegurando la sostenibilidad del evento.\r\n"
+    description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG24 sea posible, asegurando la sostenibilidad del evento.\r\n"
     items:
       - name: Daniel Ramos
         img: /files/people/danielramos.jpg
