@@ -277,75 +277,57 @@ blocks:
             url: 'https://www.linkedin.com/in/dbonillaf/'
   - type: logos
     title: Partners
-    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!\r\n<p align=\"center\">\r\n  \r\n[![Image](/files/automattic-logotype-color-lit.png)](https://automattic.com/)\r\nPatrocinador principal del evento.\r\n\r\n</p>"
+    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic-logotype-color.png)](https://automattic.com/)\r\n"
     size: medium
     items:
       - alt: Panel
-        img: /files/logos/panel.png
+        img: /files/logo-panel-blanco.png
         url: 'https://www.panel.es/'
         description: El cambio empieza en TI.
       - alt: SNGULAR
         img: /files/logos/sngular-logo-big.png
         url: 'https://www.sngular.com/'
         description: Ecosistema global de talento y tecnología.
-      - alt: Velneo
-        img: /files/logos/velneo.svg
-        url: 'https://www.velneo.com/'
-        description: Desarrolla la aplicación que tu empresa necesita.
-      - alt: Autentia
-        img: /files/logos/Autentia_Izertis_Azul-01.png
-        url: 'https://www.autentia.com/'
-        description: Pasión por el desarrollo de software.
-      - alt: Paradigma
-        img: /files/logos/PRDG_logo_Horizontal_Blue.png
-        url: 'https://www.paradigmadigital.com/'
-        description: Tecnología con propósito para mejorar el mundo.
-      - alt: Stackscale
-        img: /files/logos/Stackscale-GrupoAire-negro.png
-        url: 'https://www.stackscale.com/es/'
-        description: Soluciones de nube privada que te dan un rendimiento predecible.
+      - alt: '540'
+        img: /files/logos/logo_540_negro.png
+        url: 'https://www.540deg.com/'
+        description: Desarrollo de software de calidad con pragmatismo.
+      - alt: Izertis
+        img: /files/izertis_logo.png
+        url: 'https://www.izertis.com/es/'
+        description: Pasión por la tecnología.
       - alt: Diverger
         img: /files/logos/diverger_transparente.png
         url: 'https://diverger.ai/'
         description: Desarrollamos software con IA Generativa y el mejor talento humano.
+      - alt: Extramile
+        img: /files/logos/extramile.png
+        url: 'https://extramilecloud.com/'
+        description: Mapas Inteligentes.
+      - alt: Factorial
+        img: /files/lbqy_factorial_logo_color.png
+        url: 'https://factorialhr.es/'
+        description: >-
+          El software de recursos humanos con el que crece el negocio y las
+          personas.
       - alt: Tinybird
         img: /files/logos/tinybird.png
         url: 'https://www.tinybird.co/'
         description: >-
           Construye proyectos de software basados en datos de forma sencilla y
           escalable.
-      - alt: Alten
-        img: /files/logos/logo_alten.png
-        url: 'https://alten.es/'
-        description: >-
-          Apoyamos a las empresas en sus transformaciones tecnológicas,
-          construyendo juntos el mundo del mañana.
-      - alt: Cabify
-        img: /files/logos/cabify-logo-moradul-rgb.png
-        url: 'https://cabify.com/'
-        description: >-
-          Cabify es una plataforma de multi-movilidad. Tratamos de mejorar las
-          ciudades reduciendo el uso del vehículo privado.
-      - alt: '540'
-        img: /files/logos/logo_540_negro.png
-        url: 'https://www.540deg.com/'
-        description: Desarrollo de software de calidad con pragmatismo.
+      - alt: Next Digital
+        img: /files/nextdigitalhub_cover.png
+        url: 'https://www.nextdigital.es/'
+        description: Especialistas en desarrollo de software.
+      - alt: Slimbook
+        img: /files/slimbook.png
+        url: 'https://slimbook.com/'
+        description: Los mejores ordenadores Linux y Windows.
       - alt: DoIT
         img: /files/logos/doit_logo.png
         url: 'https://www.doit.com/'
         description: 'The true promise of the cloud with ease, not cost.'
-      - alt: Devengo
-        img: /files/logos/devengo-logo.png
-        url: 'https://devengo.com/'
-        description: >-
-          Incorpora pagos en tiempo real en tus productos para crear
-          experiencias extraordinarias.
-      - alt: Airzone
-        img: /files/logos/logo_airzone.png
-        url: 'http://airzonecontrol.com/'
-        description: >-
-          Desarrollamos hardware y software para reducir el consumo energético
-          de tu casa.
       - alt: Ayuntamiento de Madrid
         img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
@@ -362,42 +344,18 @@ blocks:
       - alt: Manfred
         img: /files/logos/manfred.png
         url: 'https://www.getmanfred.com/'
-      - alt: Google for Startups
-        img: /files/logos/google.png
-        url: 'https://www.campus.co/intl/es_es/madrid/'
-      - alt: STR Sistemas
-        img: /files/logos/logo2_str.png
-        url: 'https://www.strsistemas.com/'
       - alt: Grupo Billingham
         img: /files/logos/logo_billingham.png
         url: 'https://www.grupobillingham.com/'
-      - alt: Siteground
-        img: /files/logos/siteground.png
-        url: 'https://www.siteground.es/'
-      - alt: Extramile
-        img: /files/logos/extramile.png
-        url: 'https://extramilecloud.com/'
       - alt: Metricool
         img: /files/logos/report-logo-metricool-1.png
         url: 'https://metricool.com/es/'
       - alt: Vyootrip
         img: /files/logos/logo_vyootrip.png
         url: 'https://www.vyootrip.com/trgcon/'
-      - alt: INGKA
-        img: /files/logos/logo_ingka.png
-        url: 'https://join.ingka.com/'
       - alt: Moneylands
         img: /files/logos/moneylands.jpg
         url: 'http://www.moneylands.world/'
-      - alt: My Public Inbox
-        img: /files/logos/mypublicinbox_logo.png
-        url: 'https://mypublicinbox.com/'
-      - alt: 0xWord
-        img: /files/logos/Logo_0xWord.png
-        url: 'https://0xword.com/'
-      - alt: Singularity Hackers
-        img: /files/logos/Singularity-Hackers.png
-        url: 'https://singularity-hackers.com/'
   - type: separator
     width: is-default
   - type: people
