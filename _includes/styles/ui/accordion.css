@@ -16,7 +16,7 @@
     background: inherit;
     cursor: pointer;
     list-style: none;
-    border-radius: inherit;
+    border-radius: .5rem;
 
     &::-webkit-details-marker {
       display: none;

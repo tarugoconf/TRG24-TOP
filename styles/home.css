@@ -16,6 +16,11 @@
   background-position: right calc(66% + 300px) bottom;
   background-size: clamp(600px, 50vw, 800px) auto;
   
+  @media (width > 1400px) {
+    background-position: right calc(66% + 400px) bottom;
+    background-size: auto 90%;
+  }
+
   @media (width < 600px) {
     background-position: center bottom;
     background-size: 100% auto;
