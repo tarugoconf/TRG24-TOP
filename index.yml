@@ -190,13 +190,13 @@ blocks:
             title: Community Day
             id: community-day
             subtitle: Acerca la profesión que amas a tu familia y amigos
-            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nAún estamos cerrando la planificación de este día tan especial, pero puedes esperar algo similar —pero mejor— a [lo que vivimos el año pasado](https://2023.trgcon.com/community-day/) \U0001F973\r\n"
+            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nIremos anunciando poco a poco [todas las actividades del Community Day](/community-day) \U0001F973\r\n"
             speakers: []
   - type: separator
     width: is-default
   - type: speakers
     title: Speakers
-    description: "El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](./speakers). Estos\r\nson los awesómicos invitados con los que contaremos este año:\r\n"
+    description: "El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](https://github.com/tarugoconf/TRG24/blob/main/SPEAKERS.md). Estos\r\nson los awesómicos invitados con los que contaremos este año:\r\n"
     speakers:
       - name: David Cuartielles
         id: david-cuartielles
@@ -277,7 +277,7 @@ blocks:
             url: 'https://www.linkedin.com/in/dbonillaf/'
   - type: logos
     title: Partners
-    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/s/s7u9tmlnipx84zf/TRG23_sponsorship_deck_ES.pdf?dl=0){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic-logotype-color.png)](https://automattic.com/)\r\n"
+    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/scl/fi/id4l76jkukgzkcrc6n1fw/TRG24_sponsorship_deck_ES.pdf){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic-logotype-color.png)](https://automattic.com/)\r\n"
     size: medium
     items:
       - alt: Panel
@@ -356,9 +356,6 @@ blocks:
       - alt: Vyootrip
         img: /files/logos/logo_vyootrip.png
         url: 'https://www.vyootrip.com/trgcon/'
-      - alt: Moneylands
-        img: /files/logos/moneylands.jpg
-        url: 'http://www.moneylands.world/'
   - type: separator
     width: is-default
   - type: people
@@ -377,80 +374,35 @@ blocks:
       - name: Guillermo Montoya
         img: /files/people/GuillermoTRG_2.jpg
         url: 'https://twitter.com/Gmfdsr'
-      - name: Dimas Suarez
-        img: /files/people/dimas.jpg
-        url: 'https://massuarez.es/'
-      - name: Fátima Ballesteros
-        img: /files/people/fatima.jpg
-        url: 'https://www.linkedin.com/in/fatima-ballesteros-11b1183b/'
-      - name: Alejandro San Nicolás
-        img: /files/people/alejandro.jpg
-        url: 'https://www.linkedin.com/in/alejandrosnicolas/'
       - name: Juán Gil Miqueo
         img: /files/people/juan-miqueo.jpeg
         url: 'https://twitter.com/juan_miqueo'
-      - name: Roberto Canales
-        img: /files/people/roberto_canales.jpg
-        url: 'https://www.linkedin.com/in/rcanales/'
-      - name: Diego Mariño
-        img: /files/people/diego-marino.jpeg
-        url: 'https://twitter.com/diegomarino'
       - name: Jorge Galindo
         img: /files/people/jorge-galindo.jpeg
         url: 'https://twitter.com/Jorge__Galindo'
-      - name: Jesús López
-        img: /files/people/jesus-lopez.jpeg
-        url: 'https://www.linkedin.com/in/jsulopzs'
       - name: Toño de la Torre
         img: /files/people/tono-de-la-torre.jpeg
         url: 'https://twitter.com/adelatorrefoss'
-      - name: Juan Carlos Vez Vázquez
-        img: /files/people/juan-carlos.jpeg
-        url: 'https://www.linkedin.com/in/juancarlosvezvazquez/'
       - name: Jordi Mon Companys
         img: /files/people/jordi.jpeg
         url: 'https://twitter.com/JordiMonPMM'
       - name: Boris Gragera
         img: /files/people/boris.jpeg
         url: 'https://www.linkedin.com/in/borisgragera/'
-      - name: Francisco José Gómez Rojo
+      - name: Paco Gómez
         img: /files/people/francisco-jose.jpeg
         url: 'https://www.linkedin.com/in/fjgomez/'
-      - name: Pablo Lara
-        img: /files/people/pablo_lara.jpeg
-        url: 'https://twitter.com/_pablolc'
-      - name: Jose Luis Cases
-        img: /files/people/jose-luis-cases.jpeg
-        url: 'http://twitter.com/jlcasesES'
-      - name: Daniel López
-        img: /files/people/daniel-lopez.jpeg
-        url: 'http://twitter.com/vomkriege'
-      - name: Ricardo Bartolomé
-        img: /files/people/ricardo-bartolome.jpeg
-        url: 'https://www.linkedin.com/in/ricardobartolome/'
       - name: Álvaro Amor
         img: /files/people/alvaro-amor.jpeg
         url: 'https://www.linkedin.com/in/alvaroamor/'
-      - name: Elisardo González
-        img: /files/people/elisardo.jpg
-        url: 'https://twitter.com/odrasile'
-      - name: Guillermo de Haro
-        img: /files/people/guillermo-de-haro.jpeg
-        url: 'https://www.linkedin.com/in/guillermodeharo/'
       - name: Alejandro Gómez
         img: /files/people/alejandro_gomez.jpeg
         url: 'https://twitter.com/agomezmoron'
-      - name: Juanjo Mata
-        img: /files/people/juanjo.jpg
-        url: 'https://twitter.com/jjmata'
-      - name: Diego R. Losada
-        img: /files/people/diego-losada.jpeg
-        url: 'https://twitter.com/diegorlosada'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
     theme: is-light width-box box-fill
-    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- **1200** asistentes a lo largo de los 3 días\r\n- **2** días trending topic nacional\r\n- **25** millones de impresiones en redes sociales\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a tarugoconf@bonillaware.com ¡Nos encantará charlar contigo!\r\n"
+    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- **1200** asistentes a lo largo de los 3 días\r\n- **2** días trending topic nacional\r\n- **25** millones de impresiones en redes sociales\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Nos encantará charlar contigo!\r\n"
     src: /files/TRG24_sponsorship_deck_ES.pdf
     caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
   - type: separator

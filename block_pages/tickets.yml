@@ -2,18 +2,11 @@ url: /entradas/
 menu:
   - text: Portada
     url: /
-    highlight: false
+    highlight: true
 blocks:
   - type: tickets
     title: Entradas
-    description: >-
-      La TRG se celebrará **del 26 al 28 de octubre de 2023 en La Nave
-      (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 2 de julio a
-      las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La
-      Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las
-      entradas *early bird* desde ese mismo momento y, un día después, —si
-      quedán disponibles— también el público general.</br>¡Corre si no te
-      quieres quedar sin la tuya!
+    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!\r\n\r\n<table style=\"background-color: #FFFFFF; border-right: 3px solid green; border-bottom: 3px solid green; font-size: 70%;\"><tr><td>Si trabajas <b>para una empresa</b> y quieres comprar varias entradas para tus compañeros sin tener que ir UNA A UNA y con una factura o presupuesto previo, escríbenos a <a href=\"mailto:tarugoconf@bonillaware.com\">tarugoconf@bonillaware.com</a>.</td></tr></table>"
     id: tickets
     features:
       - id: conferences
@@ -43,7 +36,7 @@ blocks:
       - id: photo
         text: Foto en la web del evento (si lo desean)
       - id: extra
-        text: Ventajas exclusivas
+        text: 20% de descuento en talleres
     tickets:
       - name: Early Bird
         pricing: 165€ + IVA
@@ -132,4 +125,5 @@ blocks:
           - networking
           - senate
           - photo
+          - extra
 title: Entradas
