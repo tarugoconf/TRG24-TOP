@@ -115,7 +115,7 @@ blocks:
         pricing: 500€ + IVA
         img: /files/tickets/mecenas.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
           disabled: true
         features:
