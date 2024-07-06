@@ -82,6 +82,11 @@ cms.document({
   store: "src:_data.yml",
   fields: [
     {
+      type: "text",
+      name: "title_suffix",
+      description: "Default title or suffix for all pages",
+    },
+    {
       type: "object",
       name: "cta",
       description: "Call to action (visible on all pages)",
