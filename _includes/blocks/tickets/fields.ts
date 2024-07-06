@@ -26,6 +26,7 @@ export default {
           fields: [
             "text: text",
             "url: text",
+            "disabled: checkbox",
           ],
         },
         "features: list"
