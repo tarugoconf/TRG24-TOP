@@ -8,11 +8,11 @@
   line-height: var(--line-height-text);
 
   p {
-    margin-bottom: 0;
-    margin-top: .5em;
-  }
-  .markdown-alert-title {
     margin: 0;
+  }
+  
+  .markdown-alert-title {
+    display: none;
   }
 }
 .markdown-alert-title {
