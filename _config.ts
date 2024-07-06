@@ -4,7 +4,9 @@ import lightningcss from "lume/plugins/lightningcss.ts";
 import basePath from "lume/plugins/base_path.ts";
 import icons from "https://deno.land/x/lume_icon_plugins@v0.1.0/phosphor.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://trgcon.com"),
+});
 
 site.use(date());
 site.copy("fonts");
