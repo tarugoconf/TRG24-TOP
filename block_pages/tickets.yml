@@ -43,7 +43,7 @@ blocks:
         img: /files/tickets/early-bird.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - conferences
@@ -58,7 +58,7 @@ blocks:
         img: /files/tickets/normal.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - conferences
@@ -73,7 +73,7 @@ blocks:
         img: /files/tickets/killer-combo.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - conferences
@@ -89,7 +89,7 @@ blocks:
         img: /files/tickets/online.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - streaming
@@ -101,7 +101,7 @@ blocks:
         img: /files/tickets/taller.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - workshop
@@ -110,7 +110,7 @@ blocks:
         img: /files/tickets/mecenas.png
         buy:
           text: Comprar
-          url: 'https://trg23.eventbrite.es/'
+          url: 'https://trg24.eventbrite.es/'
         features:
           - sold_out
           - conferences
