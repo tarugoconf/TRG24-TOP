@@ -6,13 +6,7 @@ menu:
 blocks:
   - type: header
     title: Entradas
-    description: |
-      La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!
-
-      > [!note]
-      >
-      > Si trabajas **para una empresa** y quieres comprar varias entradas para tus compañeros sin tener que ir UNA A UNA y con una factura o presupuesto previo, escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com).
-
+    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!\r\n\r\n> [!NOTE]\r\n>\r\n> Si trabajas **para una empresa** y quieres comprar varias entradas para tus compañeros sin tener que ir UNA A UNA y con una factura o presupuesto previo, escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com).\r\n"
   - type: tickets
     id: tickets
     features:
