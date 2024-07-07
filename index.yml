@@ -150,8 +150,8 @@ blocks:
             speakers:
               - dani-novarama
           - time: '13:45 - 14:30h'
-            title: TBD
-            subtitle: TBA
+            title: Charla por anunciar
+            subtitle: Ponente por anunciar
             description: Nuestros minions aun están esculpiendo la agenda.
             speakers:
               - tba3
@@ -161,10 +161,39 @@ blocks:
             subtitle: ofrecido por SNGULAR
             description: "Diferentes opciones gastronómicas ecológicas, sostenibles y mucho gallegas... incluyendo a Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas para que nadie tenga que esperar ninguna cola.\r\n\r\nY, por supuesto, contaremos con opciones veganas y sin gluten."
             speakers: []
-          - time: '16:30 - 20:00'
-            title: TBA
-            description: Nuestros minions aún están cerrando la agenda...
+          - time: '16:30 - 16:45'
+            title: ¿Qué saben los muggles?
+            subtitle: Video
+            description: >-
+              Nuestros intrépidos reporteros se lanzarán a la calle, micrófono
+              en mano, para averiguar hasta qué punto el público general -sin
+              experiencia técnica- conoce el día a día del sector informático.
             speakers: []
+          - time: '16:45 - 17:30h'
+            title: Charla por anunciar
+            subtitle: Ponente por anunciar
+            description: Nuestros minions aun están esculpiendo la agenda.
+            speakers:
+              - tba2
+          - time: '17:30 - 18:15 '
+            title: Charla por anunciar
+            subtitle: Ponente por anunciar
+            speakers:
+              - tba1
+          - time: '18:15 - 19:00h'
+            title: "\U0001F36A Merienda"
+            id: merienda-viernes
+            description: Café y bollería artesanal para aguantar hasta el final.
+            speakers: []
+          - time: '19:00 - 19:15'
+            title: "\U0001F3B0 La Jerocleta"
+            description: "Sorteo de jugosos premios entre todos los que hayan tuiteado con el hashtag [#trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"}, realizado con la mítica «Jerocleta» de **Jerónimo López**. Sin duda alguna, el software español más utilizado de la historía.\r\n\r\nCuanto más tuitees, más posibilidades tendrás de ganar."
+            speakers: []
+          - time: '19:15 - 20:00h'
+            title: Charla por anunciar
+            subtitle: Ponente por anunciar
+            speakers:
+              - tba4
           - time: '20:00 - 20:30h'
             title: Rendición de cuentas
             id: rendicion-cuentas
