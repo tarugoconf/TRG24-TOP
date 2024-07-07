@@ -5,6 +5,7 @@ import basePath from "lume/plugins/base_path.ts";
 import icons from "https://deno.land/x/lume_icon_plugins@v0.1.0/phosphor.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.12.0";
 import favicon from "lume/plugins/favicon.ts";
+import metas from "lume/plugins/metas.ts";
 
 const site = lume({
   location: new URL("https://trgcon.com"),
@@ -20,6 +21,7 @@ site.copy("files");
 site.copy("scripts");
 site.use(lightningcss());
 site.use(basePath());
+site.use(metas());
 site.use(icons({
   name: "icon",
   defaultType: "duotone",

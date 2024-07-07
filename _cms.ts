@@ -20,6 +20,7 @@ import headerBlock from "./_includes/blocks/header/fields.ts";
 const blocks = {
   type: "choose-list",
   name: "blocks",
+  description: "Blocks with the content of the page",
   fields: [
     headerBlock,
     activitiesBlock,
@@ -39,34 +40,44 @@ const blocks = {
     videoBlock,
   ],
 };
+const metas = {
+  type: "object",
+  name: "metas",
+  description: "Meta tags for SEO and social media sharing",
+  fields: [
+    "title: text",
+    "description: text",
+    {
+      type: "file",
+      name: "image",
+      description: "Image for sharing on social media (empty for default)",
+    }
+  ],
+};
+const menu = {
+  type: "object-list",
+  name: "menu",
+  description: "Items for the menu bar",
+  fields: [
+    "text: text",
+    "url: text",
+    "highlight: checkbox",
+  ],
+};
 
 const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
   "title: text",
-  {
-    type: "object-list",
-    name: "menu",
-    fields: [
-      "text: text",
-      "url: text",
-      "highlight: checkbox",
-    ],
-  },
+  metas,
+  menu,
   blocks,
 ]);
 
 cms.collection("Pages", "src:block_pages/*.yml", [
   "title: text",
-  {
-    type: "object-list",
-    name: "menu",
-    fields: [
-      "text: text",
-      "url: text",
-      "highlight: checkbox",
-    ],
-  },
+  metas,
+  menu,
   blocks,
 ]);
 
