@@ -1,16 +1,15 @@
 ---
 layout: layouts/text.vto
 title: Aviso legal
-subtitle: Madrid, 24 de mayo de 2018
+subtitle: 'Madrid, 24 de mayo de 2018'
 menu:
   - text: Portada
-    url: "/"
+    url: /
 ---
-
 ## 1. Propiedad del sitio
 
 **1.1.** El siguiente documento (denominado a partir de ahora como «TÉRMINOS DE
-USO») regula el uso de la web **tarugoconf.com** (de ahora en adelante «el SITIO
+USO») regula el uso de la web **trgcon.com** (de ahora en adelante «el SITIO
 WEB») gestionada por BONILLAWARE S.L.U. (de ahora en adelante, «BONILLAWARE»).
 
 **1.2.** El SITIO WEB es propiedad de BONILLAWARE, empresa con domicilio social

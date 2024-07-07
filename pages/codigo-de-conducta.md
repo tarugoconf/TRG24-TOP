@@ -3,10 +3,9 @@ layout: layouts/text.vto
 title: Código de conducta
 menu:
   - text: Portada
-    url: "/"
+    url: /
 ---
-
-La Tarugoconf pretende ser **una experiencia agradable para todos los
+La TRGCON pretende ser **una experiencia agradable para todos los
 asistentes,** independientemente de su planeta de origen, género, orientación
 sexual, apariencia física, raza o religión.
 
@@ -18,7 +17,7 @@ padres.
 
 Sé cuidadoso con las palabras que eliges. Recuerda que las bromitas sexistas,
 racistas y/o excluyentes suelen ofender o incomodar y, por eso, no tienen cabida
-en ningún lugar de la Tarugoconf, incluyendo las charlas.
+en ningún lugar de la TRGCON, incluyendo las charlas.
 
 Sin paños calientes, **los organizadores nos reservamos el derecho de expulsar
 de la conferencia a cualquiera que incumpla estas reglas,** sin que se pueda
@@ -26,10 +25,9 @@ pedir el reembolso del precio de la entrada o compensación alguna.
 
 Si algo o alguien te molesta o si observas cómo molestan a alguien, por favor,
 **ponte en contacto inmediatamente** con alguno de los organizadores de la
-Tarugoconf:
+TRGCON:
 
 - [David Bonilla](mailto:david@bonillaware.com), Responsable de Contenidos
 - [Candela Milán](mailto:candela@bonillaware.com), Directora del Evento
 
-Gracias a todos por hacer de la Tarugoconf la conferencia más awesómica y
-gallega del mundo.
+Gracias a todos por hacer de la TRGCON la conferencia más awesómica y gallega del mundo.
