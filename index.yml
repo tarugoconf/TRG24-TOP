@@ -427,6 +427,9 @@ blocks:
       - name: Alejandro Gómez
         img: /files/people/alejandro_gomez.jpeg
         url: 'https://twitter.com/agomezmoron'
+      - name: Diego Mariño
+        img: /files/people/diego-marino.jpeg
+        url: 'https://twitter.com/diegomarino'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
