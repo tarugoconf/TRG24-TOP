@@ -20,8 +20,8 @@
             <em class="ticket-pricing">{{ ticket.pricing }}</em>
           </p>
 
-          {{ if ticket.sold_out }}
-          <strong class="badge ticket-disabled">Agotadas</strong>
+          {{ if ticket.buy.disabled }}
+          <strong class="button is-small is-disabled">{{ ticket.buy.text }}</strong>
           {{ else }}
           <a class="button is-small" href="{{ ticket.buy.url }}">{{ ticket.buy.text }}</a>
           {{ /if }}
@@ -62,10 +62,10 @@
           <em class="ticket-pricing">{{ ticket.pricing }}</em>
         </p>
 
-        {{ if ticket.sold_out }}
-          <strong class="badge ticket-disabled">Agotadas</strong>
+        {{ if ticket.buy.disabled }}
+          <strong class="button is-small is-disabled">{{ ticket.buy.text }}</strong>
         {{ else }}
-          <a role="button" class="button is-small" href="{{ ticket.buy.url }}">{{ ticket.buy.text }}</a>
+          <a class="button is-small" href="{{ ticket.buy.url }}">{{ ticket.buy.text }}</a>
         {{ /if }}
       </div>
 

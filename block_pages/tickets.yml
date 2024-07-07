@@ -6,7 +6,7 @@ menu:
 blocks:
   - type: header
     title: Entradas
-    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!\r\n\r\n> [!NOTE]\r\n>\r\n> Si trabajas **para una empresa** y quieres comprar varias entradas para tus compañeros sin tener que ir UNA A UNA y con una factura o presupuesto previo, escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com).\r\n"
+    description: "La TRG se celebrará **del 14 al 16 de noviembre de 2024 en La Nave (Madrid)**.<br><br>Las entradas se pondrán a la venta **el 21 de julio a las 11:00h GMT** (Galician Mean Time). Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} podrán acceder a las entradas *early bird* desde ese mismo momento y, un día después, —si quedán disponibles— también el público general.</br>¡Corre si no te quieres quedar sin la tuya!\r\n\r\n> [!note]\r\n>\r\n> Si trabajas **para una empresa** y quieres comprar varias entradas para tus compañeros sin tener que ir UNA A UNA y con una factura o presupuesto previo, escríbenos a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com).\r\n"
   - type: tickets
     id: tickets
     features:
@@ -43,8 +43,9 @@ blocks:
         pricing: 165€ + IVA
         img: /files/tickets/early-bird.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - conferences
@@ -58,8 +59,9 @@ blocks:
         pricing: 250€ + IVA
         img: /files/tickets/normal.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - conferences
@@ -73,8 +75,9 @@ blocks:
         pricing: 350€ + IVA
         img: /files/tickets/killer-combo.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - conferences
@@ -89,8 +92,9 @@ blocks:
         pricing: 75€ + IVA
         img: /files/tickets/online.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - streaming
@@ -101,8 +105,9 @@ blocks:
         pricing: 150€ + IVA
         img: /files/tickets/taller.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - workshop
@@ -110,8 +115,9 @@ blocks:
         pricing: 500€ + IVA
         img: /files/tickets/mecenas.png
         buy:
-          text: Comprar
+          text: Próximamente
           url: 'https://trg24.eventbrite.es/'
+          disabled: true
         features:
           - sold_out
           - conferences
