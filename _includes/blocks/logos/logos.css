@@ -13,7 +13,7 @@
 }
 .block-logos-description img {
   display: block;
-  margin: 4em auto;
+  margin: 4em auto 0;
   max-width: 100%;
 
 }
@@ -22,7 +22,7 @@
   --width: 200px;
 
   list-style: none;
-  margin: 0;
+  margin: 4em 0 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, var(--width));
