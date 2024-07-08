@@ -310,7 +310,7 @@ blocks:
     size: medium
     items:
       - alt: Panel
-        img: /files/logo-panel-blanco.png
+        img: /files/panel_negro_2.png
         url: 'https://www.panel.es/'
         description: El cambio empieza en TI.
       - alt: SNGULAR
@@ -489,3 +489,5 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
+metas:
+  image: ''
