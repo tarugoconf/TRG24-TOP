@@ -43,7 +43,6 @@ document.querySelectorAll("details").forEach((el) => {
   });
 });
 
-
 // Init navigation
 init();
 addEventListener("popstate", () => init());
