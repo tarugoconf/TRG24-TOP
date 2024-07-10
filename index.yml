@@ -328,7 +328,7 @@ blocks:
   - type: logos
     title: Partners
     id: patrocinio
-    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/scl/fi/id4l76jkukgzkcrc6n1fw/TRG24_sponsorship_deck_ES.pdf){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic_logo.png)](https://automattic.com/)\r\nHaciendo de la web un lugar mejor."
+    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://bit.ly/trg24-deck){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic_logo.png)](https://automattic.com/)\r\nHaciendo de la web un lugar mejor."
     size: medium
     items:
       - alt: Panel
@@ -458,7 +458,7 @@ blocks:
     theme: is-light width-box box-fill
     text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- **1200** asistentes a lo largo de los 3 días\r\n- **2** días trending topic nacional\r\n- **25** millones de impresiones en redes sociales\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Nos encantará charlar contigo!\r\n"
     src: /files/TRG24_sponsorship_deck_ES.pdf
-    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](/files/TRG24_sponsorship_deck_EN.pdf)"
+    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](https://bit.ly/trg24-deck-EN)"
   - type: separator
     width: is-full
   - type: faq
