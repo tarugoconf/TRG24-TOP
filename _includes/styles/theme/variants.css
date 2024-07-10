@@ -65,7 +65,6 @@
 .box-border {
   border: solid 2px var(--color-lines);
   padding: 2.5rem;
-  box-shadow: 0 8px 0 -4px var(--color-lines);
 }
 .box-fill {
   --row-padding: 2.5rem;
