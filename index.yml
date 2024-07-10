@@ -76,14 +76,22 @@ blocks:
       - title: 'Jueves, 14 de noviembre'
         events:
           - time: '15:00h'
-            title: Apertura de puerta y acreditación de asistentes
+            title: Apertura de puertas y acreditación de asistentes
             id: apertura-jueves
             description: "¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
             speakers: []
           - time: '15:30 - 18:00h'
-            title: Talleres
+            title: 'TALLER: Diseño de producto para no-diseñadores'
+            id: taller-cris
+            subtitle: por Cris Busquets
+            description: "En este taller, Cris nos enseñará los fundamentos de la disciplina, pero —sobre todo— cómo implementar procesos de diseño de producto que involucren a los diferentes roles necesarios para desarrollar con éxito un producto digital, desde Product Managers a desarrolladores.\r\n\r\nTrabajaremos con **casos prácticos** para aprender a colaborar de forma efectiva con un diseñador y cómo debe entregarnos este su trabajo. Acabaremos, a golpe de **plantillas y ejemplos**, con el mito de que los programadores son de Venus, los diseñadores de Marte y jamás podrán entenderse.\r\n\r\nNos llevaremos, instaladas en nuestro ordenador, las **herramientas** necesarias para empezar a hacer Product Design en nuestro equipo; y **documentación y bibliografía** para seguir ampliando nuestros conocimientos."
+            speakers:
+              - cris
+          - time: '15:30 - 18:00h'
+            title: Talleres por confirmar
             id: talleres-jueves
-            description: "Talleres eminentemente prácticos impartidos por profesores de primer nivel que, en apenas 3 horas, **te permitirán adquirir un nuevo superpoder que poder aplicar inmediatamente en tu trabajo**.\r\n\r\nMuy pronto anunciaremos todos los profesores y talleres de la edición de 2024. "
+            subtitle: Adquiere nuevos superpoderes
+            description: "Talleres eminentemente prácticos impartidos por profesores de primer nivel que, en menos de 3 horas, **te permitirán adquirir un nuevo superpoder que poder aplicar inmediatamente en tu trabajo**.\r\n\r\nMuy pronto anunciaremos todos los profesores y talleres de la edición de 2024. "
             speakers: []
           - time: '18:00 - 20:00h'
             title: Networking Tarugo
@@ -293,6 +301,19 @@ blocks:
           - icon: browser
             url: >-
               https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit
+      - name: Cris Busquets
+        id: cris
+        company: Automattic
+        role: Senior Product Designer
+        bio: "Cris ha trabajado como diseñadora de producto en compañías como Twitter y Holaluz, ha sido docente en la UOC y la escuela de diseño Elisava. Comparte toda su experiencia con la Comunidad a través de la fantástica newsletter [uiFromMars](https://www.uifrommars.com/){target=\"_blank\"} y ha escrito el libro «Diseño desde Marte».\r\n\r\nActualmente trabaja en Automattic, donde se encarga del diseño de la funcionalidad de Newsletters."
+        image: /files/2ggihsfq_400x400.jpg
+        links:
+          - icon: x-logo
+            url: 'https://x.com/cbusquets'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/cbusquets/'
+          - icon: browser
+            url: 'https://www.uifrommars.com/'
       - name: David Bonilla
         id: david-bonilla
         company: TRG
