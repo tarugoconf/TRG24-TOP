@@ -2,7 +2,7 @@ import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
 import lightningcss from "lume/plugins/lightningcss.ts";
 import basePath from "lume/plugins/base_path.ts";
-import icons from "https://deno.land/x/lume_icon_plugins@v0.1.2/phosphor.ts";
+import icons from "https://deno.land/x/lume_icon_plugins@v0.2.1/phosphor.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.12.0";
 import favicon from "lume/plugins/favicon.ts";
 import metas from "lume/plugins/metas.ts";
