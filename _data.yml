@@ -4,30 +4,23 @@ metas:
   site: TRGCON 24
   lang: es
   twitter: tarugoconf
-  color: "#00ab7d"
+  color: '#00ab7d'
   generator: true
-  image: "/files/img-home.png"
-
+  image: /files/img-home.png
+state: pre-event
 cta:
   text: Consigue tu entrada
-  url: '/entradas/'
-
+  url: /entradas/
 footer:
-  copyright: |
-    © 2024<br>
-    Gestionado con ♥ e inconsciencia <br>
-    por Bonillaware SLU.<br>
-    Web creada con [Lume](https://lume.land) & TOP Theme<br>
-    [humans.txt](/humans.txt)
+  copyright: "© 2024<br>\r\nGestionado con ♥ e inconsciencia <br>\r\npor Bonillaware SLU.<br>\r\nWeb creada con [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
   menu:
-  - text: <strong>Blog</strong>
-    href: /blog/
-  - text: <strong>Community day</strong>
-    href: /community-day/
-    separator: true
-  - text: Aviso legal
-    href: /aviso-legal/
-  - text: Política de privacidad
-    href: /politica-de-privacidad/
-  - text: Código de conducta
-    href: /codigo-de-conducta/
+    - text: <strong>Blog</strong>
+      href: /blog/
+    - text: <strong>Community day</strong>
+      href: /community-day/
+    - text: Aviso legal
+      href: /aviso-legal/
+    - text: Política de privacidad
+      href: /politica-de-privacidad/
+    - text: Código de conducta
+      href: /codigo-de-conducta/

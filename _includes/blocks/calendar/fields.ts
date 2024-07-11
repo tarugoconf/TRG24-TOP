@@ -22,7 +22,7 @@ export default {
               type: "list",
               name: "speakers",
               description: "Select the speakers ID for this event",
-            }
+            },
           ],
         },
       ],

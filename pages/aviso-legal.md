@@ -6,6 +6,7 @@ menu:
   - text: Portada
     url: /
 ---
+
 ## 1. Propiedad del sitio
 
 **1.1.** El siguiente documento (denominado a partir de ahora como «TÉRMINOS DE

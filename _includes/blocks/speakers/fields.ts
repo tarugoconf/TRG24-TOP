@@ -21,11 +21,12 @@ export default {
             {
               type: "text",
               name: "icon",
-              description: "<a href='https://phosphoricons.com/' target='_blank'>Phosphor icon name</a>",
+              description:
+                "<a href='https://phosphoricons.com/' target='_blank'>Phosphor icon name</a>",
             },
             "url: url",
           ],
-        }
+        },
       ],
     },
   ],

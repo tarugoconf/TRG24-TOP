@@ -29,7 +29,7 @@ export default {
             "disabled: checkbox",
           ],
         },
-        "features: list"
+        "features: list",
       ],
     },
   ],

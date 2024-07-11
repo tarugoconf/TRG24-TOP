@@ -51,7 +51,7 @@ const metas = {
       type: "file",
       name: "image",
       description: "Image for sharing on social media (empty for default)",
-    }
+    },
   ],
 };
 const menu = {
@@ -65,11 +65,25 @@ const menu = {
   ],
 };
 
+const state = {
+  type: "select",
+  label: "Visibility",
+  name: "only_state",
+  description: "When should this page be visible?",
+  options: [
+    { label: "Always", value: "" },
+    { label: "Before the event", value: "pre-event" },
+    { label: "During the event", value: "event" },
+    { label: "After the event", value: "post-event" },
+  ],
+};
+
 const cms = lumeCMS();
 
 cms.document("Home", "src:index.yml", [
   "title: text",
   metas,
+  state,
   menu,
   blocks,
 ]);
@@ -77,12 +91,14 @@ cms.document("Home", "src:index.yml", [
 cms.collection("Pages", "src:block_pages/*.yml", [
   "title: text",
   metas,
+  state,
   menu,
   blocks,
 ]);
 
 cms.collection("Legal pages", "src:pages/*.md", [
   "title: text",
+  state,
   "subtitle: text",
   "content: markdown",
 ]);
@@ -96,6 +112,16 @@ cms.document({
       type: "text",
       name: "title_suffix",
       description: "Default title or suffix for all pages",
+    },
+    {
+      type: "select",
+      name: "state",
+      description: "Event state. This will filter the pages by state",
+      options: [
+        { label: "Before the event", value: "pre-event" },
+        { label: "During the event", value: "event" },
+        { label: "After the event", value: "post-event" },
+      ],
     },
     {
       type: "object",

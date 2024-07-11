@@ -5,9 +5,10 @@ menu:
   - text: Portada
     url: /
 ---
-La TRGCON pretende ser **una experiencia agradable para todos los
-asistentes,** independientemente de su planeta de origen, género, orientación
-sexual, apariencia física, raza o religión.
+
+La TRGCON pretende ser **una experiencia agradable para todos los asistentes,**
+independientemente de su planeta de origen, género, orientación sexual,
+apariencia física, raza o religión.
 
 Para conseguirlo, te rogamos que seas amable con los otros asistentes. No les
 pises, ni les escupas, ni les insultes ni tampoco les pongas en una situación
@@ -30,4 +31,5 @@ TRGCON:
 - [David Bonilla](mailto:david@bonillaware.com), Responsable de Contenidos
 - [Candela Milán](mailto:candela@bonillaware.com), Directora del Evento
 
-Gracias a todos por hacer de la TRGCON la conferencia más awesómica y gallega del mundo.
+Gracias a todos por hacer de la TRGCON la conferencia más awesómica y gallega
+del mundo.

@@ -1,26 +1,13 @@
-@font-face {
-	font-family: 'Roobert';
-	src: url("../fonts/RoobertVF.woff2") format('woff2-variations');
-	font-weight: 300 900;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Roobert';
-	src: url("../fonts/RoobertVFItalics.woff2") format('woff2-variations');
-	font-weight: 300 900;
-	font-style: italic;
-}
-
 :root {
   /* Colors */
-  --color-primary: #00ab7d;
-  --color-secondary: #ffb0bf;
-  --color-dark: #00385e;
-  --color-light: #f7f2eb;
+  --color-primary: blue;
+  --color-secondary: lightgreen;
+  --color-dark: black;
+  --color-light: white;
 
   /* Fonts */
-  --font-family-display: Roobert;
-  --font-family-ui: Roobert, system-ui, sans-serif;
+  --font-family-display: system-ui, sans-serif;
+  --font-family-ui: system-ui, sans-serif;
   --font-scale: 1.2;
   --font-weight-bold: 750;
   --font-weight-bolder: 900;
