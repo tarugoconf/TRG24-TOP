@@ -88,6 +88,15 @@ blocks:
             speakers:
               - cris
           - time: '15:30 - 18:00h'
+            title: >-
+              TALLER: Herramientas y procesos para equipos de desarrollo de alto
+              rendimiento
+            id: taller-recena
+            subtitle: por Manuel Recena
+            description: "Este taller lleva DOS AÑOS CONSECUTIVOS PETÁNDOLO, así que, hemos decidido repetirlo de nuevo. Conoceremos las herramientas y procesos necesarios para **conseguir que nuestro ciclo de desarrollo de software sea lo más productivo posible**.\r\n\r\nDesde definir OKRs que nos ayuden a medir nuestro progreso hasta establecer el flujo de trabajo necesario para **conseguir que el despliegue en producción de nuestro software sea tan frecuente como ABURRIDO** —porque nunca pase nada— pasando por los radiadores de información necesarios para que todo el mundo sepa lo que está pasando en cada momento.\r\n\r\nDa igual si tu equipo de desarrollo es mejor o peor, de este taller te llevarás un montón de ideas y buenas prácticas para que sea MEJOR."
+            speakers:
+              - recena
+          - time: '15:30 - 18:00h'
             title: Talleres por confirmar
             id: talleres-jueves
             subtitle: Adquiere nuevos superpoderes
@@ -314,6 +323,17 @@ blocks:
             url: 'https://www.linkedin.com/in/cbusquets/'
           - icon: browser
             url: 'https://www.uifrommars.com/'
+      - name: Manuel Recena
+        id: recena
+        company: SUSE
+        role: Director of Engineering
+        bio: "Manuel comenzó su carrera profesional en el año 2001 vinculado a la Universidad de Sevilla donde tuvo la oportunidad de conocer, entender y adoptar los valores y principios del FOSS. Sin lugar a dudas, esta primera etapa profesional marcó el rumbo de su trayectoria profesional donde resultaría extraño que sus propuestas e iniciativas no estuvieran claramente influenciadas.\r\n\r\nApasionado del orden, los procedimientos, la productividad, las métricas y la automatización, lo que mejor resume su forma de ver su profesión es la orientación al detalle y resultados.\r\n\r\nSu verdadero conocimiento lo ha encontrado tras su paso por la administración pública, participación en proyectos de consultoría y servicios de tecnología, y su actividad como emprendedor en la que ha fundado y liderado varios productos.\r\n\r\nDesde principios de 2023, Manuel trabaja en SUSE como Director of Product Management & Engineering, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día."
+        image: /files/photo_2024-07-13-12.40.54.jpeg
+        links:
+          - icon: x-logo
+            url: 'https://twitter.com/recena/'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/recena/'
       - name: David Bonilla
         id: david-bonilla
         company: TRG
