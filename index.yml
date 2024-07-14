@@ -445,6 +445,9 @@ blocks:
       - name: Guillermo Montoya
         img: /files/people/GuillermoTRG_2.jpg
         url: 'https://twitter.com/Gmfdsr'
+      - name: Cris Santamarina
+        img: /files/oayfz05p_400x400.jpg
+        url: 'https://x.com/crissantamarina'
       - name: Juán Gil Miqueo
         img: /files/people/juan-miqueo.jpeg
         url: 'https://twitter.com/juan_miqueo'
@@ -472,6 +475,9 @@ blocks:
       - name: Diego Mariño
         img: /files/people/diego-marino.jpeg
         url: 'https://twitter.com/diegomarino'
+      - name: Luis Ibañez
+        img: /files/whatsapp-image-2024-07-13-at-11.00.04.jpeg
+        url: 'https://x.com/ender3_'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
