@@ -187,13 +187,15 @@ blocks:
               experiencia técnica- conoce el día a día del sector informático.
             speakers: []
           - time: '16:45 - 17:30h'
-            title: Charla por anunciar
-            subtitle: Ponente por anunciar
-            description: Nuestros minions aun están esculpiendo la agenda.
+            title: Curar con algoritmos
+            id: charla-aurelia
+            subtitle: por Aurelia Bustos
+            description: "Los medios dibujan la Inteligencia Artificial como una tecnología que pareciera servir solo para crear imágenes más o menos aparentes y generar canciones dándole a un botón, pero eso sólo rasca la superficie de la revolución que va a suponer en nuestro día a día.\r\n\r\nEn esta charla, Aurelia nos contará **una aplicación real de la IA, alejada de la fanfarria de los *prompts* y las herramientas generativas**: la mejora de diagnósticos clínicos a partir de algoritmos que permitan —por ejemplo— identificar un tumor con más precisión que el ojo humano. Y, también, **su experiencia creando una startup alrededor de todo ese valor sin tener que marcharse a Silicon Valley**."
             speakers:
-              - tba2
+              - aurelia
           - time: '17:30 - 18:15 '
             title: Charla por anunciar
+            id: tba
             subtitle: Ponente por anunciar
             speakers:
               - tba1
@@ -285,14 +287,17 @@ blocks:
         links:
           - icon: x-logo
             url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
-      - name: TBA
-        id: tba2
-        role: TBA
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
-        image: /files/tba2.jpg
+      - name: Aurelia Bustos
+        id: aurelia
+        company: Medbravo
+        role: Cofundadora y CTO
+        bio: "Aurelia es Oncóloga. Su experiencia con ensayos clínicos sobre cáncer le llevó a estudiar también Ingeniería Informática y doctorarse en Inteligencia Artificial, con el objetivo de encontrar nuevas vías de desarrollo de la investigación en ese ámbito.\r\n\r\nHa compaginado su formación con su trabajo como médica en el Hospital General de Elche y en el Hospital Universitario de San Juan en Alicante. Además, cofundó Medbravo una startup que usa la IA para mejorar la precisión de los diagnósticos médicos.\r\n\r\nAurelia **ha sido galardonada con la Orden del Mérito Civil** y la Distinción al Mérito Científico de la Generalidad Valenciana. Desde 2020 es miembro del comité de expertos en inteligencia artificial de la Consejería de Innovación de la Generalidad Valenciana."
+        image: /files/aurelia.jpg
         links:
-          - icon: x-logo
-            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
+          - icon: flower-lotus
+            url: 'https://es.wikipedia.org/wiki/Aurelia_Bustos_Moreno'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/aureliabustos/'
       - name: TBA
         id: tba3
         role: TBA
