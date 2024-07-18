@@ -477,6 +477,9 @@ blocks:
       - name: Alejandro Gómez
         img: /files/people/alejandro_gomez.jpeg
         url: 'https://twitter.com/agomezmoron'
+      - name: Juan Carlos Vez Vázquez
+        img: /files/people/juan-carlos.jpeg
+        url: 'https://www.linkedin.com/in/juancarlosvezvazquez/'
       - name: Diego Mariño
         img: /files/people/diego-marino.jpeg
         url: 'https://twitter.com/diegomarino'
