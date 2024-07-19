@@ -283,11 +283,15 @@ blocks:
         id: giuseppe
         company: Gobierno del Reino Unido
         role: Head of Data Products and Services
-        bio: "Giuseppe es el responsable de Productos y Servicios de Datos del Departamento de Trabajo y Pensiones del Gobierno Británico.\r\n\r\nTambién forma parte del Consejo Asesor del Real Colegio de Oftalmólogos, el Instituto Goldsmiths de la Universidad de Londres y la empresa Traveline, pero sobre todo **es un experto en visualización de datos**.\r\n\r\nTiene un montón de proyectos *open source* y artículos publicados sobre *open data* y la gestión de información en Administraciones públicas y es autor de [Puntofisso](https://puntofisso.net/newsletter/){target=\"_blank\"} («punto fijo» en italiano), una newsletter sobre «periodismo, visualización, herramientas, tutoriales y pensamiento de datos» que se ha convertido en una referencia."
+        bio: "Giuseppe es el responsable de Productos y Servicios de Datos del Departamento de Trabajo y Pensiones del Gobierno Británico.\r\n\r\nTambién forma parte del Consejo Asesor del Real Colegio de Oftalmólogos, el Instituto Goldsmiths de la Universidad de Londres y la empresa Traveline, pero sobre todo **es un experto en visualización de datos**.\r\n\r\nTiene un montón de proyectos *open source* y artículos publicados sobre *open data* y la gestión de información en Administraciones públicas y es autor de [Quantum of Sollazzo](https://puntofisso.net/newsletter/){target=\"_blank\"}, una newsletter sobre «periodismo, visualización, herramientas, tutoriales y pensamiento de datos» que se ha convertido en una referencia."
         image: /files/giuseppe.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
+            url: 'https://x.com/puntofisso'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/giuseppesollazzo/'
+          - icon: envelope
+            url: 'https://puntofisso.net/newsletter/'
       - name: Aurelia Bustos
         id: aurelia
         company: Medbravo
