@@ -195,10 +195,10 @@ blocks:
               - aurelia
           - time: '17:30 - 18:15 '
             title: Charla por anunciar
-            id: tba
+            id: charla-giuseppe
             subtitle: Ponente por anunciar
             speakers:
-              - tba1
+              - giuseppe
           - time: '18:15 - 19:00h'
             title: "\U0001F36A Merienda"
             id: merienda-viernes
@@ -279,11 +279,12 @@ blocks:
         links:
           - icon: x-logo
             url: 'https://x.com/DaniNovarama'
-      - name: TBA
-        id: tba1
-        role: TBA
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
-        image: /files/tba1.jpg
+      - name: Giuseppe Sollazzo
+        id: giuseppe
+        company: Gobierno del Reino Unido
+        role: Head of Data Products and Services
+        bio: "Giuseppe es el responsable de Productos y Servicios de Datos del Departamento de Trabajo y Pensiones del Gobierno Británico.\r\n\r\nTambién forma parte del Consejo Asesor del Real Colegio de Oftalmólogos, el Instituto Goldsmiths de la Universidad de Londres y la empresa Traveline, pero sobre todo **es un experto en visualización de datos**.\r\n\r\nTiene un montón de proyectos *open source* y artículos publicados sobre *open data* y la gestión de información en Administraciones públicas y es autor de [Puntofisso](https://puntofisso.net/newsletter/){target=\"_blank\"} («punto fijo» en italiano), una newsletter sobre «periodismo, visualización, herramientas, tutoriales y pensamiento de datos» que se ha convertido en una referencia."
+        image: /files/giuseppe.jpg
         links:
           - icon: x-logo
             url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
