@@ -527,7 +527,7 @@ blocks:
       - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
         answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg24](https://twitter.com/search?q=%23trg24&src=typed_query&f=live){target=_blank}.        \r\n"
       - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
-        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/tickets/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg24.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
+        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/entradas/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg24.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
       - question: Si mi empresa me paga la entrada ¿Hacéis factura?
         answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
       - question: ¿Tenéis Código de Conducta?
