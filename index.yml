@@ -349,7 +349,7 @@ blocks:
         id: felix
         company: Tinybird
         role: VP de Ingeniería
-        bio: "Félix lleva en la industria del software unos 23 años, donde ha trabajado en cosas tan diversas como aplicaciones para cambio de divisa, videojuegos, sistemas distribuidos e incluso en un sistema operativo como Android.\r\n\r\nHa pasado por startups, scale ups y hasta FAANG, como Gocardless, Eventbrite Google o Tinybird donde ha asumido ditintos roles de liderazgo técnico como Tech leader, Engineering Manager, Manager de Managers, Director o VP de Ingeniería.\r\n\r\nDurante todos estos ha mentorizado a cientos de técnicos para convertirles en líderes que sepan llevar a sus equipos al siguiente nivel con cabeza, en vez de con un látigo."
+        bio: "Félix lleva en la industria del software unos 23 años, donde ha trabajado en cosas tan diversas como aplicaciones para cambio de divisa, videojuegos, sistemas distribuidos e incluso en un sistema operativo como Android.\r\n\r\nHa pasado por startups, scale ups y hasta FAANG, como Gocardless, Eventbrite Google o Tinybird donde ha asumido distintos roles de liderazgo técnico como Tech Leader, Engineering Manager, Manager de Managers, Director o VP de Ingeniería.\r\n\r\nDurante todos estos ha mentorizado a cientos de técnicos para convertirles en líderes que sepan llevar a sus equipos al siguiente nivel con cabeza, en vez de con un látigo."
         image: /files/felix.jpg
         links:
           - icon: x-logo
