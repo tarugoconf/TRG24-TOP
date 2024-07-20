@@ -97,11 +97,12 @@ blocks:
             speakers:
               - recena
           - time: '15:30 - 18:00h'
-            title: Talleres por confirmar
-            id: talleres-jueves
-            subtitle: Adquiere nuevos superpoderes
-            description: "Talleres eminentemente prácticos impartidos por profesores de primer nivel que, en menos de 3 horas, **te permitirán adquirir un nuevo superpoder que poder aplicar inmediatamente en tu trabajo**.\r\n\r\nMuy pronto anunciaremos todos los profesores y talleres de la edición de 2024. "
-            speakers: []
+            title: 'TALLER: De técnicos a Tech Leads'
+            id: taller-felix
+            subtitle: por Félix López
+            description: "En este taller se diseccionará el rol de Tech Lead y **los asistentes aprenderán no solo las responsabilidades habituales del mismo, sino también las métricas, herramientas, documentación y procesos que les ayudarán a alcanzarlas**.\r\n\r\nPero un taller debe ser práctico, por eso Félix os planteará algunas de las situaciones y experiencias más complejas que podrás encontrar como líder técnico, y así experimentar cómo se puede aplicar todo lo aprendido para llevar a tu equipo al próximo nivel."
+            speakers:
+              - felix
           - time: '18:00 - 20:00h'
             title: Networking Tarugo
             id: networking-jueves
