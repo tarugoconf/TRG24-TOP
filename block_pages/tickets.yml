@@ -43,7 +43,7 @@ blocks:
         pricing: 165€ + IVA
         img: /files/tickets/early-bird.png
         buy:
-          text: Próximamente
+          text: PROXIMAMENTE
           url: 'https://trg24.eventbrite.es/'
           disabled: true
         features:
@@ -59,9 +59,9 @@ blocks:
         pricing: 250€ + IVA
         img: /files/tickets/normal.png
         buy:
-          text: Próximamente
+          text: COMPRAR
           url: 'https://trg24.eventbrite.es/'
-          disabled: true
+          disabled: false
         features:
           - sold_out
           - conferences
@@ -75,9 +75,9 @@ blocks:
         pricing: 350€ + IVA
         img: /files/tickets/killer-combo.png
         buy:
-          text: Próximamente
+          text: COMPRAR
           url: 'https://trg24.eventbrite.es/'
-          disabled: true
+          disabled: false
         features:
           - sold_out
           - conferences
@@ -92,9 +92,9 @@ blocks:
         pricing: 75€ + IVA
         img: /files/tickets/online.png
         buy:
-          text: Próximamente
+          text: COMPRAR
           url: 'https://trg24.eventbrite.es/'
-          disabled: true
+          disabled: false
         features:
           - sold_out
           - streaming
@@ -105,9 +105,9 @@ blocks:
         pricing: 150€ + IVA
         img: /files/tickets/taller.png
         buy:
-          text: Próximamente
+          text: COMPRAR
           url: 'https://trg24.eventbrite.es/'
-          disabled: true
+          disabled: false
         features:
           - sold_out
           - workshop
@@ -115,9 +115,9 @@ blocks:
         pricing: 500€ + IVA
         img: /files/tickets/mecenas.png
         buy:
-          text: Próximamente
+          text: COMPRAR
           url: 'https://trg24.eventbrite.es/'
-          disabled: true
+          disabled: false
         features:
           - sold_out
           - conferences
@@ -134,3 +134,5 @@ blocks:
           - photo
           - extra
 title: Entradas
+metas:
+  image: ''
