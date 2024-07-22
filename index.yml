@@ -480,6 +480,12 @@ blocks:
       - name: Toño de la Torre
         img: /files/people/tono-de-la-torre.jpeg
         url: 'https://twitter.com/adelatorrefoss'
+      - name: Dimas Suárez
+        img: /files/people/dimas.jpg
+        url: 'https://2023.trgcon.com/img/patrons/dimas.jpg'
+      - name: Alejandro San Nicolás
+        img: /files/people/alejandro.jpg
+        url: 'https://www.linkedin.com/in/alejandrosnicolas/'
       - name: Jordi Mon Companys
         img: /files/people/jordi.jpeg
         url: 'https://twitter.com/JordiMonPMM'
@@ -498,15 +504,15 @@ blocks:
       - name: Juan Carlos Vez Vázquez
         img: /files/people/juan-carlos.jpeg
         url: 'https://www.linkedin.com/in/juancarlosvezvazquez/'
-      - name: Alejandro San Nicolás
-        img: /files/people/alejandro.jpg
-        url: 'https://www.linkedin.com/in/alejandrosnicolas/'
       - name: Diego Mariño
         img: /files/people/diego-marino.jpeg
         url: 'https://twitter.com/diegomarino'
       - name: Luis Ibañez
         img: /files/whatsapp-image-2024-07-13-at-11.00.04.jpeg
         url: 'https://x.com/ender3_'
+      - name: Rubén Arevalillo
+        img: /files/ruben.jpg
+        url: 'https://x.com/rarevalillo'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
