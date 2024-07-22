@@ -43,7 +43,7 @@ blocks:
         pricing: 165€ + IVA
         img: /files/tickets/early-bird.png
         buy:
-          text: PROXIMAMENTE
+          text: AGOTADAS
           url: 'https://trg24.eventbrite.es/'
           disabled: true
         features:
