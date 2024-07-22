@@ -480,6 +480,9 @@ blocks:
       - name: Toño de la Torre
         img: /files/people/tono-de-la-torre.jpeg
         url: 'https://twitter.com/adelatorrefoss'
+      - name: Daniel López
+        img: /files/people/daniel-lopez.jpeg
+        url: 'http://twitter.com/vomkriege'
       - name: Dimas Suárez
         img: /files/people/dimas.jpg
         url: 'https://2023.trgcon.com/img/patrons/dimas.jpg'
