@@ -453,6 +453,9 @@ blocks:
     title: Mecenas
     description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG24 sea posible, asegurando la sostenibilidad del evento.\r\n"
     items:
+      - name: Fátima Balleteros
+        img: /files/people/fatima.jpg
+        url: 'https://www.linkedin.com/in/fatima-ballesteros-11b1183b/'
       - name: Daniel Ramos
         img: /files/people/danielramos.jpg
         url: 'https://twitter.com/danielramosl'
@@ -465,12 +468,12 @@ blocks:
       - name: Guillermo Montoya
         img: /files/people/GuillermoTRG_2.jpg
         url: 'https://twitter.com/Gmfdsr'
-      - name: Cris Santamarina
-        img: /files/oayfz05p_400x400.jpg
-        url: 'https://x.com/crissantamarina'
       - name: Juán Gil Miqueo
         img: /files/people/juan-miqueo.jpeg
         url: 'https://twitter.com/juan_miqueo'
+      - name: Cris Santamarina
+        img: /files/oayfz05p_400x400.jpg
+        url: 'https://x.com/crissantamarina'
       - name: Jorge Galindo
         img: /files/people/jorge-galindo.jpeg
         url: 'https://twitter.com/Jorge__Galindo'
@@ -495,6 +498,9 @@ blocks:
       - name: Juan Carlos Vez Vázquez
         img: /files/people/juan-carlos.jpeg
         url: 'https://www.linkedin.com/in/juancarlosvezvazquez/'
+      - name: Alejandro San Nicolás
+        img: /files/people/alejandro.jpg
+        url: 'https://www.linkedin.com/in/alejandrosnicolas/'
       - name: Diego Mariño
         img: /files/people/diego-marino.jpeg
         url: 'https://twitter.com/diegomarino'
