@@ -1,9 +1,0 @@
-.block-separator {
-  &.is-default {
-    grid-column: start / end;
-  }
-
-  &.is-full {
-    grid-column: 1 / -1;
-  }
-}
