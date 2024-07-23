@@ -422,6 +422,10 @@ blocks:
         img: /files/logos/doit_logo.png
         url: 'https://www.doit.com/'
         description: 'Simplify cloud costs, amplify engineering excellence.'
+      - alt: STR Sistemas
+        img: /files/logos/logo2_str.png
+        url: 'https://www.strsistemas.com/'
+        description: El SysAdmin de tu empresa
       - alt: Ayuntamiento de Madrid
         img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
