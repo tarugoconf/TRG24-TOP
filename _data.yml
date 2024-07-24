@@ -13,6 +13,7 @@ cta:
   url: /entradas/
 footer:
   copyright: "© 2024<br>\r\nGestionado con ♥ e inconsciencia <br>\r\npor Bonillaware SLU.<br>\r\nWeb creada con [Lume](https://lume.land) & TOP Theme<br>\r\n[humans.txt](/humans.txt)\r\n"
+  logo: /files/logo-duotone.svg
   menu:
     - text: <strong>Blog</strong>
       href: /blog/

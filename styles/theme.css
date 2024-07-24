@@ -23,6 +23,9 @@
   --font-family-ui: Roobert, system-ui, sans-serif;
   --font-weight-bold: 750;
   --font-weight-bolder: 900;
+
+  /* Borders */
+  --border-weight: 2px;
 }
 
 .box-border {
