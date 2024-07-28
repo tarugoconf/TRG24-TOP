@@ -490,6 +490,9 @@ blocks:
       - name: Dimas Suárez
         img: /files/people/dimas.jpg
         url: 'https://massuarez.es/'
+      - name: Elisardo González
+        img: /files/people/elisardo.jpg
+        url: 'https://x.com/odrasile'
       - name: Alejandro San Nicolás
         img: /files/people/alejandro.jpg
         url: 'https://www.linkedin.com/in/alejandrosnicolas/'
@@ -520,6 +523,18 @@ blocks:
       - name: Rubén Arevalillo
         img: /files/ruben.jpg
         url: 'https://x.com/rarevalillo'
+      - name: Pablo Grueso
+        img: /files/pablo_grueso.jpeg
+        url: 'https://www.linkedin.com/in/pablogrueso/'
+      - name: Andrés García
+        img: /files/andres_garcia.jpeg
+        url: 'https://www.linkedin.com/in/agarmar/'
+      - name: Rubén Morgade
+        img: /files/ruben_morgade.jpeg
+        url: 'https://www.linkedin.com/in/rubenmorgade/'
+      - name: Joaquín Fernández
+        img: /files/joaquin_fernandez.png
+        url: 'https://x.com/Iarwain'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
