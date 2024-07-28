@@ -526,9 +526,6 @@ blocks:
       - name: Pablo Grueso
         img: /files/pablo_grueso.jpeg
         url: 'https://www.linkedin.com/in/pablogrueso/'
-      - name: Andrés García
-        img: /files/andres_garcia.jpeg
-        url: 'https://www.linkedin.com/in/agarmar/'
       - name: Rubén Morgade
         img: /files/ruben_morgade.jpeg
         url: 'https://www.linkedin.com/in/rubenmorgade/'
