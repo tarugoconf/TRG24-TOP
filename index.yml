@@ -457,7 +457,7 @@ blocks:
     title: Mecenas
     description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG24 sea posible, asegurando la sostenibilidad del evento.\r\n"
     items:
-      - name: Fátima Balleteros
+      - name: Fátima Ballesteros
         img: /files/people/fatima.jpg
         url: 'https://www.linkedin.com/in/fatima-ballesteros-11b1183b/'
       - name: Daniel Ramos
