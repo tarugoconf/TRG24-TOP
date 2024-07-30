@@ -532,6 +532,12 @@ blocks:
       - name: Joaquín Fernández
         img: /files/joaquin_fernandez.png
         url: 'https://x.com/Iarwain'
+      - name: David Carrero
+        img: /files/carrero.png
+        url: 'https://carrero.es/'
+      - name: Iván Fernandez Calvo
+        img: /files/ivan.jpg
+        url: 'https://www.linkedin.com/in/iv%C3%A1n-fern%C3%A1ndez-calvo-21425033/'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
