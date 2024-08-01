@@ -535,7 +535,7 @@ blocks:
       - name: David Carrero
         img: /files/carrero.png
         url: 'https://carrero.es/'
-      - name: Iván Fernandez Calvo
+      - name: Iván Fernandez
         img: /files/ivan.jpg
         url: 'https://www.linkedin.com/in/iv%C3%A1n-fern%C3%A1ndez-calvo-21425033/'
   - type: pdf
