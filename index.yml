@@ -28,6 +28,7 @@ blocks:
   - type: text
     title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
     theme: is-light width-box box-border
+    columns: true
     text: "La TRG es **una conferencia sobre diseño, desarrollo y comercialización de servicios digitales** que nace alrededor de la hiperactiva Comunidad de suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores."
   - type: imagetext
     title: El formato
