@@ -15,8 +15,22 @@ menu:
 blocks:
   - type: hero
     title: '![TRG 24](/files/logotrg24sponsor.png)'
-    intro: "Madrid, 14-16 noviembre 2024\r\n"
-    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#comida-viernes){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#comunidad){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#podcasting-jueves){data-hover=\"Podcasting\"}\r\n- [**Stands**](#partners){data-hover=\"Stands\"}\r\n- [**Transparencia**](#rendicion-cuentas){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#networking-jueves){data-hover=\"Networking\"}\r\n- [**Talleres**](#apertura-jueves){data-hover=\"Talleres\"}\r\n- [**Jiménez**](#dialog-clara){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#community-day){data-hover=\"Open Space\"}\r\n- [**Fiesta**](#fiesta){data-hover=\"Fiesta\"}"
+    intro: |
+      Madrid, 14-16 noviembre 2024
+    text: |-
+      - [**Cuartielles**](#dialog-david-cuartielles){data-hover="Cuartielles"}
+      - [**Pulpo**](#comida-viernes){data-hover="Pulpo"}
+      - [**Comunidad**](#comunidad){data-hover="Comunidad"}
+      - [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover="Sánchez-Crespo"}
+      - [**Podcasting**](#podcasting-jueves){data-hover="Podcasting"}
+      - [**Stands**](#partners){data-hover="Stands"}
+      - [**Transparencia**](#rendicion-cuentas){data-hover="Transparencia"}
+      - [**Bonilla**](#dialog-david-bonilla){data-hover="Bonilla"}
+      - [**Networking**](#networking-jueves){data-hover="Networking"}
+      - [**Talleres**](#apertura-jueves){data-hover="Talleres"}
+      - [**Jiménez**](#dialog-clara){data-hover="Jimenez"}
+      - [**Open Space**](#community-day){data-hover="Open Space"}
+      - [**Fiesta**](#fiesta){data-hover="Fiesta"}
   - type: video
     src: /files/video-trg24.mp4
     id: comunidad
@@ -29,26 +43,67 @@ blocks:
     title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
     theme: is-light width-box box-border
     columns: true
-    text: "La TRG es **una conferencia sobre diseño, desarrollo y comercialización de servicios digitales** que nace alrededor de la hiperactiva Comunidad de suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores."
+    text: >-
+      La TRG es **una conferencia sobre diseño, desarrollo y comercialización de
+      servicios digitales** que nace alrededor de la hiperactiva Comunidad de
+      suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento
+      tecnológico escrita por David Bonilla.
+
+
+      Es ante todo, **un punto de encuentro para gente que «hace cosas»
+      alrededor del software, la innovación tecnológica e Internet:**
+      desarrolladores, diseñadores, inversores, comerciales, gente de marketing
+      o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y
+      todos son bienvenidos.
+
+
+      Se organiza cuidando cada detalle de forma enfermiza —desde las
+      acreditaciones hasta la oferta gastronómica— para intentar **transformar
+      la asistencia en una experiencia** y aportar el mayor valor posible a
+      asistentes, ponentes y patrocinadores.
   - type: imagetext
     title: El formato
     theme: is-dark width-full box-fill
     src: /files/home-block1.jpg
-    text: "Un solo track y una única experiencia para todos los asistentes.\r\n\r\nNo esperes una conferencia técnica al uso sino una experiencia mucho más intensa, con charlas prácticas que tocan todas las áreas de actividad relacionadas con la industria tecnológica (no solo las técnicas), una altísima interacción con el público, un turno de preguntas que se asemeja a un *late night show* y un despliegue audiovisual cercano al de un programa de telivisión.\r\n\r\nY, fuera del auditorio, un montón de actividades y dinámicas diseñadas para que conozcas gente de forma sencilla, natural, agradable y segura. \r\n"
+    text: >
+      Un solo track y una única experiencia para todos los asistentes.
+
+
+      No esperes una conferencia técnica al uso sino una experiencia mucho más
+      intensa, con charlas prácticas que tocan todas las áreas de actividad
+      relacionadas con la industria tecnológica (no solo las técnicas), una
+      altísima interacción con el público, un turno de preguntas que se asemeja
+      a un *late night show* y un despliegue audiovisual cercano al de un
+      programa de telivisión.
+
+
+      Y, fuera del auditorio, un montón de actividades y dinámicas diseñadas
+      para que conozcas gente de forma sencilla, natural, agradable y segura. 
   - type: imagetext
     title: ¿Dónde?
     theme: is-primary width-full box-fill
     src: /files/home-block2.jpg
-    text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
+    text: |
+      Las tres jornadas del evento se celebrarán
+      íntegramente en La Nave, un espectacular espacio
+      a menos de 10 minutos de la Estación de Atocha en
+      Madrid, que acogerá todas las actividades.
   - type: location
     title: ¿Cómo llegar?
     id: donde
     theme: is-light width-box box-fill
-    embed: "<iframe src=\"https://tarugo-mapa.appspot.com/\" width=\"600\" height=\"450\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\r\n"
+    embed: >
+      <iframe src="https://tarugo-mapa.appspot.com/" width="600" height="450"
+      allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
     caption: Powered by **Extramile**
     directions:
       - title: La nave
-        description: "Calle Cifuentes 5<br>\r\n28021 Madrid\r\n\r\n[lanavemadrid.com](https://www.lanavemadrid.com/)\r\n"
+        description: |
+          Calle Cifuentes 5<br>
+          28021 Madrid
+
+          [lanavemadrid.com](https://www.lanavemadrid.com/)
         icon: map-pin
       - title: En metro
         description: >-
@@ -65,7 +120,13 @@ blocks:
           style="--bg:var(--color-secondary);--color:black">Línea C5</span>
         icon: train
       - title: En taxi
-        description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
+        description: >
+          Por teléfono: [915478200](tel:915478200)<br>
+
+
+          También puedes llamar desde [Cabify](https://cabify.com/es/pasajeros),
+          [Bold](https://bolt.eu/es-es/cities/madrid/) o
+          [Uber](https://www.uber.com/).
         icon: taxi
       - title: En coche
         description: Tienes sitio de sobra para aparcar.
@@ -79,13 +140,35 @@ blocks:
           - time: '15:00h'
             title: Apertura de puertas y acreditación de asistentes
             id: apertura-jueves
-            description: "¡Acredítate antes que nadie y evita las colas del viernes! Trae tu entrada, impresa o en el móvil, y recoge tu awesómico welcome pack antes de disfrutar de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
+            description: >
+              ¡Acredítate antes que nadie y evita las colas del viernes! Trae tu
+              entrada, impresa o en el móvil, y recoge tu awesómico welcome pack
+              antes de disfrutar de todas las actividades y contenido de la TRG
+              ¡Bienvenidos!
             speakers: []
           - time: '15:30 - 18:00h'
             title: 'TALLER: Diseño de producto para no-diseñadores'
             id: taller-cris
             subtitle: por Cris Busquets
-            description: "En este taller, Cris nos enseñará los fundamentos de la disciplina, pero —sobre todo— cómo implementar procesos de diseño de producto que involucren a los diferentes roles necesarios para desarrollar con éxito un producto digital, desde Product Managers a desarrolladores.\r\n\r\nTrabajaremos con **casos prácticos** para aprender a colaborar de forma efectiva con un diseñador y cómo debe entregarnos este su trabajo. Acabaremos, a golpe de **plantillas y ejemplos**, con el mito de que los programadores son de Venus, los diseñadores de Marte y jamás podrán entenderse.\r\n\r\nNos llevaremos, instaladas en nuestro ordenador, las **herramientas** necesarias para empezar a hacer Product Design en nuestro equipo; y **documentación y bibliografía** para seguir ampliando nuestros conocimientos."
+            description: >-
+              En este taller, Cris nos enseñará los fundamentos de la
+              disciplina, pero —sobre todo— cómo implementar procesos de diseño
+              de producto que involucren a los diferentes roles necesarios para
+              desarrollar con éxito un producto digital, desde Product Managers
+              a desarrolladores.
+
+
+              Trabajaremos con **casos prácticos** para aprender a colaborar de
+              forma efectiva con un diseñador y cómo debe entregarnos este su
+              trabajo. Acabaremos, a golpe de **plantillas y ejemplos**, con el
+              mito de que los programadores son de Venus, los diseñadores de
+              Marte y jamás podrán entenderse.
+
+
+              Nos llevaremos, instaladas en nuestro ordenador, las
+              **herramientas** necesarias para empezar a hacer Product Design en
+              nuestro equipo; y **documentación y bibliografía** para seguir
+              ampliando nuestros conocimientos.
             speakers:
               - cris
           - time: '15:30 - 18:00h'
@@ -94,64 +177,156 @@ blocks:
               rendimiento
             id: taller-recena
             subtitle: por Manuel Recena
-            description: "Este taller lleva DOS AÑOS CONSECUTIVOS PETÁNDOLO, así que, hemos decidido repetirlo de nuevo. Conoceremos las herramientas y procesos necesarios para **conseguir que nuestro ciclo de desarrollo de software sea lo más productivo posible**.\r\n\r\nDesde definir OKRs que nos ayuden a medir nuestro progreso hasta establecer el flujo de trabajo necesario para **conseguir que el despliegue en producción de nuestro software sea tan frecuente como ABURRIDO** —porque nunca pase nada— pasando por los radiadores de información necesarios para que todo el mundo sepa lo que está pasando en cada momento.\r\n\r\nDa igual si tu equipo de desarrollo es mejor o peor, de este taller te llevarás un montón de ideas y buenas prácticas para que sea MEJOR."
+            description: >-
+              Este taller lleva DOS AÑOS CONSECUTIVOS PETÁNDOLO, así que, hemos
+              decidido repetirlo de nuevo. Conoceremos las herramientas y
+              procesos necesarios para **conseguir que nuestro ciclo de
+              desarrollo de software sea lo más productivo posible**.
+
+
+              Desde definir OKRs que nos ayuden a medir nuestro progreso hasta
+              establecer el flujo de trabajo necesario para **conseguir que el
+              despliegue en producción de nuestro software sea tan frecuente
+              como ABURRIDO** —porque nunca pase nada— pasando por los
+              radiadores de información necesarios para que todo el mundo sepa
+              lo que está pasando en cada momento.
+
+
+              Da igual si tu equipo de desarrollo es mejor o peor, de este
+              taller te llevarás un montón de ideas y buenas prácticas para que
+              sea MEJOR.
             speakers:
               - recena
           - time: '15:30 - 18:00h'
             title: 'TALLER: De técnicos a Tech Leads'
             id: taller-felix
             subtitle: por Félix López
-            description: "En este taller se diseccionará el rol de Tech Lead y **los asistentes aprenderán no solo las responsabilidades habituales del mismo, sino también las métricas, herramientas, documentación y procesos que les ayudarán a alcanzarlas**.\r\n\r\nPero un taller debe ser práctico, por eso Félix os planteará algunas de las situaciones y experiencias más complejas que podrás encontrar como líder técnico, y así experimentar cómo se puede aplicar todo lo aprendido para llevar a tu equipo al próximo nivel."
+            description: >-
+              En este taller se diseccionará el rol de Tech Lead y **los
+              asistentes aprenderán no solo las responsabilidades habituales del
+              mismo, sino también las métricas, herramientas, documentación y
+              procesos que les ayudarán a alcanzarlas**.
+
+
+              Pero un taller debe ser práctico, por eso Félix os planteará
+              algunas de las situaciones y experiencias más complejas que podrás
+              encontrar como líder técnico, y así experimentar cómo se puede
+              aplicar todo lo aprendido para llevar a tu equipo al próximo
+              nivel.
             speakers:
               - felix
           - time: '18:00 - 20:00h'
             title: Networking Tarugo
             id: networking-jueves
             subtitle: "Conoce a gente nueva \U0001F60A"
-            description: "Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.\r\n\r\nSi no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento."
+            description: >-
+              Actividades y dinámicas divertidas para que los asistentes se
+              conozcan entre sí en un ambiente distendido y seguro.
+
+
+              Si no conoces a nadie, saldrás con un grupo con el que compartir
+              el resto de la conferencia y, si vienes acompañado, ampliarás el
+              circulo con el que interactuarás durante el resto del evento.
             speakers: []
           - time: '20:00 - 22:00h'
             title: Podcasting en directo
             id: podcasting-jueves
-            description: "Los has escuchado MUCHAS veces, pero nunca como hoy.\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast gestionado como un auténtico *late night show*.\r\n\r\nSTAY TUNED ANTUNEZ !!!"
+            description: >-
+              Los has escuchado MUCHAS veces, pero nunca como hoy.
+
+
+              El público podrá interactuar con los presentadores e intervenir en
+              un podcast gestionado como un auténtico *late night show*.
+
+
+              STAY TUNED ANTUNEZ !!!
             speakers: []
       - title: 'Viernes, 15 de noviembre'
         events:
           - time: '9:00h'
             title: Apertura de puerta y acreditación de asistentes
             id: apertura-viernes
-            description: "¡Acredítate antes que nadie y evita las colas! Trae tu entrada, impresa o en el móvil, y disfruta de todas las actividades y contenido de la TRG ¡Bienvenidos!\r\n"
+            description: >-
+              ¡Acredítate antes que nadie y evita las colas! Trae tu entrada,
+              impresa o en el móvil, y disfruta de todas las actividades y
+              contenido de la TRG.
+
+
+              Te recibiremos con **café, bica gallega y fruta**... además de
+              amenizar la espera con la música [Don
+              Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target="_blank"},
+              nuestro DJ Residente.
+
+
+              ¡Bienvenidos!
             speakers: []
           - time: '10:00 - 10:15h'
             title: Regreso al Futuro
             id: keynote
             subtitle: Keynote
-            description: "En la apertura de la TRG puede pasar cualquier cosa, desde que alguien salga vestido de comandante de la Fuerza Aerea Gallega hasta que aparezca Steve Jobs. Te podrá gustar más o menos, pero no te dejará indiferente.\r\n\r\nEn esta keynote, David nos dará toda la información para disfrutar del evento y nos planteará un reto imposible... o no."
+            description: >-
+              En la apertura de la TRG puede pasar cualquier cosa, desde que
+              alguien salga vestido de comandante de la Fuerza Aerea Gallega
+              hasta que aparezca Steve Jobs. Te podrá gustar más o menos, pero
+              no te dejará indiferente.
+
+
+              En esta keynote, David nos dará toda la información para disfrutar
+              del evento y nos planteará un reto imposible... o no.
             speakers:
               - david-bonilla
           - time: '10:15 - 11:00h'
             title: Hardware abierto en tiempos de modelos cerrados
             id: charla-cuartielles
             subtitle: por David Cuartielles
-            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuela a cerrado. Es hora de airear."
+            description: >-
+              En una era en la que las grandes multinacionales tecnológicas se
+              plantean desarrollar su propio *hierro* para soportar y optimizar
+              la inmensa capacidad de cálculo que necesitan para entrenar sus
+              modelos de IA, David nos explicará porqué es más necesario que
+              nunca que haya hardware abierto y potente disponible para
+              cualquiera.
+
+
+              Huela a cerrado. Es hora de airear.
             speakers:
               - david-cuartielles
           - time: '11:00 - 11:45h'
             title: La tecnología para luchar contra la desinformación
             id: charla-clara
             subtitle: por Clara Jiménez Cruz
-            description: "Cada día generamos más información que en los 2000 años anteriores JUNTOS.\r\n\r\nEn este contexto, la tecnología se hace imprescindible para separar el polvo de la paja y Clara nos contará como la utiliza en su día a día para determinar lo que es verdad y lo que no."
+            description: >-
+              Cada día generamos más información que en los 2000 años anteriores
+              JUNTOS.
+
+
+              En este contexto, la tecnología se hace imprescindible para
+              separar el polvo de la paja y Clara nos contará como la utiliza en
+              su día a día para determinar lo que es verdad y lo que no.
             speakers:
               - clara
           - time: '11:45 - 12:00h'
             title: ¿Donde está Boni?
             subtitle: Demo del juego ¿de mesa? de la TRG24
-            description: "Como en cada edición, cada asistente se llevará a casa un juego de mesa original que disfrutar con amigos y familia.\r\n\r\nEn este ocasión, tendremos que encontrar a alguien muy particular en un contexto muy especial..."
+            description: >-
+              Como en cada edición, cada asistente se llevará a casa un juego de
+              mesa original que disfrutar con amigos y familia.
+
+
+              En este ocasión, tendremos que encontrar a alguien muy particular
+              en un contexto muy especial...
             speakers: []
           - time: '12:00 - 12:45h'
             title: ☕ Coffe Break
             subtitle: ofrecido por Factorial
-            description: "Café, snacks y pastitas para llenar las tripitas.\r\n\r\nEl intermedio estará amenizado por el DJ residente de la TRG -[Don Robot](https://www.youtube.com/watch?v=ltXX9Ab6vuo){target=\"_blank\"}- que cargará el ambiente de ENERGÍA."
+            description: >-
+              Café, snacks y pastitas para llenar las tripitas.
+
+
+              Este intermedio estará amenizado por el DJ residente de la TRG
+              —**Don Robot**- que nos llevará a 1955 con un recorrido por la
+              música que podría escuchar Marty McFly durante la primera mitad de
+              la década de los 50.
             speakers: []
           - time: '12:45 - 13:00h'
             title: ¡El precio Justo!
@@ -165,7 +340,16 @@ blocks:
             title: No montes un estudio de videojuegos
             id: charla-daniel
             subtitle: por Daniel Sanchez-Crespo
-            description: "¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré que vender para que sea rentable?\r\n\r\nEn esta charla, Dani nos contará **todas las cifras que derías saber —pero que nadie te contará— antes de montar un estudio de videojuegos**. Si Dani no puede convencerte para que no lo hagas, al menos te ayudará para que tengas más probabilidades de hacerlo con éxito"
+            description: >-
+              ¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré
+              que vender para que sea rentable?
+
+
+              En esta charla, Dani nos contará **todas las cifras que derías
+              saber —pero que nadie te contará— antes de montar un estudio de
+              videojuegos**. Si Dani no puede convencerte para que no lo hagas,
+              al menos te ayudará para que tengas más probabilidades de hacerlo
+              con éxito
             speakers:
               - dani-novarama
           - time: '13:45 - 14:30h'
@@ -178,7 +362,15 @@ blocks:
             title: "\U0001F419 Comida y Pulpeirada"
             id: comida-viernes
             subtitle: ofrecido por SNGULAR
-            description: "Diferentes opciones gastronómicas ecológicas, sostenibles y mucho gallegas... incluyendo a Anxo —nuestro pulpeiro de O Carballiño— que distribuirá **300 raciones de pulpo *a feira* recien hecho**, y muchas mas cosas distribuidas por las mesas para que nadie tenga que esperar ninguna cola.\r\n\r\nY, por supuesto, contaremos con opciones veganas y sin gluten."
+            description: >-
+              Diferentes opciones gastronómicas ecológicas, sostenibles y mucho
+              gallegas... incluyendo a Anxo —nuestro pulpeiro de O Carballiño—
+              que distribuirá **300 raciones de pulpo *a feira* recien hecho**,
+              y muchas mas cosas distribuidas por las mesas para que nadie tenga
+              que esperar ninguna cola.
+
+
+              Y, por supuesto, contaremos con opciones veganas y sin gluten.
             speakers: []
           - time: '16:30 - 16:45'
             title: ¿Qué saben los muggles?
@@ -192,7 +384,21 @@ blocks:
             title: Curar con algoritmos
             id: charla-aurelia
             subtitle: por Aurelia Bustos
-            description: "Los medios dibujan la Inteligencia Artificial como una tecnología que pareciera servir solo para crear imágenes más o menos aparentes y generar canciones dándole a un botón, pero eso sólo rasca la superficie de la revolución que va a suponer en nuestro día a día.\r\n\r\nEn esta charla, Aurelia nos contará **una aplicación real de la IA, alejada de la fanfarria de los *prompts* y las herramientas generativas**: la mejora de diagnósticos clínicos a partir de algoritmos que permitan —por ejemplo— identificar un tumor con más precisión que el ojo humano. Y, también, **su experiencia creando una startup alrededor de todo ese valor sin tener que marcharse a Silicon Valley**."
+            description: >-
+              Los medios dibujan la Inteligencia Artificial como una tecnología
+              que pareciera servir solo para crear imágenes más o menos
+              aparentes y generar canciones dándole a un botón, pero eso sólo
+              rasca la superficie de la revolución que va a suponer en nuestro
+              día a día.
+
+
+              En esta charla, Aurelia nos contará **una aplicación real de la
+              IA, alejada de la fanfarria de los *prompts* y las herramientas
+              generativas**: la mejora de diagnósticos clínicos a partir de
+              algoritmos que permitan —por ejemplo— identificar un tumor con más
+              precisión que el ojo humano. Y, también, **su experiencia creando
+              una startup alrededor de todo ese valor sin tener que marcharse a
+              Silicon Valley**.
             speakers:
               - aurelia
           - time: '17:30 - 18:15 '
@@ -204,11 +410,25 @@ blocks:
           - time: '18:15 - 19:00h'
             title: "\U0001F36A Merienda"
             id: merienda-viernes
-            description: Café y bollería artesanal para aguantar hasta el final.
+            description: >-
+              Café y bollería artesanal para aguantar hasta el final.
+
+
+              En esta ocasión, Don Robot nos llevará hasta ese 1985 de «Regreso
+              al Futuro» con una selección de música para recargar las pilas con
+              la energía de los 80.
             speakers: []
           - time: '19:00 - 19:15'
             title: "\U0001F3B0 La Jerocleta"
-            description: "Sorteo de jugosos premios entre todos los que hayan tuiteado con el hashtag [#trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"}, realizado con la mítica «Jerocleta» de **Jerónimo López**. Sin duda alguna, el software español más utilizado de la historía.\r\n\r\nCuanto más tuitees, más posibilidades tendrás de ganar."
+            description: >-
+              Sorteo de jugosos premios entre todos los que hayan tuiteado con
+              el hashtag
+              [#trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target="_blank"},
+              realizado con la mítica «Jerocleta» de **Jerónimo López**. Sin
+              duda alguna, el software español más utilizado de la historía.
+
+
+              Cuanto más tuitees, más posibilidades tendrás de ganar.
             speakers: []
           - time: '19:15 - 20:00h'
             title: Charla por anunciar
@@ -229,10 +449,19 @@ blocks:
           - time: '20:30 - 22:30h'
             title: "\U0001F973 Legendaria Fiesta Taruga"
             id: fiesta
+            subtitle: ofrecida por Eventbrite
             description: >-
               Transformaremos La Nave en una auténtica "Sesión Vermú" con comida
               y bebida, churros, música y las mejores conversaciones del planeta
               porque... LA VIDA PUEDE SER MARAVILLOSA.
+
+
+              * **INTRO** - ¿Qué sonaba en 2015? Don Robot nos hará dar un
+              último salto musical para bailar grandes éxitos del rock y la
+              electrónica hasta el supuesto futuro que planteaba «Regreso al
+              Futuro II».
+
+              * **MAIN EVENT** - Stay tuned Antunez!
             speakers: []
       - title: 'Sábado, 16 de noviembre'
         events:
@@ -240,19 +469,32 @@ blocks:
             title: Community Day
             id: community-day
             subtitle: Acerca la profesión que amas a tu familia y amigos
-            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nIremos anunciando poco a poco [todas las actividades del Community Day](/community-day) \U0001F973\r\n"
+            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\n\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\n\nIremos anunciando poco a poco [todas las actividades del Community Day](/community-day) \U0001F973\n"
             speakers: []
   - type: separator
     width: is-default
   - type: speakers
     title: Speakers
-    description: "El «speaker» o ponente de la Tarugoconf no nace, [SE HACE](https://github.com/tarugoconf/TRG24/blob/main/SPEAKERS.md). Estos\r\nson los awesómicos invitados con los que contaremos este año:\r\n"
+    description: >
+      El «speaker» o ponente de la Tarugoconf no nace, [SE
+      HACE](https://github.com/tarugoconf/TRG24/blob/main/SPEAKERS.md). Estos
+
+      son los awesómicos invitados con los que contaremos este año:
     speakers:
       - name: David Cuartielles
         id: david-cuartielles
         company: Universidad de Malmo
         role: Profesor
-        bio: "David trabaja como profesor en la Universidad de Malmo (Suecia) y es **co-fundador de la plataforma de hardware, software y contenido libre ARDUINO**.\r\n\r\nEs Ingeniero en Telecomunicaciones y Doctor en Diseño. Como investigador, se ha centrado en analizar cómo la tecnología digital y la sociedad se integran a través de nuevos tipos de herramientas y sistemas conectados."
+        bio: >-
+          David trabaja como profesor en la Universidad de Malmo (Suecia) y es
+          **co-fundador de la plataforma de hardware, software y contenido libre
+          ARDUINO**.
+
+
+          Es Ingeniero en Telecomunicaciones y Doctor en Diseño. Como
+          investigador, se ha centrado en analizar cómo la tecnología digital y
+          la sociedad se integran a través de nuevos tipos de herramientas y
+          sistemas conectados.
         image: /files/david-cuartielles.jpg
         links:
           - icon: x-logo
@@ -263,7 +505,23 @@ blocks:
         id: clara
         company: Maldita
         role: Periodista
-        bio: "Clara es cofundadora y CEO de [Maldita.es](https://maldita.es/nosotros-maldita/), fundación sin ánimo de lucro que  construye confianza y lucha contra la desinformación, promoviendo la transparencia a través del fact-checking y el periodismo de datos. Maldita.es desarrolla herramientas tecnológicas que permiten a los ciudadanos tomar decisiones informadas.  \r\n\r\nTras una década como periodista televisiva, Clara, colaboradora habitual de medios nacionales en España, fue nombrada miembro del Grupo de Alto Nivel contra la Desinformación por la Comisión Europea y actualmente preside el órgano de gobierno de la European Fact-checking Standards Network (EFCSN). También es miembro del Consejo Asesor del International Fact-Checking Network (IFCN). Fue seleccionada como Ashoka Fellow en 2019 y Periodista Joven del Año en 2020 por la APM."
+        bio: >-
+          Clara es cofundadora y CEO de
+          [Maldita.es](https://maldita.es/nosotros-maldita/), fundación sin
+          ánimo de lucro que  construye confianza y lucha contra la
+          desinformación, promoviendo la transparencia a través del
+          fact-checking y el periodismo de datos. Maldita.es desarrolla
+          herramientas tecnológicas que permiten a los ciudadanos tomar
+          decisiones informadas.  
+
+
+          Tras una década como periodista televisiva, Clara, colaboradora
+          habitual de medios nacionales en España, fue nombrada miembro del
+          Grupo de Alto Nivel contra la Desinformación por la Comisión Europea y
+          actualmente preside el órgano de gobierno de la European Fact-checking
+          Standards Network (EFCSN). También es miembro del Consejo Asesor del
+          International Fact-Checking Network (IFCN). Fue seleccionada como
+          Ashoka Fellow en 2019 y Periodista Joven del Año en 2020 por la APM.
         image: /files/clara2.jpg
         links:
           - icon: x-logo
@@ -276,7 +534,16 @@ blocks:
         id: dani-novarama
         company: Novarama
         role: Desarollador de Videojuegos
-        bio: "Dani es divulgador, diseñador, profesor universitario y empresario. Fue director general de Novarama, el estudio español de videojuegos que desarrolló la popular saga Invizimals, convertida en una serie de Netflix de la que es productor ejecutivo.\r\n\r\nComo docente, es fundador y director del máster en Creación de Videojuegos en la Universitat Pompeu Fabra. En su tiempo libre es astrofotógrafo y buceador. Adora viajar y el Festival de Eurovisión."
+        bio: >-
+          Dani es divulgador, diseñador, profesor universitario y empresario.
+          Fue director general de Novarama, el estudio español de videojuegos
+          que desarrolló la popular saga Invizimals, convertida en una serie de
+          Netflix de la que es productor ejecutivo.
+
+
+          Como docente, es fundador y director del máster en Creación de
+          Videojuegos en la Universitat Pompeu Fabra. En su tiempo libre es
+          astrofotógrafo y buceador. Adora viajar y el Festival de Eurovisión.
         image: /files/daniel_trg24.jpg
         links:
           - icon: x-logo
@@ -285,7 +552,23 @@ blocks:
         id: giuseppe
         company: Gobierno del Reino Unido
         role: Head of Data Products and Services
-        bio: "Giuseppe es el responsable de Productos y Servicios de Datos del Departamento de Trabajo y Pensiones del Gobierno Británico.\r\n\r\nTambién forma parte del Consejo Asesor del Real Colegio de Oftalmólogos, el Instituto Goldsmiths de la Universidad de Londres y la empresa Traveline, pero sobre todo **es un experto en visualización de datos**.\r\n\r\nTiene un montón de proyectos *open source* y artículos publicados sobre *open data* y la gestión de información en Administraciones públicas y es autor de [Quantum of Sollazzo](https://puntofisso.net/newsletter/){target=\"_blank\"}, una newsletter sobre «periodismo, visualización, herramientas, tutoriales y pensamiento de datos» que se ha convertido en una referencia."
+        bio: >-
+          Giuseppe es el responsable de Productos y Servicios de Datos del
+          Departamento de Trabajo y Pensiones del Gobierno Británico.
+
+
+          También forma parte del Consejo Asesor del Real Colegio de
+          Oftalmólogos, el Instituto Goldsmiths de la Universidad de Londres y
+          la empresa Traveline, pero sobre todo **es un experto en visualización
+          de datos**.
+
+
+          Tiene un montón de proyectos *open source* y artículos publicados
+          sobre *open data* y la gestión de información en Administraciones
+          públicas y es autor de [Quantum of
+          Sollazzo](https://puntofisso.net/newsletter/){target="_blank"}, una
+          newsletter sobre «periodismo, visualización, herramientas, tutoriales
+          y pensamiento de datos» que se ha convertido en una referencia.
         image: /files/giuseppe.jpg
         links:
           - icon: x-logo
@@ -298,7 +581,23 @@ blocks:
         id: aurelia
         company: Medbravo
         role: Cofundadora y CTO
-        bio: "Aurelia es Oncóloga. Su experiencia con ensayos clínicos sobre cáncer le llevó a estudiar también Ingeniería Informática y doctorarse en Inteligencia Artificial, con el objetivo de encontrar nuevas vías de desarrollo de la investigación en ese ámbito.\r\n\r\nHa compaginado su formación con su trabajo como médica en el Hospital General de Elche y en el Hospital Universitario de San Juan en Alicante. Además, cofundó Medbravo una startup que usa la IA para mejorar la precisión de los diagnósticos médicos.\r\n\r\nAurelia **ha sido galardonada con la Orden del Mérito Civil** y la Distinción al Mérito Científico de la Generalidad Valenciana. Desde 2020 es miembro del comité de expertos en inteligencia artificial de la Consejería de Innovación de la Generalidad Valenciana."
+        bio: >-
+          Aurelia es Oncóloga. Su experiencia con ensayos clínicos sobre cáncer
+          le llevó a estudiar también Ingeniería Informática y doctorarse en
+          Inteligencia Artificial, con el objetivo de encontrar nuevas vías de
+          desarrollo de la investigación en ese ámbito.
+
+
+          Ha compaginado su formación con su trabajo como médica en el Hospital
+          General de Elche y en el Hospital Universitario de San Juan en
+          Alicante. Además, cofundó Medbravo una startup que usa la IA para
+          mejorar la precisión de los diagnósticos médicos.
+
+
+          Aurelia **ha sido galardonada con la Orden del Mérito Civil** y la
+          Distinción al Mérito Científico de la Generalidad Valenciana. Desde
+          2020 es miembro del comité de expertos en inteligencia artificial de
+          la Consejería de Innovación de la Generalidad Valenciana.
         image: /files/aurelia.jpg
         links:
           - icon: flower-lotus
@@ -308,7 +607,7 @@ blocks:
       - name: TBA
         id: tba3
         role: TBA
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\r\n\r\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
+        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\n\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
         image: /files/tba3.jpg
         links:
           - icon: x-logo
@@ -316,7 +615,18 @@ blocks:
       - name: Call for Papers
         id: tba4
         role: TBA
-        bio: "Sí, como prometimos el año pasado, en esta edición **hemos decidido reservar un hueco para todas las propuestas que nos lleguen de la Comunidad**.\r\n\r\n[Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán los encargados de estudiar las propuestas y elegir la que encaje mejor con el resto de contenidos del evento. La elegida o elegido serán considerados un ponente más de la TRG. Tenéis toda la información necesaria en [esta página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target=\"_blank\"}."
+        bio: >-
+          Sí, como prometimos el año pasado, en esta edición **hemos decidido
+          reservar un hueco para todas las propuestas que nos lleguen de la
+          Comunidad**.
+
+
+          [Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán
+          los encargados de estudiar las propuestas y elegir la que encaje mejor
+          con el resto de contenidos del evento. La elegida o elegido serán
+          considerados un ponente más de la TRG. Tenéis toda la información
+          necesaria en [esta
+          página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target="_blank"}.
         image: /files/tba4.jpg
         links:
           - icon: browser
@@ -326,7 +636,17 @@ blocks:
         id: cris
         company: Automattic
         role: Senior Product Designer
-        bio: "Cris ha trabajado como diseñadora de producto en compañías como Twitter y Holaluz, ha sido docente en la UOC y la escuela de diseño Elisava. Comparte toda su experiencia con la Comunidad a través de la fantástica newsletter [uiFromMars](https://www.uifrommars.com/){target=\"_blank\"} y ha escrito el libro «Diseño desde Marte».\r\n\r\nActualmente trabaja en Automattic, donde se encarga del diseño de la funcionalidad de Newsletters."
+        bio: >-
+          Cris ha trabajado como diseñadora de producto en compañías como
+          Twitter y Holaluz, ha sido docente en la UOC y la escuela de diseño
+          Elisava. Comparte toda su experiencia con la Comunidad a través de la
+          fantástica newsletter
+          [uiFromMars](https://www.uifrommars.com/){target="_blank"} y ha
+          escrito el libro «Diseño desde Marte».
+
+
+          Actualmente trabaja en Automattic, donde se encarga del diseño de la
+          funcionalidad de Newsletters.
         image: /files/2ggihsfq_400x400.jpg
         links:
           - icon: x-logo
@@ -339,7 +659,29 @@ blocks:
         id: recena
         company: SUSE
         role: Director of Engineering
-        bio: "Manuel comenzó su carrera profesional en el año 2001 vinculado a la Universidad de Sevilla donde tuvo la oportunidad de conocer, entender y adoptar los valores y principios del FOSS. Sin lugar a dudas, esta primera etapa profesional marcó el rumbo de su trayectoria profesional donde resultaría extraño que sus propuestas e iniciativas no estuvieran claramente influenciadas.\r\n\r\nApasionado del orden, los procedimientos, la productividad, las métricas y la automatización, lo que mejor resume su forma de ver su profesión es la orientación al detalle y resultados.\r\n\r\nSu verdadero conocimiento lo ha encontrado tras su paso por la administración pública, participación en proyectos de consultoría y servicios de tecnología, y su actividad como emprendedor en la que ha fundado y liderado varios productos.\r\n\r\nDesde principios de 2023, Manuel trabaja en SUSE como Director of Product Management & Engineering, cuidando a los equipos técnicos y ayudándoles a ser más efectivos en su día a día."
+        bio: >-
+          Manuel comenzó su carrera profesional en el año 2001 vinculado a la
+          Universidad de Sevilla donde tuvo la oportunidad de conocer, entender
+          y adoptar los valores y principios del FOSS. Sin lugar a dudas, esta
+          primera etapa profesional marcó el rumbo de su trayectoria profesional
+          donde resultaría extraño que sus propuestas e iniciativas no
+          estuvieran claramente influenciadas.
+
+
+          Apasionado del orden, los procedimientos, la productividad, las
+          métricas y la automatización, lo que mejor resume su forma de ver su
+          profesión es la orientación al detalle y resultados.
+
+
+          Su verdadero conocimiento lo ha encontrado tras su paso por la
+          administración pública, participación en proyectos de consultoría y
+          servicios de tecnología, y su actividad como emprendedor en la que ha
+          fundado y liderado varios productos.
+
+
+          Desde principios de 2023, Manuel trabaja en SUSE como Director of
+          Product Management & Engineering, cuidando a los equipos técnicos y
+          ayudándoles a ser más efectivos en su día a día.
         image: /files/photo_2024-07-13-12.40.54.jpeg
         links:
           - icon: x-logo
@@ -350,7 +692,22 @@ blocks:
         id: felix
         company: Tinybird
         role: VP de Ingeniería
-        bio: "Félix lleva en la industria del software unos 23 años, donde ha trabajado en cosas tan diversas como aplicaciones para cambio de divisa, videojuegos, sistemas distribuidos e incluso en un sistema operativo como Android.\r\n\r\nHa pasado por startups, scale ups y hasta FAANG, como Gocardless, Eventbrite Google o Tinybird donde ha asumido distintos roles de liderazgo técnico como Tech Leader, Engineering Manager, Manager de Managers, Director o VP de Ingeniería.\r\n\r\nDurante todos estos ha mentorizado a cientos de técnicos para convertirles en líderes que sepan llevar a sus equipos al siguiente nivel con cabeza, en vez de con un látigo."
+        bio: >-
+          Félix lleva en la industria del software unos 23 años, donde ha
+          trabajado en cosas tan diversas como aplicaciones para cambio de
+          divisa, videojuegos, sistemas distribuidos e incluso en un sistema
+          operativo como Android.
+
+
+          Ha pasado por startups, scale ups y hasta FAANG, como Gocardless,
+          Eventbrite Google o Tinybird donde ha asumido distintos roles de
+          liderazgo técnico como Tech Leader, Engineering Manager, Manager de
+          Managers, Director o VP de Ingeniería.
+
+
+          Durante todos estos ha mentorizado a cientos de técnicos para
+          convertirles en líderes que sepan llevar a sus equipos al siguiente
+          nivel con cabeza, en vez de con un látigo.
         image: /files/felix.jpg
         links:
           - icon: x-logo
@@ -359,7 +716,16 @@ blocks:
         id: david-bonilla
         company: TRG
         role: Presentador
-        bio: "David es el autor de [La Bonilista](https://www.bonilista.com/){target=\"_blank\"}, una de las primeras newsletters sobre tecnología y negocios, que cuenta con casi de 18.000 suscriptores y es el germen y motor de la TRG.\r\n\r\nDespués de más de 20 años trabajando en distintos roles en el sector tecnológico, está en pleno año sabático, pensando qué quiere hacer en los próximos 20. ¿Nos lo contará en la #TRG24?\r\n"
+        bio: >
+          David es el autor de [La
+          Bonilista](https://www.bonilista.com/){target="_blank"}, una de las
+          primeras newsletters sobre tecnología y negocios, que cuenta con casi
+          de 18.000 suscriptores y es el germen y motor de la TRG.
+
+
+          Después de más de 20 años trabajando en distintos roles en el sector
+          tecnológico, está en pleno año sabático, pensando qué quiere hacer en
+          los próximos 20. ¿Nos lo contará en la #TRG24?
         image: /files/david3_trg24.jpg
         links:
           - icon: x-logo
@@ -369,7 +735,20 @@ blocks:
   - type: logos
     title: Partners
     id: patrocinio
-    description: "Estas son las compañías que hacen que todo esto sea posible. Cada una de estas empresas ha decidido apoyarnos para que la TRG pueda contar con una mínima seguridad económica y así podamos centrarnos en ofrecer a la Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de este esfuerzo, en esta o en la edición de 2024, [consulta nuestras *awesómicas* oportunidades de patrocinio](https://www.dropbox.com/scl/fi/06f7fbh2eqep3bab0vnxh/TRG24_sponsorship_deck_ES.pdf?rlkey=cz12k1c7wyxins6jv71qfjeyk&dl=0){target=_blank} ¡graciñas!\r\n\r\n[![Image](/files/automattic_logo.png)](https://automattic.com/)\r\nHaciendo de la web un lugar mejor."
+    description: >-
+      Estas son las compañías que hacen que todo esto sea posible. Cada una de
+      estas empresas ha decidido apoyarnos para que la TRG pueda contar con una
+      mínima seguridad económica y así podamos centrarnos en ofrecer a la
+      Comunidad la calidad y el espíritu de siempre. Si quieres ser parte de
+      este esfuerzo, en esta o en la edición de 2024, [consulta nuestras
+      *awesómicas* oportunidades de
+      patrocinio](https://www.dropbox.com/scl/fi/06f7fbh2eqep3bab0vnxh/TRG24_sponsorship_deck_ES.pdf?rlkey=cz12k1c7wyxins6jv71qfjeyk&dl=0){target=_blank}
+      ¡graciñas!
+
+
+      [![Image](/files/automattic_logo.png)](https://automattic.com/)
+
+      Haciendo de la web un lugar mejor.
     size: medium
     items:
       - alt: Panel
@@ -456,7 +835,9 @@ blocks:
     width: is-default
   - type: people
     title: Mecenas
-    description: "Estas personas han contribuido con su mecenazgo a que la\r\n#TRG24 sea posible, asegurando la sostenibilidad del evento.\r\n"
+    description: |
+      Estas personas han contribuido con su mecenazgo a que la
+      #TRG24 sea posible, asegurando la sostenibilidad del evento.
     items:
       - name: Fátima Ballesteros
         img: /files/people/fatima.jpg
@@ -543,9 +924,31 @@ blocks:
     title: Cómo patrocinar
     id: patrocinio
     theme: is-light width-box box-fill
-    text: "En la TRG intentamos huir de la figura del «sponsor» habitual y consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos por entender sus objetivos y personalizamos los paquetes de patrocinio para intentar alcanzarlos, trabajando mano a mano con ellos y creando relaciones que perduran a lo largo de los años.\r\n\r\n- **1200** asistentes a lo largo de los 3 días\r\n- **2** días trending topic nacional\r\n- **25** millones de impresiones en redes sociales\r\n\r\nSi quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) ¡Nos encantará charlar contigo!\r\n"
+    text: >
+      En la TRG intentamos huir de la figura del «sponsor» habitual y
+      consideramos a nuestros patrocinadores verdaderos socios. Nos preocupamos
+      por entender sus objetivos y personalizamos los paquetes de patrocinio
+      para intentar alcanzarlos, trabajando mano a mano con ellos y creando
+      relaciones que perduran a lo largo de los años.
+
+
+      - **1200** asistentes a lo largo de los 3 días
+
+      - **2** días trending topic nacional
+
+      - **25** millones de impresiones en redes sociales
+
+
+      Si quieres que tu empresa sea parte de la próxima #trg24 puedes mandarnos
+      un mail a [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com)
+      ¡Nos encantará charlar contigo!
     src: /files/TRG24_sponsorship_deck_ES.pdf
-    caption: "[Descarga el dosier del patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}\r\n\r\n[Versión en inglés](https://bit.ly/trg24-deck-EN)"
+    caption: >-
+      [Descarga el dosier del
+      patrocinio](/files/TRG24_sponsorship_deck_ES.pdf){.button}
+
+
+      [Versión en inglés](https://bit.ly/trg24-deck-EN)
   - type: separator
     width: is-full
   - type: faq
@@ -553,25 +956,64 @@ blocks:
     theme: is-light width-box box-fill
     questions:
       - question: ¿A quién está dirigido este evento? ¿Es para mi?
-        answer: "Intentamos que la TRG sea un punto de encuentro para gente que hace cosas (o que tiene ganas de hacerlas) en el sector digital. Nos desvivimos para que te sientas como en casa, tanto si tienes un perfil tecnológico como si trabajas en otras disciplinas.         \r\n"
+        answer: >
+          Intentamos que la TRG sea un punto de encuentro para gente que hace
+          cosas (o que tiene ganas de hacerlas) en el sector digital. Nos
+          desvivimos para que te sientas como en casa, tanto si tienes un perfil
+          tecnológico como si trabajas en otras disciplinas.         
       - question: >-
           Soy suscriptor/a de La Bonilista ¿tengo algún tipo de ventaja o
           descuento?
-        answer: "Pues sí. Los suscriptores de [La Bonilista](https://www.bonilista.com/){target=_blank} pudistéis **acceder a las entradas *early bird*, de precio reducido, un día antes que el público general**. Se agotaron en 24 horas, así que, os quedásteis con la mayoría :)\r\n"
+        answer: >
+          Pues sí. Los suscriptores de [La
+          Bonilista](https://www.bonilista.com/){target=_blank} pudistéis
+          **acceder a las entradas *early bird*, de precio reducido, un día
+          antes que el público general**. Se agotaron en 24 horas, así que, os
+          quedásteis con la mayoría :)
       - question: "¿Qué es eso del Community Day del sábado? \U0001F389"
-        answer: "Una jornada abierta, a la que podréis traer a familia, compañeros y/o amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha más info en [esta página](/community-day/){target=_blank}.\r\n"
+        answer: >
+          Una jornada abierta, a la que podréis traer a familia, compañeros y/o
+          amigos, con un montón de actividades para grandes y pequeños. Tenéis
+          mucha más info en [esta página](/community-day/){target=_blank}.
       - question: ¿Ofrecéis ayuda para gestionar viajes y/o hoteles?
-        answer: "Sí, gracias a nuestro partnership con Vyootrip, podéis reservar vuestro viaje y estancia con interesantes descuentos. Tenéis más info en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.\r\n"
+        answer: >
+          Sí, gracias a nuestro partnership con Vyootrip, podéis reservar
+          vuestro viaje y estancia con interesantes descuentos. Tenéis más info
+          en [esta página](https://www.vyootrip.com/trgcon/){target=_blank}.
       - question: ¿Cómo puedo estar al día de todas las noticias y novedades del evento?
-        answer: "Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde iremos colgando toda la información relevante, \r\npero no dejes de seguir [la cuenta en Twitter de la TRG](https://twitter.com/tarugoconf){target=_blank} y, \r\nespecialmente, el hashtag [#trg24](https://twitter.com/search?q=%23trg24&src=typed_query&f=live){target=_blank}.        \r\n"
+        answer: >
+          Tenemos un [Blog](https://tarugoconf.com/blog){target=_blank} donde
+          iremos colgando toda la información relevante, 
+
+          pero no dejes de seguir [la cuenta en Twitter de la
+          TRG](https://twitter.com/tarugoconf){target=_blank} y, 
+
+          especialmente, el hashtag
+          [#trg24](https://twitter.com/search?q=%23trg24&src=typed_query&f=live){target=_blank}.        
       - question: "¿Todavía puedo comprar una entrada? \U0001F39F️"
-        answer: "Puedes comparar los diferentes tipos de entrada en [esta página](/entradas/). Si aún quedan disponibles, puedes adquirirlas en [Eventbrite](https://trg24.eventbrite.es){target=_blank}. No quedan muchas, la verdad.          \r\n"
+        answer: >
+          Puedes comparar los diferentes tipos de entrada en [esta
+          página](/entradas/). Si aún quedan disponibles, puedes adquirirlas en
+          [Eventbrite](https://trg24.eventbrite.es){target=_blank}. No quedan
+          muchas, la verdad.          
       - question: Si mi empresa me paga la entrada ¿Hacéis factura?
-        answer: "Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla como cantante.\r\n"
+        answer: >
+          Por supuesto. En la TRG, lo único negro es el futuro de David Bonilla
+          como cantante.
       - question: ¿Tenéis Código de Conducta?
-        answer: "Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).\r\n"
+        answer: |
+          Por supuesto que tenemos [Código de Conducta](/codigo-de-conducta).
       - question: Sigo teniendo dudas ¿qué hago?
-        answer: "No problemo. Visita la sección de [Contacto](/#contacto) de esta misma web \r\ndonde encontrarás la información necesaria para contactar con nosotros por múltiples canales.\r\n</br></br>\r\n¡Estaremos encantados de resolverte cualquier duda!\r\n"
+        answer: >
+          No problemo. Visita la sección de [Contacto](/#contacto) de esta misma
+          web 
+
+          donde encontrarás la información necesaria para contactar con nosotros
+          por múltiples canales.
+
+          </br></br>
+
+          ¡Estaremos encantados de resolverte cualquier duda!
   - type: contact
     title: Contacto
     id: contacto

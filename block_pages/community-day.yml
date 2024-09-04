@@ -9,7 +9,18 @@ menu:
 blocks:
   - type: header
     title: "\U0001F389<br>Community Day"
-    description: "Después de la intensidad del viernes, el **sábado 16 de noviembre —de 11:00h a 17:00h—** celebramos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente a la que podrás **traer a tu familia, amigos y compañeros de trabajo** para disfrutar de todas las actividades que hemos preparado y que disfrutarán por igual grandes y pequeños.<br><br>\r\nEn esta página tienes una lista de todas las actividades, pero también puedes consultar [la agenda detallada](/#agenda) o ver [un video-resumen de la edición de 2022](https://vimeo.com/836780949){target=\"_blank\"}, para que sepas que puedes esperar.  \r\n"
+    description: >
+      Después de la intensidad del viernes, el **sábado 16 de noviembre —de
+      11:00h a 17:00h—** celebramos el «Día de la Comunidad», una jornada
+      diseñada para que disfrutar relajadamente a la que podrás **traer a tu
+      familia, amigos y compañeros de trabajo** para disfrutar de todas las
+      actividades que hemos preparado y que disfrutarán por igual grandes y
+      pequeños.<br><br>
+
+      En esta página tienes una lista de todas las actividades, pero también
+      puedes consultar [la agenda detallada](/#agenda) o ver [un video-resumen
+      de la edición de 2022](https://vimeo.com/836780949){target="_blank"}, para
+      que sepas que puedes esperar.  
   - type: activities
     items:
       - title: TarugOff
@@ -149,7 +160,8 @@ blocks:
           - Mayores
         img: /files/activities/TRG23_dj.jpg
         description: >-
-          Taller de iniciación al pinchazo de discos, a cargo de [Guillermo
+          Tras el éxito del año pasado, taller de iniciación al pinchazo de
+          discos, a cargo de [Guillermo
           Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de
           la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
       - title: Carrera de LEDs
@@ -248,3 +260,5 @@ blocks:
           No pasa nada. Como siempre, escribe a
           [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
           estaremos encantados de atenderte.
+metas:
+  image: ''
