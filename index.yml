@@ -920,6 +920,12 @@ blocks:
       - name: Iván Fernandez
         img: /files/ivan.jpg
         url: 'https://www.linkedin.com/in/iv%C3%A1n-fern%C3%A1ndez-calvo-21425033/'
+      - name: Raúl Cotrina
+        img: /files/whatsapp-image-2024-09-04-at-13.00.45.jpeg
+        url: 'https://x.com/raulcotrina'
+      - name: Jose Luis Cases
+        img: /files/people/jose-luis-cases.jpeg
+        url: 'https://x.com/jlcasesES'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
