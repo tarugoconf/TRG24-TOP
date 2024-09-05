@@ -353,11 +353,26 @@ blocks:
             speakers:
               - dani-novarama
           - time: '13:45 - 14:30h'
-            title: Charla por anunciar
-            subtitle: Ponente por anunciar
-            description: Nuestros minions aun están esculpiendo la agenda.
+            title: 'Evangelismo técnico: qué, por qué y cómo'
+            id: charla-trisha
+            subtitle: Trisha Gee
+            description: >-
+              *Developer Advocacy*, *Technical Evangelism*, *Developer Relations
+              (DevRel)*... no hemos parado de escuchar estos términos durante
+              los últimos diez años, pero ¿qué significan realmente?
+
+
+              En su presentación, Trisha nos contará la historia detrás de estos
+              roles, por qué una empresa podría necesitar una o más personas
+              para desempeñarlos, y las buenas y malas prácticas que ha
+              identificado a lo largo de su carrera.
+
+
+              Después de esta charla, comprenderás **por qué no podemos ignorar
+              el evangelismo técnico si trabajamos en la industría del
+              software**. 
             speakers:
-              - tba3
+              - trisha
           - time: '14:30 - 16:30h'
             title: "\U0001F419 Comida y Pulpeirada"
             id: comida-viernes
@@ -604,14 +619,31 @@ blocks:
             url: 'https://es.wikipedia.org/wiki/Aurelia_Bustos_Moreno'
           - icon: linkedin-logo
             url: 'https://www.linkedin.com/in/aureliabustos/'
-      - name: TBA
-        id: tba3
-        role: TBA
-        bio: "Iremos desvelando la identidad de todos nuestros speakers poco a poco, pero **¿serías capaz de adivinar quién es solo por su foto pixelada?.**\n\nPublica tu apuesta en X con [el *hashtag* #trg24](https://x.com/search?q=%23trg24&src=typed_query&f=live){target=\"_blank\"} y, si aciertas, tendrás un regalo esperándote cuando llegues a la TRG  \U0001F381"
-        image: /files/tba3.jpg
+      - name: Trisha Gee
+        id: trisha
+        company: Gradle
+        role: ' Lead Developer Advocate'
+        bio: >-
+          Trisha es ingeniera de software, Java Champion y escritora técnica.
+          Vive en Sevilla y tiene 2 hijos. Además, lleva más de 20 años
+          desarrollando aplicaciones Java para empresas de todo tipo, desde
+          corporaciones financieras hasta ONGs, y ahora trabaja como *Lead
+          Developer Advocate* en Gradle.
+
+
+          A Trisha **le apasiona contribuir a la Comunidad técnica**. Desde
+          hacer una review de la última versión de Java hasta enseñar trucos
+          para mejorar tu productividad o escribir libros como «*Head First
+          Java*», «*Getting to Know IntelliJ IDEA*», «*97 Things Every Java
+          Developer Should Know*» y «*What to Look for in a Code Review*».
+        image: /files/trisha_gee.jpg
         links:
           - icon: x-logo
-            url: 'https://x.com/search?q=%23trg24&src=typed_query&f=live'
+            url: 'https://x.com/trisha_gee'
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/trishagee/?originalSubdomain=es'
+          - icon: browser
+            url: 'https://trishagee.com/'
       - name: Call for Papers
         id: tba4
         role: TBA
