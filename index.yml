@@ -446,10 +446,31 @@ blocks:
               Cuanto más tuitees, más posibilidades tendrás de ganar.
             speakers: []
           - time: '19:15 - 20:00h'
-            title: Charla por anunciar
-            subtitle: Ponente por anunciar
+            title: Cómo crear una App de pago único (y no morir en el intento)
+            id: charla-rafa
+            subtitle: por Rafael Pons
+            description: >-
+              1. Crea software que resuelva un problema o ayude a realizar una
+              tarea por el que la gente esté dispuesta a pagar.
+
+              2. Cobra una cuota mensual o anual por usarlo.
+
+
+              PhotoPills se ha atrevido a desafiar la «receta del éxito» y con
+              más de 800.000 descargas en todo el mundo, se ha convertido en la
+              herramienta definitiva para planificar y ejecutar ideas
+              fotográficas... sin ninguna inversión externa.
+
+
+              Rafael nos contará su particular *receta* y como la han cocinado
+              no en Silicon Valley sino en Menorca.
+
+
+              En esta charla, descubrirás que hay otras formas de emprender en
+              Tecnología y ~~las hostias~~ lecciones aprendidas de una startup
+              que decidió no seguir el cámino habitual.
             speakers:
-              - tba4
+              - rafa-pons
           - time: '20:00 - 20:30h'
             title: Rendición de cuentas
             id: rendicion-cuentas
@@ -644,26 +665,32 @@ blocks:
             url: 'https://www.linkedin.com/in/trishagee/?originalSubdomain=es'
           - icon: browser
             url: 'https://trishagee.com/'
-      - name: Call for Papers
-        id: tba4
-        role: TBA
+      - name: Rafael Pons
+        id: rafa-pons
+        company: Photopills
+        role: Cofundador
         bio: >-
-          Sí, como prometimos el año pasado, en esta edición **hemos decidido
-          reservar un hueco para todas las propuestas que nos lleguen de la
-          Comunidad**.
+          Rafael no es el típico emprendedor técnologico. Ni aprendió a
+          programar a los 11 años ni lo dejó todo del día a la mañana para hacer
+          realidad su idea.
 
 
-          [Jero](https://x.com/jerolba) y [Yeray](https://x.com/ydarias) serán
-          los encargados de estudiar las propuestas y elegir la que encaje mejor
-          con el resto de contenidos del evento. La elegida o elegido serán
-          considerados un ponente más de la TRG. Tenéis toda la información
-          necesaria en [esta
-          página](https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit){target="_blank"}.
-        image: /files/tba4.jpg
+          Ingeniero de Caminos y funcionario, no dejó su puesto de trabajo en el
+          ayuntamiento de Ciutadella (Menorca) hasta que su startup generó
+          suficientemente dinero como para permitirle vivir de la misma.
+
+
+          A pesar de ser cofundador de PhotoPills, Rafael Pons afirma no ser
+          fotógrafo. Sin embargo, recorre el mundo enseñando a fotógrafos cómo
+          usar su app para imaginar, planificar y capturar fotos legendarias.
+        image: /files/rafa.jpg
         links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/rafaelponsfedelich/'
+          - icon: instagram-logo
+            url: 'https://www.instagram.com/thebard_rafael/'
           - icon: browser
-            url: >-
-              https://docs.google.com/forms/d/1d6ouzdXtsfQ4DVrXIH_07LAbkvWud-KcS-sLqr4XNnU/edit
+            url: 'https://www.photopills.com/'
       - name: Cris Busquets
         id: cris
         company: Automattic
@@ -958,6 +985,7 @@ blocks:
       - name: Jose Luis Cases
         img: /files/people/jose-luis-cases.jpeg
         url: 'https://x.com/jlcasesES'
+      - img: ''
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
