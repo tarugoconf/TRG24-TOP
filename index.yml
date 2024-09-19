@@ -336,24 +336,29 @@ blocks:
               podrán demostrar sus conocimientos sobre el bisnes de la
               Informática y ¡ganar suculentos premios!
             speakers: []
-          - time: '13:00 - 13:45'
-            title: No montes un estudio de videojuegos
-            id: charla-daniel
-            subtitle: por Daniel Sanchez-Crespo
+          - time: '13:00 - 13:45h'
+            title: Curar con algoritmos
+            id: charla-aurelia
+            subtitle: por Aurelia Bustos
             description: >-
-              ¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré
-              que vender para que sea rentable?
+              Los medios dibujan la Inteligencia Artificial como una tecnología
+              que pareciera servir solo para crear imágenes más o menos
+              aparentes y generar canciones dándole a un botón, pero eso sólo
+              rasca la superficie de la revolución que va a suponer en nuestro
+              día a día.
 
 
-              En esta charla, Dani nos contará **todas las cifras que derías
-              saber —pero que nadie te contará— antes de montar un estudio de
-              videojuegos**. Si Dani no puede convencerte para que no lo hagas,
-              al menos te ayudará para que tengas más probabilidades de hacerlo
-              con éxito
+              En esta charla, Aurelia nos contará **una aplicación real de la
+              IA, alejada de la fanfarria de los *prompts* y las herramientas
+              generativas**: la mejora de diagnósticos clínicos a partir de
+              algoritmos que permitan —por ejemplo— identificar un tumor con más
+              precisión que el ojo humano. Y, también, **su experiencia creando
+              una startup alrededor de todo ese valor sin tener que marcharse a
+              Silicon Valley**.
             speakers:
-              - dani-novarama
+              - aurelia
           - time: '13:45 - 14:30h'
-            title: 'Evangelismo técnico: qué, por qué y cómo'
+            title: 'Evangelismo técnico: qué, cómo y por qué'
             id: charla-trisha
             subtitle: Trisha Gee
             description: >-
@@ -395,31 +400,35 @@ blocks:
               en mano, para averiguar hasta qué punto el público general -sin
               experiencia técnica- conoce el día a día del sector informático.
             speakers: []
-          - time: '16:45 - 17:30h'
-            title: Curar con algoritmos
-            id: charla-aurelia
-            subtitle: por Aurelia Bustos
+          - time: '16:45 - 18:15'
+            title: No montes un estudio de videojuegos
+            id: charla-daniel
+            subtitle: por Daniel Sanchez-Crespo
             description: >-
-              Los medios dibujan la Inteligencia Artificial como una tecnología
-              que pareciera servir solo para crear imágenes más o menos
-              aparentes y generar canciones dándole a un botón, pero eso sólo
-              rasca la superficie de la revolución que va a suponer en nuestro
-              día a día.
+              ¿Cuánto cuesta desarrollar un videojuego? ¿Cuántas unidades tendré
+              que vender para que sea rentable?
 
 
-              En esta charla, Aurelia nos contará **una aplicación real de la
-              IA, alejada de la fanfarria de los *prompts* y las herramientas
-              generativas**: la mejora de diagnósticos clínicos a partir de
-              algoritmos que permitan —por ejemplo— identificar un tumor con más
-              precisión que el ojo humano. Y, también, **su experiencia creando
-              una startup alrededor de todo ese valor sin tener que marcharse a
-              Silicon Valley**.
+              En esta charla, Dani nos contará **todas las cifras que derías
+              saber —pero que nadie te contará— antes de montar un estudio de
+              videojuegos**. Si Dani no puede convencerte para que no lo hagas,
+              al menos te ayudará para que tengas más probabilidades de hacerlo
+              con éxito
             speakers:
-              - aurelia
+              - dani-novarama
           - time: '17:30 - 18:15 '
-            title: Charla por anunciar
+            title: Effective data
             id: charla-giuseppe
-            subtitle: Ponente por anunciar
+            subtitle: por Giuseppe Sollazzo
+            description: >-
+              Los informáticos trabajan con la matería prima más cara y
+              peligrosa del mundo, la información.
+
+
+              En este charla, Giuseppe nos explicará las mejores prácticas que
+              ha identificado liderando múltiples proyectos para el Gobierno del
+              Reino Unido. Información que ha generado un verdadero impacto en
+              la vida de los ciudadanos británicos.
             speakers:
               - giuseppe
           - time: '18:15 - 19:00h'
@@ -749,8 +758,8 @@ blocks:
             url: 'https://www.linkedin.com/in/recena/'
       - name: Félix López
         id: felix
-        company: Tinybird
-        role: VP de Ingeniería
+        company: Technosylva
+        role: 'VP de Ingeniería '
         bio: >-
           Félix lleva en la industria del software unos 23 años, donde ha
           trabajado en cosas tan diversas como aplicaciones para cambio de
