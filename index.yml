@@ -147,6 +147,15 @@ blocks:
               ¡Bienvenidos!
             speakers: []
           - time: '15:30 - 18:00h'
+            title: TALLERES de patrocinadores
+            id: taller-sponsors
+            subtitle: 'DIVERGER, IZERTIS y FACTORIAL'
+            description: >-
+              Talleres patrocinados por nuestros sponsors, que abren a los
+              asistentes de la TRG que se hagan con una de las invitaciones
+              ¡Hablad con ellos!
+            speakers: []
+          - time: '15:30 - 18:00h'
             title: 'TALLER: Diseño de producto para no-diseñadores'
             id: taller-cris
             subtitle: por Cris Busquets
