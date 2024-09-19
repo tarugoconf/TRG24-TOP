@@ -1115,5 +1115,11 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
+  - type: faq
+    title: faq
+    theme: is-light width-box box-fill
+    questions:
+      - question: fas
+        answer: sfasfa
 metas:
   image: ''
