@@ -1003,7 +1003,6 @@ blocks:
       - name: Jose Luis Cases
         img: /files/people/jose-luis-cases.jpeg
         url: 'https://x.com/jlcasesES'
-      - img: ''
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
