@@ -883,6 +883,11 @@ blocks:
         img: /files/logos/logo2_str.png
         url: 'https://www.strsistemas.com/'
         description: El SysAdmin de tu empresa
+      - alt: ING
+        img: /files/ing_logo.png
+        url: >-
+          https://www.ing.es/sobre-ing/trabaja-con-nosotros/ofertas-empleo?utm_source=event_home&utm_medium=web&utm_campaign=TRG24
+        description: Do your thing.
       - alt: Ayuntamiento de Madrid
         img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
