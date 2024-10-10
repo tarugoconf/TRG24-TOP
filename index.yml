@@ -19,7 +19,7 @@ blocks:
       Madrid, 14-16 noviembre 2024
     text: |-
       - [**Cuartielles**](#dialog-david-cuartielles){data-hover="Cuartielles"}
-      - [**Pulpo**](#comida-viernes){data-hover="Pulpo"}
+      - [**Pulpa**](#comida-viernes){data-hover="Pulpo"}
       - [**Comunidad**](#comunidad){data-hover="Comunidad"}
       - [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover="Sánchez-Crespo"}
       - [**Podcasting**](#podcasting-jueves){data-hover="Podcasting"}
@@ -1008,6 +1008,9 @@ blocks:
       - name: Jose Luis Cases
         img: /files/people/jose-luis-cases.jpeg
         url: 'https://x.com/jlcasesES'
+      - name: Roberto Canales
+        img: /files/people/roberto_canales.jpg
+        url: 'https://x.com/rcanalesmora'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
