@@ -1,4 +1,6 @@
 title: Community Day
+metas:
+  image: ''
 menu:
   - text: Portada
     url: /
@@ -43,8 +45,8 @@ blocks:
         img: /files/activities/TRG23_coderocks.png
         description: >-
           Podrás participar en la grabación en directo de algunos de tus podcast
-          favoritos como
-          [JuegoConSentido](https://www.youtube.com/@Juegoconsentido){target=_blank}.
+          favoritos como [Code on the
+          Rocks](http://codeontherocks.fm/){target=_blank}.
       - title: Ludoteca
         tags:
           - Niños
@@ -164,6 +166,18 @@ blocks:
           discos, a cargo de [Guillermo
           Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de
           la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
+      - title: Carrera de LEDs
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/activities/tar_led.jpg
+        description: >-
+          El camarada del metal [Javi
+          Pérez](https://twitter.com/JaviMostoles){target="_blank"}, se ha
+          prestado a traernos el juego con el que LO HA PETADO en el cole de sus
+          hijos. Un sencillo proyecto electrónico que puedes ver en [este
+          video](https://media.slid.es/videos/969920/EWgX0-7p/olr.mp4){target="_blank"}.
       - title: Exhibición de Magia
         tags:
           - Jóvenes
@@ -173,18 +187,39 @@ blocks:
           El mítico [Juan
           Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los
           pocos magos grises aun en activo que conoció las tarjetas perforadas,
-          nos obsequiará con unos trucos de ***mágia informática*** que
+          nos obsequiará con unos trucos de ***magía informática*** que
           disfrutarán grandes y pequeños.
-      - title: "\U0001F69A Food Trailer"
+      - title: Simulación en directo de MoneyLand
+        tags:
+          - Jóvenes
+          - Mayores
+        img: /files/activities/tar_moneyland.jpg
+        description: >-
+          Episodio 0 del videopodcast de MoneyLands. Dentro encontraras el
+          primer parque temático del dinero, las finanzas personales y el
+          emprendimiento. ¿Quieres ver en directo cómo es la primera visita a
+          MoneyLand de algunas de las personalidades del mundo tecnológico y de
+          la economía?
+      - title: "\U0001F69A Foodtrucks"
         tags:
           - Niños
           - Jóvenes
           - Mayores
-        img: /files/trailer.jpeg
+        img: /files/activities/tar_foodtrucks.jpg
         description: >-
-          Vuelve el famoso **trailer de 12 ejes** que nos traemos desde Galicia
-          para proporcionar opciones gastronómicas ricas, saludables y
-          sostenibles para todos los asistentes al Community Day.
+          4 foodtrucks con múltiples opciones de comida (hamburgesas, perritos,
+          crepes...) y bebida para todos los asistentes al Community Day.
+      - title: >-
+          Simulación de conducción bajo los efectos de las drogas, a cargo de la
+          Cruz Roja
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/activities/tar_cruzroja.jpg
+        description: >-
+          Divertido circuito de patinetes con gafas de simulación de efectos de
+          drogas, para concienciar a los jovenes de una forma lúdica.
   - type: faq
     title: FAQ
     id: faq
@@ -192,9 +227,9 @@ blocks:
     questions:
       - question: ¿Es una jornada solo para familias con niños?
         answer: >-
-          ¡NORL! Hay actividades para grandes y pequeños, pero si quieres
-          pasarte con tus hijos, padres o amigos para acercarles un poco más a
-          la realidad de tu profesión, se lo pasarán PIRATA :)
+          ¡No! Hay actividades para grandes y pequeños, pero si quieres pasarte
+          con tus hijos, padres o amigos para acercarles un poco más a la
+          realidad de tu profesión, se lo pasarán PIRATA :)
       - question: ¿Quién puede ir al Community Day?
         answer: >-
           Pueden ir todos los asistentes con entrada del evento principal y,
@@ -204,14 +239,12 @@ blocks:
       - question: ¿Cuesta algo?
         answer: >-
           No, al contrario que en otras ediciones, **el Community Day es
-          completamente gratuito**.</br></br>Solo tendréis que pagar los
-          servicios de restauración (comida y bebida) que consumáis.
+          completamente gratuito**. Solo tendréis que pagar los servicios de
+          restauración (comida y bebida) que consumáis.
       - question: ¿Habrá comida y bebida?
         answer: >-
-          Sí. El catering oficial del evento, [O Fogar do
-          Santiso](https://fogardosantiso.es/){target=_blanck}, os ofrecerá
-          distintas propuestas (de pago) para beber y comer durante toda la
-          jornada.
+          Sí. Tendréis varias opciones de catering (de pago) para beber y comer
+          durante toda la jornada.
       - question: ¿Qué horario tiene?
         answer: >-
           A partir de las 11:00h de la mañana y hasta después de comer (a las
@@ -229,5 +262,4 @@ blocks:
           No pasa nada. Como siempre, escribe a
           [tarugoconf@bonillaware.com](mailto:tarugoconf@bonillaware.com) y allí
           estaremos encantados de atenderte.
-metas:
-  image: ''
+only_state: post-event
