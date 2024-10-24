@@ -459,6 +459,10 @@ blocks:
         img: /files/playtomic-logo.png
         url: 'https://playtomic.io/'
         description: Encuentra dónde y con quién jugar a Pádel & Tenis al instante.
+      - alt: SUPERMONO
+        img: /files/supermono_logo_red.png
+        url: 'https://supermo.no/'
+        description: Get superpowers for your Mailchimp account!
       - alt: Ayuntamiento de Madrid
         img: /files/logos/lanave_logo_footer.png
         url: 'https://www.lanavemadrid.com/'
