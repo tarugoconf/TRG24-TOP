@@ -463,14 +463,22 @@ blocks:
         img: /files/supermono_logo_red.png
         url: 'https://supermo.no/'
         description: Get superpowers for your Mailchimp account!
-      - alt: Ayuntamiento de Madrid
-        img: /files/logos/lanave_logo_footer.png
-        url: 'https://www.lanavemadrid.com/'
-        description: Ayuntamiento de Madrid.
+      - alt: Holafly
+        img: /files/holafly-logo.png
+        url: 'https://esim.holafly.com/es/'
+        description: Mantente conectado donde sea que vayas.
+      - alt: Shakers
+        img: /files/logo_shakers.png
+        url: 'https://www.shakersworks.com/'
+        description: La casa del freeworking.
       - alt: Eventbrite
         img: /files/logos/eventbrite_logo.png
         url: 'https://www.eventbrite.es/'
         description: Proveedor Oficial de Ticketing de la TRG.
+      - alt: Ayuntamiento de Madrid
+        img: /files/logos/lanave_logo_footer.png
+        url: 'https://www.lanavemadrid.com/'
+        description: Ayuntamiento de Madrid.
   - type: separator
     width: is-default
   - type: logos
