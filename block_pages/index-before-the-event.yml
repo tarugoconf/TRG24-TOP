@@ -707,4 +707,4 @@ blocks:
             text: '@tarugoconf'
 metas:
   image: ''
-only_state: pre-event
+only_state: post-event

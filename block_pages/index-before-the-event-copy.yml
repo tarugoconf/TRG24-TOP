@@ -1,6 +1,6 @@
 metas:
   image: ''
-only_state: post-event
+only_state: pre-event
 menu:
   - text: Dónde
     url: '#donde'
@@ -257,24 +257,6 @@ blocks:
             id: community-day
             subtitle: Acerca la profesión que amas a tu familia y amigos
             description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nIremos anunciando poco a poco [todas las actividades del Community Day](/community-day) \U0001F973\r\n"
-            speakers: []
-  - type: multitrack-calendar
-    description: >-
-      Una jornada abierta, a la que podréis traer a familia, compañeros y/o
-      amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha
-      más info [en esta página](/community-day/).
-    days:
-      - title: 'Sábado, 16 de noviembre'
-        tracks:
-          - title: Pasillo central
-            id: pasillo-central
-          - title: Rincón Daruma
-            id: daruma
-          - title: Aulas
-            id: aulas
-        events:
-          - time: '11:00 - 17:00'
-            title: Juegos tradicionales de madera
             speakers: []
   - type: separator
     width: is-default
@@ -671,3 +653,4 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
+url: /
