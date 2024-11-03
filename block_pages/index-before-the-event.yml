@@ -259,8 +259,8 @@ blocks:
       - tracks:
           - title: Pasillo central
             id: pasillo-central
-          - title: Rincón Daruma
-            id: daruma
+          - title: Rincón Smart Troll
+            id: smart-troll
           - title: Aula 1
             id: aula1
           - title: Aula 2
@@ -278,12 +278,37 @@ blocks:
           - title: Parking exterior
             id: parking
         events:
-          - time: '11:00 - 17:00'
+          - time: '11:00 - 17:00h'
             title: Juegos tradicionales de madera
             id: juegos-madera
             track: pasillo-central
             speakers: []
-          - time: '11:00 - 16:00'
+          - time: '11:00 - 17:00h'
+            title: Arcades y Simuladores
+            id: arcades
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 17:00h'
+            title: Futbolines
+            track: pasillo-central
+            speakers: []
+          - time: '11:00h - 17:00h'
+            title: Scalextric GIGANTE de 4 pistas
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 17:00h'
+            title: 'Twister, Jenga, Conecta 4 y damas MEGAGIGANTES'
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Tienda
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Libreria
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
             title: "\U0001F69A Foodtruck "
             id: foodtruck
             track: parking
@@ -292,17 +317,17 @@ blocks:
               (hamburgesas, empanadas, falafel...) y bebida para todos los
               asistentes al Community Day.
             speakers: []
-          - time: '11:00 - 16:00'
+          - time: '11:00 - 16:00h'
             title: Pintacaras
             id: pintacaras
             track: zona-infantil
             speakers: []
-          - time: '11:00 - 16:00'
+          - time: '11:00 - 16:00h'
             title: Ludoteca
             id: ludoteca
             track: zona-infantil
             speakers: []
-          - time: '11:00 - 16:00'
+          - time: '11:00 - 16:00h'
             title: Juegos de conos
             id: juegos-conos
             track: zona-infantil
@@ -322,12 +347,12 @@ blocks:
             id: heavymental-sabado
             track: escenario
             speakers: []
-          - time: '14:00h - 14:45h'
+          - time: '14:00 - 14:45h'
             title: Exhibición de magia con Juanto
             id: magia-juanto
             track: escenario
             speakers: []
-          - time: '11:15 - 12:15'
+          - time: '11:15 - 12:15h'
             title: 'TARUGOFF: Marketplace de Ideas'
             id: tarugoff-marketplace
             track: cafeteria
@@ -359,6 +384,40 @@ blocks:
             id: taller-dam
             subtitle: con David Amorin (La mesa de Dam)
             track: aula1
+            speakers: []
+          - time: '11:15 - 12:00h'
+            title: Taller de fundamentos de la Programación (de 6 a 12 años)
+            id: taller-esther1
+            subtitle: con Esther Elías (FunTech Rocket)
+            track: aula2
+            speakers: []
+          - time: '12:15 - 13:15h'
+            title: Taller de DJs
+            id: taller-guillermo
+            subtitle: con DJ Montoya
+            track: aula2
+            speakers: []
+          - time: '13:30 - 14:15h'
+            title: Taller de fundamentos de la Programación (de 6 a 12 años)
+            id: taller-esther2
+            subtitle: con Esther Elías (FunTech Rocket)
+            track: aula2
+            speakers: []
+          - time: '11:00 - 15:30h'
+            title: >-
+              Partidas dinamizadas de juegos de mesa... ¡con los creadores de
+              los juegos!
+            id: partidas-juegos-mesa
+            subtitle: con David Amorin y Ramón Redondo
+            track: smart-troll
+            speakers: []
+          - time: '11:00 - 12:30h'
+            title: Torneo Benéfico de Padel
+            track: pista-padel
+            speakers: []
+          - time: '12:30 - 16:00h'
+            title: Fun & Padel
+            track: pista-padel
             speakers: []
   - type: separator
     width: is-default

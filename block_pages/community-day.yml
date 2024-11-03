@@ -140,13 +140,15 @@ blocks:
           - Mayores
         img: /files/activities/TRG23_jenga.jpeg
         description: 'El juego de toda la vida, pero más divertido —y GRANDE— que nunca.'
-      - title: Taller de fundamentos de la Programación (hasta 6 años)
+      - title: Conos de Luz
         tags:
           - Niños
-        img: /files/activities/peques_pixelados2.jpg
+          - Jóvenes
+          - Mayores
+        img: /files/conos.png
         description: >-
-          David Bonilla desvelará los misterios de la programación a los más
-          pequeños con la ayuda de un buen amigo... ¡Cubetto!
+          Diviértete y haz ejercicio con nuestros juegos de conos para toda la
+          familia.
       - title: Taller de fundamentos de la Programación (de 6 a 12 años)
         tags:
           - Niños
