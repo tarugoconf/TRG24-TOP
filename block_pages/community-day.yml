@@ -9,58 +9,121 @@ menu:
 blocks:
   - type: header
     title: "\U0001F389<br>Community Day"
-    description: >
-      Después de la intensidad del viernes, el **sábado 16 de noviembre —de
-      11:00h a 17:00h—** celebramos el «Día de la Comunidad», una jornada
-      diseñada para que disfrutar relajadamente a la que podrás **traer a tu
-      familia, amigos y compañeros de trabajo** para disfrutar de todas las
-      actividades que hemos preparado y que disfrutarán por igual grandes y
-      pequeños.<br><br>
-
-      En esta página tienes una lista de todas las actividades, pero también
-      puedes consultar [la agenda detallada](/#agenda) o ver [un video-resumen
-      de la edición de 2022](https://vimeo.com/836780949){target="_blank"}, para
-      que sepas que puedes esperar.  
+    description: "Después de la intensidad del viernes, el **sábado 16 de noviembre —de 11:00h a 17:00h—** celebramos el «Día de la Comunidad», una jornada diseñada para que disfrutar relajadamente a la que podrás **traer a tu familia, amigos y compañeros de trabajo** para disfrutar de todas las actividades que hemos preparado y que disfrutarán por igual grandes y pequeños.<br><br>\r\nEn esta página tienes una lista de todas las actividades, pero también puedes consultar [la agenda detallada](/#agenda) o ver [un video-resumen de la edición de 2022](https://vimeo.com/836780949){target=\"_blank\"}, para que sepas que puedes esperar.  \r\n"
   - type: activities
     items:
+      - title: Pista de padel indoor
+        tags:
+          - Niños
+          - Jóvenes
+          - Adultos
+        img: /files/pista_padel.png
+        description: >-
+          Una auténtica pista de padel donde organizaremos divertidas dinámicas
+          y juegos para todos los públicos.</br></br>Os lo pasaréis en grande,
+          tanto si sois expertos padelistas cómo si queréis recibir vuestro
+          bautismo con una pala de padel. Y no hace falta que traigáis ningún
+          tipo de material deportivo ¡Playtomic se encargará de todo!
       - title: TarugOff
         tags:
           - Mayores
-        img: /files/activities/TRG23_tarugoff.jpg
+        img: /files/tarugoff.jpeg
         description: >-
-          El *open space* de la TRG, donde los asistentes podréis proponer
-          vuestros propios contenidos y votar los que mas os interesen.
+          La TRG es mucho más que 8 charlas. En su *open space* los asistentes
+          podréis proponer vuestros propios contenidos y votar los que mas os
+          interesen. Coordinado por
+          [@merybere](https://x.com/merybere){target="_blank"}.
       - title: Scalextric Gigante
         tags:
           - Niños
           - Jóvenes
           - Mayores
         img: /files/activities/scalextric.jpeg
-        description: Compite en el circuito que siempre soñaste montar en tu salón.
-      - title: Set de podcasting
-        tags:
-          - Mayores
-        img: /files/activities/TRG23_coderocks.png
         description: >-
-          Podrás participar en la grabación en directo de algunos de tus podcast
-          favoritos como
-          [JuegoConSentido](https://www.youtube.com/@Juegoconsentido){target=_blank}.
+          Compite en el circuito que siempre soñaste montar en tu
+          salón.</br></br>Este año ampliamos pista y contaremos con unos coches
+          muy, MUY especiales.
       - title: Ludoteca
         tags:
           - Niños
         img: /files/activities/tar_ludoteca.jpg
         description: >-
-          Zona para que los niños de 3 a 6 años puedan jugar vigilados por
+          Zona para que los niños de 3 a 6 años puedan jugar, vigilados por
           monitores titulados.
+      - title: Taller de DJs
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/tallerdjs.jpg
+        description: >-
+          Tras el éxito del año pasado, taller de iniciación al pinchazo de
+          discos, a cargo del famoso [DJ
+          Montoya](https://x.com/lmontoya/status/1718246506308718837){target=_blank}
+          que volará directamente desde Ibiza para estar en la TRG</br></br>
+          ¡Traed vuestros portatiles!
+      - title: Taller de dibujo para pequeños grandes artistas
+        tags:
+          - Jóvenes
+          - Mayores
+        img: /files/hugo.gif
+        description: >-
+          Aprende técnicas básicas de dibujo, que te harán parecer un experto,
+          de la mano de [Hugo
+          Tobio](https://twitter.com/HugoTobio){target=_blank} ¡El mismísimo
+          ilustrador de la Bonilista!
+      - title: ¡¡¡ Heavy Mental !!!
+        tags:
+          - Mayores
+        img: /files/home-block1.jpg
+        description: >-
+          Podrás participar en la **grabación en directo** de un episodio de
+          [Heavy Mental](https://heavymental.es/){target=_blank}, el irreverente
+          y divertido podcast que se ha convertido en uno de los favoritos de la
+          Comunidad.
+      - title: JuegoConSentido
+        tags:
+          - Jóvenes
+          - Mayores
+        img: /files/juegoconsentido.jpg
+        description: >-
+          Asistirás a la **grabación en directo** de un programa de
+          [JuegoConSentido]( https://juegoconsentido.es/){target=_blank}, en el
+          que entrevistarán en profundidad a personalidades relevantes del
+          sector.
       - title: Taller de Sketchnoting
         tags:
           - Jóvenes
           - Mayores
-        img: /files/activities/TRG23_sketchnoting.jpeg
+        img: /files/Fens99MWYAAJtEC.jpeg
         description: >-
-          Impartido por el mítico [Javier «Oyabun»
-          Alonso](https://twitter.com/oyabun){target=_blank} ¡sketchnoter
-          oficial de la TRG!
+          Aprende a dibujar ideas.</br></br>Impartido por el mítico [Javier
+          «Oyabun» Alonso](https://twitter.com/oyabun){target=_blank}, Product
+          Designer en Docker y sketchnoter oficial de la TRG.
+      - title: Exhibición de Magia
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/activities/tar_magia.jpg
+        description: >-
+          El mítico [Juan
+          Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los
+          pocos magos grises aun en activo que conoció las tarjetas perforadas,
+          nos obsequiará con unos trucos de ***mágia informática*** que
+          disfrutarán grandes y pequeños.
+      - title: Taller de diseño de juegos de mesa
+        tags:
+          - Niños
+          - Jóvenes
+          - Adultos
+        img: /files/juegosdemesa.jpg
+        description: >-
+          David Amorín, *data scientist* y autor de juegos de mesa, se convierte
+          en el popular youtuber de La mesa de Dam cuando abraza su identidad
+          secreta.</br></br>David nos enseñará cómo diseñar un juego de mesa
+          desde cero y crear nuestro primer prototipo. ¿Quién sabe? ¡a lo mejor
+          creas el próximo Monopoly!
       - title: Twister Gigante
         tags:
           - Niños
@@ -76,8 +139,36 @@ blocks:
           - Jóvenes
           - Mayores
         img: /files/activities/TRG23_jenga.jpeg
-        description: 'El juego de toda la vida, pero más divertido que nunca.'
-      - title: Juegos de mesa
+        description: 'El juego de toda la vida, pero más divertido —y GRANDE— que nunca.'
+      - title: Taller de fundamentos de la Programación (hasta 6 años)
+        tags:
+          - Niños
+        img: /files/activities/peques_pixelados2.jpg
+        description: >-
+          David Bonilla desvelará los misterios de la programación a los más
+          pequeños con la ayuda de un buen amigo... ¡Cubetto!
+      - title: Taller de fundamentos de la Programación (de 6 a 12 años)
+        tags:
+          - Niños
+        img: /files/dsc04346.jpg
+        description: >-
+          [Esther Elías](https://x.com/esther___elias){target="_blank"}, de
+          FunTech Rocket, os explicará los pilares básicos de la programación y
+          os presentará a alguno de sus principales referentes, de forma amena y
+          divertida.</br></br>¡Saldréis de este taller con vuestro primer
+          algoritmo creado y todo lo necesario para seguir profundizando en el
+          fascinante mundo de la programación!
+      - title: Arcades Clásicos
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/activities/TRG23_arcades.jpg
+        description: >-
+          Disfruta de alguno de los primeros videojuegos de la historia en
+          encarnizados campeonatos improvisados con otros
+          asistentes.<br><br>Round 1... FIGHT !!!
+      - title: Zona de juegos de mesa
         tags:
           - Niños
           - Jóvenes
@@ -85,36 +176,11 @@ blocks:
         img: /files/activities/TRG23_juegosmesa.jpg
         description: >-
           Partidas organizadas de juegos de mesa para TODAS las edades, a cargo
-          de los profesionales de [Perro Loko
-          Games](https://www.perrolokogames.com/){target=_blank}.
-      - title: Taller de fundamentos de la Programación
-        tags:
-          - Niños
-        img: /files/activities/peques_pixelados2.jpg
-        description: >-
-          David Bonilla explicará a los más pequeños (a partir de 4 años) los
-          fundamentos básicos de la programación con la ayuda de un buen
-          amigo... ¡Cubetto!
-      - title: Lectura y firma de libros de Mara Turing
-        tags:
-          - Niños
-          - Jóvenes
-        img: /files/activities/mara.jpg
-        description: >-
-          Lectura en directo de algunos capítulos de las aventuras de Mara a
-          cargo de su autor, [Javier
-          Padilla](https://twitter.com/elpady){target=_blank}, con un coloquio
-          sobre el proceso creativo de escritura de los libros y firma de los
-          mismos.
-      - title: Taller de dibujo para pequeños grandes artistas
-        tags:
-          - Jóvenes
-          - Mayores
-        img: /files/activities/tar_hugo.jpg
-        description: >-
-          Aprende técnicas básicas de dibujo de la mano de [Hugo
-          Tobio](https://twitter.com/HugoTobio){target=_blank} ¡El mismísimo
-          ilustrador de la Bonilista!
+          de David Amorin [*aka
+          Dam*](https://www.youtube.com/channel/UCM8UVNLc9hptl-Othd7mm9w){target=_blank}
+          y el resto de su equipo de Smart Troll Games.</br></br>Podréis
+          disfrutar de una selección de los mejores títulos de la historia... y
+          ¡alguno de los juegos diseñador por el propio David!
       - title: Taller de personalización de chapas
         tags:
           - Niños
@@ -122,7 +188,7 @@ blocks:
         img: /files/activities/TRG23_chapas.jpg
         description: >-
           ¡Fabrica chapas con tus propios diseños!<br><br>Puedes traer una foto,
-          un diseño impreso... o hacer un dibujo :)
+          un diseño impreso... o hacer un dibujo allí mismo :)
       - title: Pintacaras
         tags:
           - Niños
@@ -136,17 +202,7 @@ blocks:
         description: >-
           Juegos tradicionales para que las nuevas generaciones conozcan la vida
           que hay más allá de la consola ¿Jugamos a las chapas?
-      - title: Arcades Clásicos
-        tags:
-          - Niños
-          - Jóvenes
-          - Mayores
-        img: /files/activities/TRG23_arcades.jpg
-        description: >-
-          Disfruta de alguno de los primeros videojuegos de la historia en
-          encarnizados campeonatos improvisados con otros
-          asistentes.<br><br>Round 1... FIGHT !!!
-      - title: 'Debriefing de la #TRG23'
+      - title: 'Debriefing de la #TRG24'
         tags:
           - Mayores
         img: /files/activities/tar_debriefing.jpg
@@ -154,27 +210,6 @@ blocks:
           Conoce y comenta todos los detalles del evento, charlando
           relajadamente con sus principales protagonistas —ponentes,
           patrocinadores y organizadores— en un ambiente relajado y amigable.
-      - title: Taller de DJs
-        tags:
-          - Jóvenes
-          - Mayores
-        img: /files/activities/TRG23_dj.jpg
-        description: >-
-          Tras el éxito del año pasado, taller de iniciación al pinchazo de
-          discos, a cargo de [Guillermo
-          Montoya](https://twitter.com/Gmfdsr){target=_blank} y el DJ oficial de
-          la TRG ¡[Don Robot](https://twitter.com/xRx0xMx){target=_blank}!
-      - title: Exhibición de Magia
-        tags:
-          - Jóvenes
-          - Mayores
-        img: /files/activities/tar_magia.jpg
-        description: >-
-          El mítico [Juan
-          Tomas](https://twitter.com/juantomas){target="_blank"}, uno de los
-          pocos magos grises aun en activo que conoció las tarjetas perforadas,
-          nos obsequiará con unos trucos de ***mágia informática*** que
-          disfrutarán grandes y pequeños.
       - title: "\U0001F69A Food Trailer"
         tags:
           - Niños
@@ -185,41 +220,62 @@ blocks:
           Vuelve el famoso **trailer de 12 ejes** que nos traemos desde Galicia
           para proporcionar opciones gastronómicas ricas, saludables y
           sostenibles para todos los asistentes al Community Day.
+      - title: Tienda
+        tags:
+          - Niños
+          - Jóvenes
+          - Mayores
+        img: /files/f9x-q-axeaahabj.jpeg
+        description: >-
+          Tienda atendida por el equipo de la TRG donde podrás completar tu
+          colección de merchandising del evento con piezas de esta o pasadas
+          ediciones.</br></br>Podrás encontrar auténticas joyas *vintage* y
+          suculentos descuentos.
+      - title: Librería
+        tags:
+          - Niños
+          - Jóvenes
+          - Adultos
+        img: /files/libreria.jpg
+        description: >-
+          Un stand donde podrás conocer y adquirir libros relacionados de una u
+          otra manera con la tecnología para grandes y pequeños. Y ¿quién sabe?
+          puede que te los firmen sus propios autores...
   - type: faq
     title: FAQ
     id: faq
     theme: is-light width-box box-fill
     questions:
+      - question: ¿Quién puede ir al Community Day?
+        answer: >-
+          Pueden ir todos los asistentes con entrada de la TRG24 que, además,
+          pueden traer consigo a los acompañantes que quieran: amigos,
+          familiares, compañeros de trabajo...<br><br>No podrán acceder personas
+          *random* que no acompañen a un asistente de la TRG.
       - question: ¿Es una jornada solo para familias con niños?
         answer: >-
           ¡NORL! Hay actividades para grandes y pequeños, pero si quieres
           pasarte con tus hijos, padres o amigos para acercarles un poco más a
           la realidad de tu profesión, se lo pasarán PIRATA :)
-      - question: ¿Quién puede ir al Community Day?
-        answer: >-
-          Pueden ir todos los asistentes con entrada del evento principal y,
-          además, traer consigo a los acompañantes que quieran: amigos,
-          familiares, compañeros de trabajo...<br><br>No podrán acceder personas
-          *random* que no acompañen a un asistente de la TRG.
       - question: ¿Cuesta algo?
         answer: >-
           No, al contrario que en otras ediciones, **el Community Day es
           completamente gratuito**.</br></br>Solo tendréis que pagar los
           servicios de restauración (comida y bebida) que consumáis.
+      - question: ¿Dónde se celebra?
+        answer: "En [La Nave](https://x.com/lmontoya/status/1718246506308718837){target=_blank}, en la calle Cifuentes 5 de Madrid, igual que el resto de la TRG24.</br></br>\r\nSi vais en **metro**, está a 5 minutos andando de la parada Villaverde Bajo - Cruce de la Línea 3.</br>\r\nSi llegáis en **tren**, lo tenéis a 7 minutos andando de la estación Puente Alcocer, en la Línea C5."
+      - question: ¿Qué horario tiene? ¿Cuándo pasa cada cosa?
+        answer: "El Community Day arrancará a las 11:00h de la mañana y estará abierto hasta después de comer (a las 17:00h, tiene que estar todo recogido).</br></br>\r\nComo habrá muchas actividades en paralelo, hemos recopilado **todos los horarios y detalles** en [la Agenda del Evento](/#agenda)."
+      - question: ¿Habrá sitio para aparcar?
+        answer: >-
+          Sí claro. Al lado de La Nave hay MUCHO sitio para aparcar y un sábado
+          aun más.
       - question: ¿Habrá comida y bebida?
         answer: >-
           Sí. El catering oficial del evento, [O Fogar do
           Santiso](https://fogardosantiso.es/){target=_blanck}, os ofrecerá
           distintas propuestas (de pago) para beber y comer durante toda la
           jornada.
-      - question: ¿Qué horario tiene?
-        answer: >-
-          A partir de las 11:00h de la mañana y hasta después de comer (a las
-          17:00h, tiene que estar todo recogido).
-      - question: ¿Habrá sitio para aparcar?
-        answer: >-
-          Sí claro. Al lado de La Nave hay MUCHO sitio para aparcar y un sábado
-          aun más.
       - question: ¿Hay un límite de aforo?
         answer: >-
           Sí, 1.000 personas. Pero si llegamos a ese límite, el próximo año

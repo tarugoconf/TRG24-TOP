@@ -1,4 +1,6 @@
-url: /
+metas:
+  image: ''
+only_state: post-event
 menu:
   - text: Dónde
     url: '#donde'
@@ -249,66 +251,30 @@ blocks:
             description: "Transformaremos La Nave en una auténtica \"Sesión Vermú\" con comida y bebida, churros, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.\r\n\r\n* **INTRO** - ¿Qué sonaba en 2015? Don Robot nos hará dar un último salto musical para bailar grandes éxitos del rock y la electrónica hasta el supuesto futuro que planteaba «Regreso al Futuro II».\r\n* **MAIN EVENT** - Stay tuned Antunez!"
             speakers: []
       - title: 'Sábado, 16 de noviembre'
-        events: []
+        events:
+          - time: '11:00 - 17:00h'
+            title: Community Day
+            id: community-day
+            subtitle: Acerca la profesión que amas a tu familia y amigos
+            description: "Después de la intensidad del viernes, el sábado 16 de noviembre —de 11:00h a 17:00h— celebramos el «Día de la Comunidad», una **jornada de puertas abiertas y llena de actividades, diseñada para disfrutar relajadamente y SIN AGENDA**.\r\n\r\nPodrás traer a tu familia, amigos y compañeros de trabajo para disfrutar de todas las sorpresas que hemos preparado y que disfrutarán por igual grandes y pequeños.\r\n\r\nIremos anunciando poco a poco [todas las actividades del Community Day](/community-day) \U0001F973\r\n"
+            speakers: []
   - type: multitrack-calendar
     description: >-
       Una jornada abierta, a la que podréis traer a familia, compañeros y/o
       amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha
       más info [en esta página](/community-day/).
     days:
-      - tracks:
+      - title: 'Sábado, 16 de noviembre'
+        tracks:
           - title: Pasillo central
             id: pasillo-central
           - title: Rincón Daruma
             id: daruma
           - title: Aulas
             id: aulas
-          - title: Pista de Padel
-            id: pista-padel
-          - title: Cafetería
-            id: cefeteria
-          - title: Escenario
-            id: escenario
-          - title: Stand Next Digital
-            id: next-digital
-          - title: Zona Infantil
-            id: zona-infantil
-          - title: Parking exterior
-            id: parking
         events:
           - time: '11:00 - 17:00'
             title: Juegos tradicionales de madera
-            id: juegos-madera
-            track: pasillo-central
-            speakers: []
-          - time: '11:00 - 16:00'
-            title: "\U0001F69A Foodtruck "
-            id: foodtruck
-            track: parking
-            description: >-
-              Un camión de 12 ejes con múltiples opciones de comida
-              (hamburgesas, empanadas, falafel...) y bebida para todos los
-              asistentes al Community Day.
-            speakers: []
-          - time: '11:00 - 16:00'
-            title: Pintacaras
-            id: pintacaras
-            track: zona-infantil
-            speakers: []
-          - time: '11:00 - 16:00'
-            title: Ludoteca
-            id: ludoteca
-            track: zona-infantil
-            speakers: []
-          - time: '11:00 - 16:00'
-            title: Juegos de conos
-            id: juegos-conos
-            track: zona-infantil
-            speakers: []
-          - time: '11:00 - 16:00h'
-            title: Taller de chapas
-            id: taller-chapas
-            track: next-digital
             speakers: []
   - type: separator
     width: is-default
@@ -705,6 +671,3 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
-metas:
-  image: ''
-only_state: pre-event
