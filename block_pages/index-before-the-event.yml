@@ -145,7 +145,7 @@ blocks:
             title: Hardware abierto en tiempos de modelos cerrados
             id: charla-cuartielles
             subtitle: por David Cuartielles
-            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuela a cerrado. Es hora de airear."
+            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuele a cerrado. Es hora de airear."
             speakers:
               - david-cuartielles
           - time: '11:00 - 11:45h'
