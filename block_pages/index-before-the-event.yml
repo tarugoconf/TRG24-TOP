@@ -261,12 +261,14 @@ blocks:
             id: pasillo-central
           - title: Rincón Daruma
             id: daruma
-          - title: Aulas
-            id: aulas
+          - title: Aula 1
+            id: aula1
+          - title: Aula 2
+            id: aula2
           - title: Pista de Padel
             id: pista-padel
           - title: Cafetería
-            id: cefeteria
+            id: cafeteria
           - title: Escenario
             id: escenario
           - title: Stand Next Digital
@@ -309,6 +311,54 @@ blocks:
             title: Taller de chapas
             id: taller-chapas
             track: next-digital
+            speakers: []
+          - time: '11:00 - 12:30h'
+            title: 'Podcast: JuegoConSentido'
+            id: juegoconsentido
+            track: escenario
+            speakers: []
+          - time: '12:30 - 14:00h'
+            title: Heavy Mental!
+            id: heavymental-sabado
+            track: escenario
+            speakers: []
+          - time: '14:00h - 14:45h'
+            title: Exhibición de magia con Juanto
+            id: magia-juanto
+            track: escenario
+            speakers: []
+          - time: '11:15 - 12:15'
+            title: 'TARUGOFF: Marketplace de Ideas'
+            id: tarugoff-marketplace
+            track: cafeteria
+            speakers: []
+          - time: '12:30 - 13:20h'
+            title: 'TARUGOFF: Sesiones'
+            id: tarugoff-sesiones1
+            track: cafeteria
+            speakers: []
+          - time: '13:30 - 14:20h'
+            title: 'TARUGOFF: Sesiones'
+            id: tarugoff-sesiones2
+            track: cafeteria
+            speakers: []
+          - time: '11:15 - 12:15h'
+            title: Taller de dibujo para pequeños grandes artistas
+            id: taller-hugo
+            subtitle: con Hugo Tobio
+            track: aula1
+            speakers: []
+          - time: '12:15 - 13:15h'
+            title: Taller de sketchnoting
+            id: taller-oyabun
+            subtitle: con Javier Alonso (@oyabun)
+            track: aula1
+            speakers: []
+          - time: '13:15 - 14:15h'
+            title: Taller de diseño de juegos de mesa
+            id: taller-dam
+            subtitle: con David Amorin (La mesa de Dam)
+            track: aula1
             speakers: []
   - type: separator
     width: is-default
@@ -707,4 +757,4 @@ blocks:
             text: '@tarugoconf'
 metas:
   image: ''
-only_state: post-event
+only_state: pre-event

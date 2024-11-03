@@ -1,6 +1,6 @@
 metas:
   image: ''
-only_state: pre-event
+only_state: post-event
 menu:
   - text: Dónde
     url: '#donde'
