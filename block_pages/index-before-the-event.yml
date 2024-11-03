@@ -282,7 +282,6 @@ blocks:
           - time: '11:00 - 17:00h'
             title: Juegos tradicionales de madera
             id: juegos-madera
-            label: Juegos
             track: pasillo-central
             speakers: []
           - time: '11:00 - 17:00h'
@@ -295,7 +294,7 @@ blocks:
             track: pasillo-central
             speakers: []
           - time: '11:00h - 17:00h'
-            title: Scalextric GIGANTE de 4 pistas
+            title: "\U0001F3CE️ Scalextric GIGANTE de 4 pistas"
             track: pasillo-central
             speakers: []
           - time: '11:00 - 17:00h'
@@ -340,68 +339,79 @@ blocks:
             track: next-digital
             speakers: []
           - time: '11:00 - 12:30h'
-            title: 'Podcast: JuegoConSentido'
+            title: JuegoConSentido
             id: juegoconsentido
+            label: Podcast
             track: escenario
             speakers: []
           - time: '12:30 - 14:00h'
             title: Heavy Mental!
             id: heavymental-sabado
+            label: Podcast
             track: escenario
             speakers: []
           - time: '14:00 - 14:45h'
-            title: Exhibición de magia con Juanto
+            title: "\U0001FA84 Exhibición de magia con Juanto"
             id: magia-juanto
             track: escenario
             speakers: []
           - time: '11:15 - 12:15h'
-            title: 'TARUGOFF: Marketplace de Ideas'
+            title: Marketplace de Ideas
             id: tarugoff-marketplace
+            label: TarugOff
             track: cafeteria
             speakers: []
           - time: '12:30 - 13:20h'
-            title: 'TARUGOFF: Sesiones'
+            title: Sesiones
             id: tarugoff-sesiones1
+            label: TarugOff
             track: cafeteria
             speakers: []
           - time: '13:30 - 14:20h'
-            title: 'TARUGOFF: Sesiones'
+            title: Sesiones
             id: tarugoff-sesiones2
+            label: TarugOff
             track: cafeteria
             speakers: []
           - time: '11:15 - 12:15h'
-            title: Taller de dibujo para pequeños grandes artistas
+            title: Dibujo para pequeños grandes artistas
             id: taller-hugo
+            label: Taller
             subtitle: con Hugo Tobio
             track: aula1
             speakers: []
           - time: '12:15 - 13:15h'
-            title: Taller de sketchnoting
+            title: Sketchnoting
             id: taller-oyabun
+            label: Taller
             subtitle: con Javier Alonso (@oyabun)
             track: aula1
             speakers: []
           - time: '13:15 - 14:15h'
-            title: Taller de diseño de juegos de mesa
+            title: Diseño de juegos de mesa
             id: taller-dam
+            label: Taller
             subtitle: con David Amorin (La mesa de Dam)
             track: aula1
             speakers: []
           - time: '11:15 - 12:00h'
-            title: Taller de fundamentos de la Programación (de 6 a 12 años)
+            title: Fundamentos de la Programación (de 6 a 12 años)
             id: taller-esther1
+            label: Taller
             subtitle: con Esther Elías (FunTech Rocket)
             track: aula2
             speakers: []
           - time: '12:15 - 13:15h'
-            title: Taller de DJs
+            title: Conviértete en DJs
             id: taller-guillermo
+            label: Taller
             subtitle: con DJ Montoya
             track: aula2
             speakers: []
           - time: '13:30 - 14:15h'
-            title: Taller de fundamentos de la Programación (de 6 a 12 años)
+            title: Fundamentos de la Programación (de 6 a 12 años)
             id: taller-esther2
+            label: Taller
             subtitle: con Esther Elías (FunTech Rocket)
             track: aula2
             speakers: []
@@ -414,11 +424,11 @@ blocks:
             track: smart-troll
             speakers: []
           - time: '11:00 - 12:30h'
-            title: Torneo Benéfico de Padel
+            title: "\U0001F3C6 Torneo Benéfico de Padel"
             track: pista-padel
             speakers: []
           - time: '12:30 - 16:00h'
-            title: Fun & Padel
+            title: "\U0001F3BE Fun & Padel"
             track: pista-padel
             speakers: []
   - type: separator
