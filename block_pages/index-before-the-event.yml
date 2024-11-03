@@ -255,6 +255,7 @@ blocks:
       Una jornada abierta, a la que podréis traer a familia, compañeros y/o
       amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha
       más info [en esta página](/community-day/).
+    fullwidth: true
     days:
       - tracks:
           - title: Pasillo central
@@ -281,6 +282,7 @@ blocks:
           - time: '11:00 - 17:00h'
             title: Juegos tradicionales de madera
             id: juegos-madera
+            label: Juegos
             track: pasillo-central
             speakers: []
           - time: '11:00 - 17:00h'

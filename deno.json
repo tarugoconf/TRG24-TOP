@@ -1,8 +1,8 @@
 {
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.3.3/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.7.1/",
-    "top/": "https://cdn.jsdelivr.net/gh/tarugoconf/top@11a86cab090362d0a7e389778251d42396bc5485/"
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.7.2/",
+    "top/": "https://cdn.jsdelivr.net/gh/tarugoconf/top@0.2.1/"
   },
   "lock": false,
   "tasks": {
