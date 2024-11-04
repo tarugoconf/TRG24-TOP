@@ -59,9 +59,9 @@ blocks:
         pricing: 250€ + IVA
         img: /files/tickets/normal.png
         buy:
-          text: COMPRAR
+          text: AGOTADAS
           url: 'https://trg24.eventbrite.es/'
-          disabled: false
+          disabled: true
         features:
           - sold_out
           - conferences
@@ -75,9 +75,9 @@ blocks:
         pricing: 350€ + IVA
         img: /files/tickets/killer-combo.png
         buy:
-          text: COMPRAR
+          text: AGOTADAS
           url: 'https://trg24.eventbrite.es/'
-          disabled: false
+          disabled: true
         features:
           - sold_out
           - conferences
@@ -105,9 +105,9 @@ blocks:
         pricing: 150€ + IVA
         img: /files/tickets/taller.png
         buy:
-          text: COMPRAR
+          text: AGOTADAS
           url: 'https://trg24.eventbrite.es/'
-          disabled: false
+          disabled: true
         features:
           - sold_out
           - workshop
@@ -115,9 +115,9 @@ blocks:
         pricing: 500€ + IVA
         img: /files/tickets/mecenas.png
         buy:
-          text: COMPRAR
+          text: AGOTADAS
           url: 'https://trg24.eventbrite.es/'
-          disabled: false
+          disabled: true
         features:
           - sold_out
           - conferences
