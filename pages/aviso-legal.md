@@ -19,7 +19,7 @@ fiscal ESB86232956 e inscrita en el Registro Mercantil de Madrid, Libro 28.904,
 folio 48, sección 8, página M-520473.
 
 **1.3.** Si desea comunicarse con BONILLAWARE, puede contactar con nosotros en
-la siguiente dirección de correo: [info@bonillaware.com](info@bonillaware.com).
+la siguiente dirección de correo: [info@bonillaware.com](mailto:info@bonillaware.com).
 
 ## 2. Aceptación de los términos de uso
 
