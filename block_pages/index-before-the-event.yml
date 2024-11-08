@@ -123,9 +123,10 @@ blocks:
             description: "Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.\r\n\r\nSi no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento."
             speakers: []
           - time: '20:00 - 22:00h'
-            title: Podcasting en directo
+            title: Juicio al Trabajo Remoto
             id: podcasting-jueves
-            description: "Los has escuchado MUCHAS veces, pero nunca como hoy.\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast gestionado como un auténtico *late night show*.\r\n\r\nSTAY TUNED ANTUNEZ !!!"
+            subtitle: Crossover de los podcasts Mixx.io y Heavy Mental
+            description: "Alex Barredo, del popular podcast de tecnología [Mixx.io](https://x.com/mixx_io){target=\"_blank\"}, y Miki, David y Javi de [Heavy Mental](https://x.com/HeavyMental_es){target=\"_blank\"}, reeditarán el crossover del año pasado sin evitar el elefante dentro de la habitación, más bien ATROPELLÁNDOLO: **Trabajo Remoto... ¿sí o no?**\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast único gestionado como un auténtico *late night show*.\r\n\r\nLos has escuchado MUCHAS veces, pero NUNCA como hoy !!!"
             speakers: []
       - title: 'Viernes, 15 de noviembre'
         events:
