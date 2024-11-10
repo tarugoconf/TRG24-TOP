@@ -768,6 +768,12 @@ blocks:
       - name: Roberto Canales
         img: /files/people/roberto_canales.jpg
         url: 'https://x.com/rcanalesmora'
+      - name: Pablo Lara
+        img: /files/pablo_lara.jpg
+        url: 'https://www.linkedin.com/in/pablolc/'
+      - name: Javier Ramírez
+        img: /files/javier_ramirez.jpg
+        url: 'https://www.linkedin.com/in/javierramirezblanes/'
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
