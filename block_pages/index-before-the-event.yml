@@ -432,6 +432,10 @@ blocks:
             title: "\U0001F3BE Fun & Padel"
             track: pista-padel
             speakers: []
+          - time: '12:00 - 14:00h'
+            title: Carrera de LEDs
+            track: zona-infantil
+            speakers: []
   - type: separator
     width: is-default
   - type: speakers
