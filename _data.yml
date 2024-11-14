@@ -7,7 +7,7 @@ metas:
   color: '#00ab7d'
   generator: true
   image: /files/img-home.png
-state: pre-event
+state: event
 cta:
   text: Consigue tu entrada
   url: /entradas/

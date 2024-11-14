@@ -1,6 +1,7 @@
 url: /
 metas:
   image: ''
+only_state: event
 menu:
   - text: Dónde
     url: '#donde'
@@ -18,30 +19,7 @@ blocks:
   - type: hero
     title: '![TRG 24](/files/logotrg24sponsor.png)'
     intro: "Madrid, 14-16 noviembre 2024\r\n"
-    text: "- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Pulpo**](#comida-viernes){data-hover=\"Pulpo\"}\r\n- [**Comunidad**](#comunidad){data-hover=\"Comunidad\"}\r\n- [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover=\"Sánchez-Crespo\"}\r\n- [**Podcasting**](#podcasting-jueves){data-hover=\"Podcasting\"}\r\n- [**Stands**](#partners){data-hover=\"Stands\"}\r\n- [**Transparencia**](#rendicion-cuentas){data-hover=\"Transparencia\"}\r\n- [**Bonilla**](#dialog-david-bonilla){data-hover=\"Bonilla\"}\r\n- [**Networking**](#networking-jueves){data-hover=\"Networking\"}\r\n- [**Talleres**](#apertura-jueves){data-hover=\"Talleres\"}\r\n- [**Jiménez**](#dialog-clara){data-hover=\"Jimenez\"}\r\n- [**Open Space**](#community-day){data-hover=\"Open Space\"}\r\n- [**Fiesta**](#fiesta){data-hover=\"Fiesta\"}"
-  - type: video
-    src: /files/video-trg24.mp4
-    id: comunidad
-    caption: >-
-      [Ver el vídeoresumen de la pasada
-      edición](https://vimeo.com/928563768){target="_blank"}
-    text_over: COMUNIDAD
-    mode: background
-  - type: text
-    title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
-    theme: is-light width-box box-border
-    columns: true
-    text: "La TRG es **una conferencia sobre diseño, desarrollo y comercialización de servicios digitales** que nace alrededor de la hiperactiva Comunidad de suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores."
-  - type: imagetext
-    title: El formato
-    theme: is-dark width-full box-fill
-    src: /files/home-block1.jpg
-    text: "Un solo track y una única experiencia para todos los asistentes.\r\n\r\nNo esperes una conferencia técnica al uso sino una experiencia mucho más intensa, con charlas prácticas que tocan todas las áreas de actividad relacionadas con la industria tecnológica (no solo las técnicas), una altísima interacción con el público, un turno de preguntas que se asemeja a un *late night show* y un despliegue audiovisual cercano al de un programa de televisión.\r\n\r\nY, fuera del auditorio, un montón de actividades y dinámicas diseñadas para que conozcas gente de forma sencilla, natural, agradable y segura. \r\n"
-  - type: imagetext
-    title: ¿Dónde?
-    theme: is-primary width-full box-fill
-    src: /files/home-block2.jpg
-    text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
+    text: "- [**Sollazzo**](#dialog-giuseppe){data-hover=\"Sollazzo\"}\r\n- [**Comunidad**](#comunidad){data-hover=\"Comunidad\"}\r\n- [**Bustos**](#dialog-aurelia){data-hover=\"Bustos\"}\r\n- [**Podcasting**](#podcasting-jueves){data-hover=\"Podcasting\"}\r\n- [**Sánchez-Crespo**](#dialog-dani-novarama){data-hover=\"Sánchez-Crespo\"}\r\n- [**Stands**](#patrocinio){data-hover=\"Stands\"}\r\n- [**Transparencia**](#rendicion-cuentas){data-hover=\"Transparencia\"}\r\n- [**Gee**](#dialog-trisha){data-hover=\"Gee\"}\r\n- [**Networking**](#networking-jueves){data-hover=\"Networking\"}\r\n- [**Pons**](#dialog-rafa-pons){data-hover=\"Pons\"}\r\n- [**Pulpo**](#comida-viernes){data-hover=\"Pulpo\"}\r\n- [**Jiménez**](#dialog-clara){data-hover=\"Jimenez\"}\r\n- [**Community Day**](/community-day){data-hover=\"Community Day\"}\r\n- [**Cuartielles**](#dialog-david-cuartielles){data-hover=\"Cuartielles\"}\r\n- [**Fiesta**](#fiesta){data-hover=\"Fiesta\"}"
   - type: location
     title: ¿Cómo llegar?
     id: donde
@@ -70,7 +48,7 @@ blocks:
           style="--bg:var(--color-secondary);--color:black">Línea C5</span>
         icon: train
       - title: En taxi
-        description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bold](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
+        description: "Por teléfono: [915478200](tel:915478200)<br>\r\n\r\nTambién puedes llamar desde [Cabify](https://cabify.com/es/pasajeros), [Bolt](https://bolt.eu/es-es/cities/madrid/) o [Uber](https://www.uber.com/).\r\n"
         icon: taxi
       - title: En coche
         description: Tienes sitio de sobra para aparcar.
@@ -125,9 +103,10 @@ blocks:
             description: "Actividades y dinámicas divertidas para que los asistentes se conozcan entre sí en un ambiente distendido y seguro.\r\n\r\nSi no conoces a nadie, saldrás con un grupo con el que compartir el resto de la conferencia y, si vienes acompañado, ampliarás el circulo con el que interactuarás durante el resto del evento."
             speakers: []
           - time: '20:00 - 22:00h'
-            title: Podcasting en directo
+            title: Juicio al Trabajo Remoto
             id: podcasting-jueves
-            description: "Los has escuchado MUCHAS veces, pero nunca como hoy.\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast gestionado como un auténtico *late night show*.\r\n\r\nSTAY TUNED ANTUNEZ !!!"
+            subtitle: Crossover de los podcasts Mixx.io y Heavy Mental
+            description: "Alex Barredo, del popular podcast de tecnología [Mixx.io](https://x.com/mixx_io){target=\"_blank\"}, y Miki, David y Javi de [Heavy Mental](https://x.com/HeavyMental_es){target=\"_blank\"}, reeditarán el crossover del año pasado sin evitar el elefante dentro de la habitación, más bien ATROPELLÁNDOLO: **Trabajo Remoto... ¿sí o no?**\r\n\r\nEl público podrá interactuar con los presentadores e intervenir en un podcast único gestionado como un auténtico *late night show*.\r\n\r\nLos has escuchado MUCHAS veces, pero NUNCA como hoy !!!"
             speakers: []
       - title: 'Viernes, 15 de noviembre'
         events:
@@ -147,7 +126,7 @@ blocks:
             title: Hardware abierto en tiempos de modelos cerrados
             id: charla-cuartielles
             subtitle: por David Cuartielles
-            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuela a cerrado. Es hora de airear."
+            description: "En una era en la que las grandes multinacionales tecnológicas se plantean desarrollar su propio *hierro* para soportar y optimizar la inmensa capacidad de cálculo que necesitan para entrenar sus modelos de IA, David nos explicará porqué es más necesario que nunca que haya hardware abierto y potente disponible para cualquiera.\r\n\r\nHuele a cerrado. Es hora de airear."
             speakers:
               - david-cuartielles
           - time: '11:00 - 11:45h'
@@ -250,35 +229,192 @@ blocks:
             subtitle: ofrecida por Eventbrite
             description: "Transformaremos La Nave en una auténtica \"Sesión Vermú\" con comida y bebida, churros, música y las mejores conversaciones del planeta porque... LA VIDA PUEDE SER MARAVILLOSA.\r\n\r\n* **INTRO** - ¿Qué sonaba en 2015? Don Robot nos hará dar un último salto musical para bailar grandes éxitos del rock y la electrónica hasta el supuesto futuro que planteaba «Regreso al Futuro II».\r\n* **MAIN EVENT** - Stay tuned Antunez!"
             speakers: []
+      - title: 'Sábado, 16 de noviembre'
+        events: []
   - type: multitrack-calendar
-    title: Community Day
     description: >-
       Una jornada abierta, a la que podréis traer a familia, compañeros y/o
       amigos, con un montón de actividades para grandes y pequeños. Tenéis mucha
       más info [en esta página](/community-day/).
+    fullwidth: true
     days:
-      - title: 'Sábado, 16 de noviembre'
-        tracks:
+      - tracks:
           - title: Pasillo central
             id: pasillo-central
-          - title: Rincón Daruma
-            id: daruma
-          - title: Aulas
-            id: aulas
-          - title: Vestíbulo/Cafetería
-            id: vestibulo
+          - title: Rincón Smart Troll
+            id: smart-troll
+          - title: Aula 1
+            id: aula1
+          - title: Aula 2
+            id: aula2
+          - title: Pista de Padel
+            id: pista-padel
+          - title: Cafetería
+            id: cafeteria
           - title: Escenario
             id: escenario
-          - title: Stand Autentia
-            id: autentia
-          - title: Zona infantil
+          - title: Stand Next Digital
+            id: next-digital
+          - title: Zona Infantil
             id: zona-infantil
           - title: Parking exterior
             id: parking
         events:
-          - time: '11:00 - 17:00'
+          - time: '11:00 - 17:00h'
             title: Juegos tradicionales de madera
+            id: juegos-madera
             track: pasillo-central
+            speakers: []
+          - time: '11:00 - 17:00h'
+            title: Arcades y Simuladores
+            id: arcades
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 17:00h'
+            title: Futbolines
+            track: pasillo-central
+            speakers: []
+          - time: '11:00h - 17:00h'
+            title: "\U0001F3CE️ Scalextric GIGANTE de 4 pistas"
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 17:00h'
+            title: 'Twister, Jenga, Conecta 4 y damas MEGAGIGANTES'
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Tienda
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Libreria
+            track: pasillo-central
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: "\U0001F69A Foodtruck "
+            id: foodtruck
+            track: parking
+            description: >-
+              Un camión de 12 ejes con múltiples opciones de comida
+              (hamburgesas, empanadas, falafel...) y bebida para todos los
+              asistentes al Community Day.
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Pintacaras
+            id: pintacaras
+            track: zona-infantil
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Ludoteca
+            id: ludoteca
+            track: zona-infantil
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Juegos de conos
+            id: juegos-conos
+            track: zona-infantil
+            speakers: []
+          - time: '11:00 - 16:00h'
+            title: Taller de chapas
+            id: taller-chapas
+            track: next-digital
+            speakers: []
+          - time: '11:00 - 12:30h'
+            title: JuegoConSentido
+            id: juegoconsentido
+            label: Podcast
+            track: escenario
+            speakers: []
+          - time: '12:30 - 14:00h'
+            title: Heavy Mental!
+            id: heavymental-sabado
+            label: Podcast
+            track: escenario
+            speakers: []
+          - time: '14:00 - 14:45h'
+            title: "\U0001FA84 Exhibición de magia con Juanto"
+            id: magia-juanto
+            track: escenario
+            speakers: []
+          - time: '11:15 - 12:15h'
+            title: Marketplace de Ideas
+            id: tarugoff-marketplace
+            label: TarugOff
+            track: cafeteria
+            speakers: []
+          - time: '12:30 - 13:20h'
+            title: Sesiones
+            id: tarugoff-sesiones1
+            label: TarugOff
+            track: cafeteria
+            speakers: []
+          - time: '13:30 - 14:20h'
+            title: Sesiones
+            id: tarugoff-sesiones2
+            label: TarugOff
+            track: cafeteria
+            speakers: []
+          - time: '11:15 - 12:15h'
+            title: Dibujo para pequeños grandes artistas
+            id: taller-hugo
+            label: Taller
+            subtitle: con Hugo Tobio
+            track: aula1
+            speakers: []
+          - time: '12:15 - 13:15h'
+            title: Sketchnoting
+            id: taller-oyabun
+            label: Taller
+            subtitle: con Javier Alonso (@oyabun)
+            track: aula1
+            speakers: []
+          - time: '13:15 - 14:15h'
+            title: Diseño de juegos de mesa
+            id: taller-dam
+            label: Taller
+            subtitle: con David Amorin (La mesa de Dam)
+            track: aula1
+            speakers: []
+          - time: '11:15 - 12:00h'
+            title: Fundamentos de la Programación (de 6 a 12 años)
+            id: taller-esther1
+            label: Taller
+            subtitle: con Esther Elías (FunTech Rocket)
+            track: aula2
+            speakers: []
+          - time: '12:15 - 13:15h'
+            title: Conviértete en DJs
+            id: taller-guillermo
+            label: Taller
+            subtitle: con DJ Montoya
+            track: aula2
+            speakers: []
+          - time: '13:30 - 14:15h'
+            title: Fundamentos de la Programación (de 6 a 12 años)
+            id: taller-esther2
+            label: Taller
+            subtitle: con Esther Elías (FunTech Rocket)
+            track: aula2
+            speakers: []
+          - time: '11:00 - 15:30h'
+            title: >-
+              Partidas dinamizadas de juegos de mesa... ¡con los creadores de
+              los juegos!
+            id: partidas-juegos-mesa
+            subtitle: con David Amorin y Ramón Redondo
+            track: smart-troll
+            speakers: []
+          - time: '11:00 - 12:30h'
+            title: "\U0001F3C6 Torneo Benéfico de Padel"
+            track: pista-padel
+            speakers: []
+          - time: '12:30 - 16:00h'
+            title: "\U0001F3BE Fun & Padel"
+            track: pista-padel
+            speakers: []
+          - time: '12:00 - 14:00h'
+            title: Carrera de LEDs
+            track: zona-infantil
             speakers: []
   - type: separator
     width: is-default
@@ -483,14 +619,26 @@ blocks:
         img: /files/playtomic-logo.png
         url: 'https://playtomic.io/'
         description: Encuentra dónde y con quién jugar a Pádel & Tenis al instante.
-      - alt: Ayuntamiento de Madrid
-        img: /files/logos/lanave_logo_footer.png
-        url: 'https://www.lanavemadrid.com/'
-        description: Ayuntamiento de Madrid.
+      - alt: SUPERMONO
+        img: /files/supermono_logo_red.png
+        url: 'https://supermo.no/'
+        description: Get superpowers for your Mailchimp account!
+      - alt: Holafly
+        img: /files/holafly-logo.png
+        url: 'https://esim.holafly.com/es/'
+        description: Mantente conectado donde sea que vayas.
+      - alt: Shakers
+        img: /files/logo_shakers.png
+        url: 'https://www.shakersworks.com/'
+        description: La casa del freeworking.
       - alt: Eventbrite
         img: /files/logos/eventbrite_logo.png
         url: 'https://www.eventbrite.es/'
         description: Proveedor Oficial de Ticketing de la TRG.
+      - alt: Ayuntamiento de Madrid
+        img: /files/logos/lanave_logo_footer.png
+        url: 'https://www.lanavemadrid.com/'
+        description: Ayuntamiento de Madrid.
   - type: separator
     width: is-default
   - type: logos
@@ -604,6 +752,35 @@ blocks:
       - name: Roberto Canales
         img: /files/people/roberto_canales.jpg
         url: 'https://x.com/rcanalesmora'
+      - name: Pablo Lara
+        img: /files/pablo_lara.jpg
+        url: 'https://www.linkedin.com/in/pablolc/'
+      - name: Javier Ramírez
+        img: /files/javier_ramirez.jpg
+        url: 'https://www.linkedin.com/in/javierramirezblanes/'
+  - type: text
+    title: 3 días / 8 charlas / 6 talleres / 700 asistentes / 1 comunidad
+    theme: is-light width-box box-border
+    columns: true
+    text: "La TRG es **una conferencia sobre diseño, desarrollo y comercialización de servicios digitales** que nace alrededor de la hiperactiva Comunidad de suscriptores de La Bonilista, una newsletter semanal sobre emprendimiento tecnológico escrita por David Bonilla.\r\n\r\nEs ante todo, **un punto de encuentro para gente que «hace cosas» alrededor del software, la innovación tecnológica e Internet:** desarrolladores, diseñadores, inversores, comerciales, gente de marketing o soporte, administradores de sistemas o recruiters. Aquí nadie sobra y todos son bienvenidos.\r\n\r\nSe organiza cuidando cada detalle de forma enfermiza —desde las acreditaciones hasta la oferta gastronómica— para intentar **transformar la asistencia en una experiencia** y aportar el mayor valor posible a asistentes, ponentes y patrocinadores."
+  - type: imagetext
+    title: El formato
+    theme: is-dark width-full box-fill
+    src: /files/home-block1.jpg
+    text: "Un solo track y una única experiencia para todos los asistentes.\r\n\r\nNo esperes una conferencia técnica al uso sino una experiencia mucho más intensa, con charlas prácticas que tocan todas las áreas de actividad relacionadas con la industria tecnológica (no solo las técnicas), una altísima interacción con el público, un turno de preguntas que se asemeja a un *late night show* y un despliegue audiovisual cercano al de un programa de televisión.\r\n\r\nY, fuera del auditorio, un montón de actividades y dinámicas diseñadas para que conozcas gente de forma sencilla, natural, agradable y segura. \r\n"
+  - type: imagetext
+    title: ¿Dónde?
+    theme: is-primary width-full box-fill
+    src: /files/home-block2.jpg
+    text: "Las tres jornadas del evento se celebrarán\r\níntegramente en La Nave, un espectacular espacio\r\na menos de 10 minutos de la Estación de Atocha en\r\nMadrid, que acogerá todas las actividades.\r\n"
+  - type: video
+    src: /files/video-trg24.mp4
+    id: comunidad
+    caption: >-
+      [Ver el vídeoresumen de la pasada
+      edición](https://vimeo.com/928563768){target="_blank"}
+    text_over: COMUNIDAD
+    mode: background
   - type: pdf
     title: Cómo patrocinar
     id: patrocinio
@@ -663,4 +840,3 @@ blocks:
           - url: 'https://twitter.com/tarugoconf'
             icon: twitter-logo
             text: '@tarugoconf'
-only_state: event
